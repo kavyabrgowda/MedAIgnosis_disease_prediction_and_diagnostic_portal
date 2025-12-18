@@ -1,0 +1,1790 @@
+Test Results,Disease
+"ECG:120-200,Echocardiogram:0-50,Cardiac MRI:2.0-10000,Endomyocardial Biopsy:0-4,Troponin:0.04-5000,CRP:10-10000,ESR:20-20000",Autoimmune Myocarditis
+"Body Mass Index:0-18.5, Albumin:0-3.4,  Total Protein Levels:0-6.0, CD4 Cell Count:0-200, Viral Load (HIV RNA):10000-2000000",AIDS-related Wasting Syndrome
+Slit - Lamp Exam: 0.0  -  1.0,Acanthamoeba Keratitis
+"Manometry Pressure: 0  -  35 , Barium X - ray: Narrowing Present, Endoscopy: Obstruction Visible",Achalasia
+"Skin Swab Cture: Positive Bacteria, Sebum Level: 0  -  2.0 , Inflaation Index: 0  -  5",Acne Vgaris
+"MRI: Tumor Size 0.5  -  5.0 , Audiometry: 0  -   30 Loss, CT Scan: Tumor Size 0.5  -  5.0 ",Acoustic Neuroma
+"HIV Test: Positive, CD4 Count: 0  -  200 , Viral Load: 0  -   1000 ",Acquired Iunodeficiency Syndrome AIDS
+"GH Suppression: 0  -  1 , IGF -  0  -  500 , MRI: Tumor Size 1.0  -  10.0 ",Acromegaly
+"trasound: Gallstones Present, HIDA: Blockage Confirmed, CRP: 0  -  10 ",Acute Cholecystitis
+"WBC Count: 0  -  5000, Bone Marrow Blasts: 0  -  20, Flow Cytometry: Positive for Leukemic Cells",Acute Lymphoblastic Leukemia
+"WBC Count: 0  -  2000, Bone Marrow Blasts: 0  -  20, Cytogenetics: Mutation Detected",Acute Myeloid Leukemia A
+"Amylase: 0  -  140 , Lipase: 0  -  160 , CT Scan: Pancreatic Swelling Present",Acute Pancreatitis
+"Amylase: 0  -  140 , Lipase: 0  -  160 , CT Scan: Pancreatic Swelling Visible",Addison’s Disease
+"ACTH: 18  -  100 , Cortisol: 5  -  50 , Aldosterone: 5  -  100 , Sodium: 135  -  100 ",Adenocarcinoma
+"Biopsy: Malignant Cells, Tumor Size: 0.5  -  10.0 , Marker Levels: Elevated CEA 0  -  5 ",Adenovirus Infection
+"PCR: Positive, Antigen Detection: Positive, Viral Cture: Positive if done",Adhesive Capsitis Frozen Shoder
+"Range of Motion:  90°  -  100 , MRI: Fibrosis Visible, trasound: Inflaation Detected",Adrenal Hyperplasia
+"17 - OHP: 0  -  200 , ACTH: 0  -  100, Genetic Test: Mutation Detected",Aflatoxicosis
+"ALT: 0  -  50 , AST: 0  -  80 , Aflatoxin: 0  -  20  blood/urine",African Trypanosomiasis Sleeping Sickness
+"Blood Smear: Trypanosomes Present, CSF WBC: 0  -  5, Antibody Test: Positive",Agoraphobia
+"Anxiety Score: 0  -  40/100, Avoidance: Significant, DSM - 5 Criteria: Met",Agranocytosis
+"WBC: 200  -  100, Neutrophils: 500  -  900, Bone Marrow: Hypocellar",Alcoholic Liver Disease
+"ALT: 0  -  50 , AST: 0  -  80 , trasound: Fatty Liver, Biopsy: Cirrhosis Confirmed",Alkaptonuria
+"A: 0  -  4.0 , Genetic Test: Mutation Detected",Allergic Bronchopmonary Aspergillosis 
+"X - ray: Infiltrates Visible, IgE: 0  -  100 , Eosinophils: 0  -  500",Allergic Conjunctivitis
+"IgE: 0  -  200 , Eye Exam: Redness/Swelling, Provocation: Positive",Alopecia Universalis
+"Autoiune Markers: Positive, Thyroid Levels: Abnormal, Biopsy: Follicle Destruction",Alpha - 1 Antitrypsin Deficiency
+"AAT Levels:  80 - 100 , ALT: 0  -  50 , FEV1:  80 predicted",Alport Syndrome
+"Urine Protein: 0  -  300 , Biopsy: Basement Membrane Thinning, Genetic: Mutation Detected, Audiometry: Hearing Loss",Alveolar Soft Part Sarcoma
+"MRI: Mass Visible, CT: Soft Tissue Density, Biopsy: Malignant Cells",Ameloblastoma
+"X - ray: Lesion Visible, CT: Bone Destruction, MRI: Tumor Borders Defined, Biopsy: Ameloblastic Cells",Amyloidosis
+"Biopsy: Amyloid Deposits, SPEP: Monoclonal Spike, MRI: Cardiac Infiltration, Genetic: Mutation Detected",Anal Cancer
+"Biopsy: Cancer Cells, CT: Tumor Extent, MRI: Lymph Node Involvement",Anaphylaxis
+"Tryptase: 0  -  11.4  post - episode, Allergy Test: Specific Allergen Positive",Androgen Insensitivity Syndrome
+"Karyotype: 46,XY, Testosterone: 0  -  300 , Genetic: AR Gene Mutation",Aneurysm
+"CT Angiography: Aneurysm Size 0  -  5 , MRI: Vascar Integrity, trasound: Wall Weakening",Angina Pectoris
+"ECG: ST Depression, Stress Test: Ischemia, Angiography: Blockage Present",Angioedema
+"C4: 14  -  100 , C1 - INH: Deficient, Allergen Test: Positive",Ankylosing Spondylitis
+"X - ray: Sacroiliitis, MRI: Spinal Inflaation, HLA - B27: Positive",Anorexia Nervosa
+"BMI: 17.5  -  100  CBC: Anemia, Electrolytes: Imbalance Present",Anterior Uveitis
+"Slit - Lamp: Inflaation, Autoiune Markers: Elevated, Imaging: Normal",Anthrax
+"Blood Cture: Bacillus Anthracis, PCR: Positive, X - ray: Mediastinal Widening",Antiphospholipid Syndrome
+"Lupus Anticoagant: Positive, aCL: 0  -  40 , ?2 - : 0  -  20 ",Aortic Distion
+"CT: Distion Flap, MRI: Intimal Tear, Echocardiography: Aortic Regurgitation",Aortic Stenosis
+"Echo: Valve Area -  1  -  100 , ECG: Left Ventricar Hypertrophy, MRI: Flow Obstruction",Aphthous cers Canker Sores
+"CBC: Normal, Vitamin B12: 200  -  100 if deficient",Aplastic Anemia
+"Bone Marrow: Hypocellar, WBC: 400  -  100, Reticocytes: 1",Appendicitis
+"trasound: Inflamed Appendix, CT: Appendiceal Diameter 0  -  6 ",Argyria
+"Skin Biopsy: Silver Deposits, History: Positive for Exposure",Arsenic Poisoning
+"Blood Arsenic: 0  -  70 , Urine: 0  -  50 , Hair/Nail: Elevated",Arterial Embolism
+"Doppler: Blocked Flow, Angiography: Embolus Visible, Echo: Heart Source Found",Arteriosclerosis
+"LDL: 0  -  160 , trasound: Plaque Visible, Angiography: Narrowed Artery",Arthritis
+"X - ray: Joint Erosion, RF: 0  -  14 , CRP: 0  -  10 ",Asbestosis
+"X - ray: Pleural Plaques, CT: Lung Fibrosis, PFT: Reduced Vital Capacity",Ascariasis Roundworm Infection
+"Stool: Roundworm Eggs, Eosinophils: 0  -  500",Aspergillosis
+"X - ray: Pmonary Infiltrates, Galactomannan: 0  -  0.5 , Cture: Aspergillus Present",Asthma
+"FEV1: 0  -  80 predicted, Peak Flow: Variability 0  -  20, Provocation Test: Positive",Astrocytoma
+"MRI: Tumor Visible, CT: Mass Effect, Biopsy: Astrocytic Cells",Ataxia Telangiectasia
+"MRI: Cerebellar Atrophy, IgA: Low, Genetic: ATM Mutation",Atherosclerosis
+"LDL: 0  -  160 , Doppler: Plaque Visible, Angiography: Narrowed Vessel",Atopic Dermatitis Eczema
+"Allergy Test: Positive, Biopsy: Spongiosis, IgE: 0  -  200 ",Atrial Fibrillation
+"ECG: Irregar Rhythm, Echo: Atrial Enlargement, Thyroid: Abnormal Levels",Atrial Septal Defect
+"Echo: Septal Defect Present, ECG: Right Axis Deviation, X - ray: Cardiomegaly",Autoiune Hepatitis
+"ALT: 0  -  50 , ANA: Positive, Biopsy: Lymphocytic Infiltration",Autoiune Pancreatitis
+"IgG4: 0  -  135 , MRI: Pancreatic Enlargement, Biopsy: Fibrosis Detected",Autosomal Dominant Polycystic Kidney Disease
+"trasound: Mtiple Cysts, Genetic: Mutation Present, MRI: Enlarged Kidneys",Avian Influenza Bird Flu
+"PCR: Positive, Cture: Virus Detected, Antibodies: Elevated Levels",Axillary Hyperhidrosis
+"Sweat Test: Positive, Starch - Iodine: Dark Color, Physical Exam: Excessive Sweating",Azotemia
+"BUN: 0  -  20 , Creatinine: 0  -  1.5 , Urine: Abnormal Findings",Azoospermia
+"Sperm Count: 0/, FSH: 0  -  10 , Genetic: Deletion Detected",Azygous Lobe of Lung
+"X - ray: Azygous Lobe Present, CT: Anatomical Variation Confirmed",Acute Bronchitis
+"X - ray: Normal, Sputum Cture: Bacterial Growth if Present",Amebiasis
+"Stool: Trophozoites/Cysts, Serology: Positive, PCR: Entamoeba Histolytica",Arthritis
+"X - ray: Joint Erosion, MRI: Synovial Inflaation, RF: 0  -  14 , CRP: 0  -  10 , ESR: 0  -  20 ",Acne
+"Physical Exam: Acne Lesions, Cture: Negative if typical",Atrial Fibrillation
+"ECG: Irregar Rhythm, Echo: Atrial Enlargement, Holter: Episodes Detected, Thyroid: Abnormal Levels, Electrolytes: Imbalance",Alzheimer's Disease
+"Cognitive: 24  -  100 MRI: Hippocampal Atrophy, PET: Amyloid Deposition, CSF: Abnormal",Autoiune Hepatitis
+"ALT: 0  -  50 , ANA: Positive, SMA: Positive, LKM - 1: Positive, Biopsy: Lymphocytic Infiltration",Allergic Rhinitis
+"Physical Exam: Nasal Mucosa Swelling, Skin Prick: Positive, IgE: 0  -  100 k",Atherosclerosis
+"LDL: 0  -  160 , Doppler: Plaque Detected, Angiography: Artery Narrowing, CT: Calcified Plaques",Atopic Dermatitis Eczema
+"Physical Exam: Erythematous Lesions, Allergy Test: Positive if tested, Biopsy: Spongiosis",Alopecia Areata
+"Physical Exam: Patches of Hair Loss, Thyroid: Abnormal Levels, Autoiune: Positive Markers, Biopsy: Lymphocytic Infiltration",Ankylosing Spondylitis
+"X - ray: Sacroiliitis, MRI: Spine Inflaation, HLA - B27: Positive",Bacterial Vaginosis
+"Microscopy: Clue Cells Present, pH: 0  -  4.5, Vaginal Swab: Positive for Gardnerella",Bacillary Dysentery
+"Stool Cture: Shigella Isolated, PCR: Positive, Blood Tests: Elevated WBC if systemic",Bagassosis
+"X - ray: Lung Fibrosis, PFT: Reduced FEV1/FVC Ratio, History: Exposure to Sugarcane Dust",Barrett's Esophagus
+"Endoscopy: Columnar Epithelium, Biopsy: Dysplasia, pH: Reflux Episodes Detected",Basal Cell Carcinoma
+"Skin Exam: Nodar Lesion, Biopsy: Basaloid Cells Present",Batten Disease
+"Genetic: CLN Gene Mutation, Enzyme Test: Deficient, MRI: Brain Atrophy",Behçet's Disease
+"Physical Exam: Oral/Genital cers, Pathergy: Positive, HLA - B51: Positive if tested",Bell's Palsy
+"EMG: Nerve Damage, MRI: No Structural Abnormality, Physical Exam: Facial Weakness",Benign Prostatic Hyperplasia BPH
+"DRE: Enlarged Prostate, PSA: 0  -  4 , trasound: Enlarged Prostate, Uroflowmetry: Decreased Flow Rate",Beriberi
+"Thiamine Levels: 20  -  100 , Physical Exam: Peripheral Neuropathy",Bicuspid Aortic Valve Disease
+"Echo: Valve Malformation, MRI: Aortic Dilatation, CT: Calcification",Bile Duct Cancer Cholangiocarcinoma
+"CT/MRI: Biliary Stricture, CA 19 - 9: 0  -  37 , Biopsy: Malignant Cells",Biliary Atresia
+"trasound: Absent Gallbladder, ALT: 0  -  50 , Cholangiography: Biliary Obstruction",Bipolar Disorder
+"Evaluation: DSM - 5 Criteria Met, History: Manic/Depressive Episodes",Black Lung Disease Coal Workers' Pneumoconiosis
+"X - ray: Nodar Opacities, CT: Fibrosis, PFT: Reduced Lung Volume",Blastomycosis
+"Cture: Blastomyces Present, Urine Antigen: Positive, X - ray/CT: Lung Nodes",Blepharitis
+"Physical Exam: Eyelid Inflaation, Swab: Bacterial Presence if infected",Blind Loop Syndrome
+"GI Series: Bowel Loop Visible, Breath Test: Hydrogen 0  -  20 ppm, Stool: Bacterial Overgrowth",Blood Clot
+"D - dimer: 0  -  500 , trasound: Thrombus Detected, CT/MRI: Vein Occlusion",Boils Furuncles
+Bacterial Cture: Positive,Bone Cancer
+X - ray: 0.0  -  5.0 ,Botism
+Serum Toxin Level: 0.0  -  5.0 ,Bowen's Disease
+Biopsy: Positive for dysplasia,Brain Abscess
+Blood Test: WBC 0.0  -  10.0 x10^9,Brain Aneurysm
+CT Scan: Aneurysm Size: 0.0  -  2.0 ,Brain Tumor
+MRI: Lesion Size: 0.0  -  3.0 ,Bradycardia
+Heart Rate: 40.0  -  60.0,Branched - Chain Ketoaciduria Maple Syrup Urine Disease
+Urine Ketones: 0.0  -  10.0 ,Brill - Zinsser Disease
+Serology: Positive for Rickettsia,Brucellosis
+Rose Bengal Test: Positive,Bronchiectasis
+PFT: FEV1/FVC 60  -  80,Bronchitis
+Sputum Cture: Positive,Bronchopmonary Dysplasia
+O2 Saturation: 90  -  100,Bronchospasm
+PFT: FEV1 60  -  80,Brugada Syndrome
+ECG: Type I Brugada Pattern,Bubonic Plague
+Blood Cture: Positive for Yersinia,Buerger's Disease
+Angiography: Occlusion Present,Blous Pemphigoid
+Biopsy: Positive for BP180,Bundle Branch Block
+ECG: Complete Block Present,Bursitis
+MRI: Effusion Present,Byssinosis Brown Lung Disease
+PFT: FEV1/FVC 50  -  70,Babesiosis
+Blood Smear: Positive for Babesia,Bacterial Endocarditis
+Blood Ctures: Positive for Staphylococcus,Bacterial Meningitis
+CSF: WBC 0.0  -  5.0 x10^6,Balanitis
+Cture: Positive for Candida,Bamboo Spine Ankylosing Spondylitis
+X - ray: Sacroiliac Joint Fusion,Banti’s Syndrome
+trasound: Splenomegaly Present,Bariatric Surgery Complications
+CT: Complication Present,Baritosis
+PFT: FEV1/FVC 60  -  80,Basilar Migraine
+MRI: No Structural Abnormalities,Bat Ear Deformity
+Genetic Test: Positive for mutation,Becker Muscar Dystrophy
+EMG: Positive for Myopathy,Benign Essential Tremor
+Neurological Exam: Normal,Benign Fascication Syndrome
+EMG: Positive for fascications,Benign Paroxysmal Positional Vertigo BPPV
+Dix - Hallpike: Positive,Berylliosis
+BAL: Lymphocyte Predominance,Beta - Thalassemia
+CBC: Hb 8.0  -  10.0 ,Bilateral Renal Agenesis
+trasound: No Kidney Presence,Bile Reflux
+pH: 4.0  -  100 for 50 of the time,Biliary Cirrhosis Primary Biliary Cholangitis
+LFT: AST 0.0  -  70.0 ,Binge Eating Disorder
+Assessment: Positive for disorder,Bipolar Affective Disorder
+Mood Chart: Cycling Present,Black Fungus Mucormycosis
+Biopsy: Positive for Mucormycosis,Blackwater Fever Malaria Complication
+RDT: Positive for Plasmodium,Bladder Cancer
+Urine Cytology: Positive for Malignancy,Bladder Infection Cystitis
+Urine Cture: Positive for E. coli,Blast Lung Injury
+CT Scan: Pmonary Contusion,Bleeding Disorders
+CBC: Platelets 10000  -  15000,Blindness
+Visual Acuity: 20/200 or worse,Bloch - Szberger Syndrome Incontinentia Pigmenti
+Genetic Test: Positive for mutation,"Blood Pressure, High Hypertension"
+BP: 140/90 ,Blood Poisoning Septicemia
+Lactate: 0  -  2.0 ,Blue Rubber Bleb Nevus Syndrome
+Imaging: Vascar Malformation Present,Boerhaave Syndrome
+CT: Esophageal Rupture Present,Bone Marrow Failure
+CBC: WBC 0.0  -  2.0 x10^9,Borrelia Burgdorferi Infection Lyme Disease
+Serology: Positive for Borrelia,Bowenoid Paposis
+Biopsy: Positive for HPV,Brain Injury Traumatic
+MRI: Contusion Present,Brain Metastases
+MRI: Lesion Size: 0.0  -  5.0 ,Brain Stem Glioma
+MRI: Lesion Size: 0.0  -  5.0 ,Branch Retinal Vein Occlusion
+OCT: Vein Occlusion Present,Breakbone Fever Dengue Fever
+"Dengue NS1: Positive, IgM: 0.0  -  10.0 , IgG: 0.0  -  10.0 ",Breast Cancer
+Maogram: Positive for Mass,Breast Infection Mastitis
+Milk Cture: Positive for Staph,Bronchiectasis
+PFT: FEV1/FVC 60  -  80,Bacterial Vaginosis
+"pH: 0  -  4.5, Microscopy: Positive",Bacillary Dysentery
+Stool Cture: Positive for Shigella,Bagassosis
+CT: Inflaation Present,Barrett's Esophagus
+Biopsy: Dysplasia Present,Basal Cell Carcinoma
+Biopsy: Positive for BCC,Batten Disease
+MRI: Lesion Size: 0.0  -  5.0 ,Behçet's Disease
+HLA - B51: Positive,Bell's Palsy
+MRI: No Abnormalities,Benign Prostatic Hyperplasia BPH
+PSA Level: 0.0  -  4.0 ,Beriberi
+Thiamine: 70  -  100 ,Bicuspid Aortic Valve Disease
+Echocardiogram: Bicuspid Present,Bile Duct Cancer Cholangiocarcinoma
+Imaging: Mass Present,Biliary Atresia
+HIDA Scan: Non - visualization Present,Bipolar Disorder
+Mood Chart: Cycling Present,Black Lung Disease Coal Workers' Pneumoconiosis
+PFT: FEV1/FVC 50  -  70,Blastomycosis
+Serology: Positive for Blastomyces,Blepharitis
+Cture: Positive for Staph,Blind Loop Syndrome
+Imaging: Dilated Loop Present,Blood Clot
+D - dimer: Elevated,Boils Furuncles
+Cture: Positive for Staph,Bone Cancer
+MRI: Lesion Size: 0.0  -  5.0 ,Botism
+Serum Toxin Level: 0.0  -  5.0 ,Bowen's Disease
+Biopsy: Positive for dysplasia,Brain Abscess
+CT: Abscess Present,Brain Aneurysm
+CT: Aneurysm Size: 0.0  -  2.0 ,Brain Tumor
+MRI: Lesion Size: 0.0  -  3.0 ,Bradycardia
+Heart Rate: 40.0  -  60.0,Branched - Chain Ketoaciduria Maple Syrup Urine Disease
+Urine Ketones: 0.0  -  10.0 ,Brill - Zinsser Disease
+Serology: Positive for Rickettsia,Brucellosis
+Blood Cture: Positive for Brucella,Bronchiectasis
+PFT: FEV1/FVC 60  -  80,Bronchitis
+Sputum Cture: Positive,Bronchopmonary Dysplasia
+PFT: FEV1/FVC 60  -  80,Bronchospasm
+PFT: FEV1 60  -  80,Brugada Syndrome
+ECG: Abnormal,Bubonic Plague
+Blood Cture: Positive,Buerger's Disease
+Angiography: Vascar occlusion,Blous Pemphigoid
+Biopsy: Positive for BP180,Bundle Branch Block
+ECG: Bundle Branch Block Present,Bursitis
+MRI: Inflaation Present,Byssinosis Brown Lung Disease
+PFT: FEV1/FVC 50  -  70,Babesiosis
+PCR: Positive for Babesia,Bacterial Endocarditis
+Blood Cture: Positive,Bacterial Meningitis
+Lumbar Puncture: Elevated WBC,Balanitis
+Cture: Positive for Candida,Bamboo Spine Ankylosing Spondylitis
+MRI: Inflaation Present,Banti’s Syndrome
+Imaging: Splenomegaly Present,Bariatric Surgery Complications
+Imaging: Post - surgical changes,Baritosis
+PFT: FEV1/FVC 50  -  70,Basilar Migraine
+MRI: No Significant Findings,Bat Ear Deformity
+Imaging: Abnormalities Present,Becker Muscar Dystrophy
+Muscle Biopsy: Dystrophy Present,Benign Essential Tremor
+MRI: No Significant Findings,Benign Fascication Syndrome
+EMG: Positive for fascications,Benign Paroxysmal Positional Vertigo BPPV
+VNG: Positive for BPPV,Berylliosis
+PFT: FEV1 70  -  100,Beta - Thalassemia
+CBC: Hemoglobin 10  -  100 ,Bilateral Renal Agenesis
+trasound: No kidneys present,Bile Reflux
+pH Monitoring: 4.0  -  100 in 24 - hour,Biliary Cirrhosis Primary Biliary Cholangitis
+Bilirubin 0  -  1.2 ,Binge Eating Disorder
+Evaluation: Positive for disorder,Bipolar Affective Disorder
+Mood Chart: Depressed for 0  -  2 weeks,Black Fungus Mucormycosis
+Biopsy: Fungal elements present,Blackwater Fever Malaria Complication
+Blood Smear: Parasitemia 0  -  5,Bladder Cancer
+Cystoscopy: Tumor grade 0  -  2,Candidiasis
+Cture: 0  -  10000 ,Cancer
+Imaging: Tumor size 0  -  2 ,Cardiomyopathy
+Ejection Fraction: 50  -  100 ,Celiac Disease
+tTG - IgA: 0  -  10 ,Cerebral Palsy
+MRI: Abnormal brain development,Chronic Obstructive Pmonary Disease COPD
+PFT: FEV1/FVC 70  -  100,Chronic Kidney Disease
+eGFR: 60  -  100,Chronic Fatigue Syndrome
+Assessment: Chronic fatigue present,Chronic Pain Syndrome
+Pain Scale: 0  -  7/10,Churg - Strauss Syndrome
+ANCA: 0  -  3.5 ,Cirrhosis
+Bilirubin 0  -  2.0 ,Cleft Lip and/or Palate
+Imaging: Defect classification,Clostridium Difficile Infection
+Stool Test: 0  -  100 toxin ,Cold Sores Herpes Simplex Virus
+PCR: HSV DNA 0  -  100 ,Colitis
+Colonoscopy: Inflaation grade 0  -  2,Colorectal Cancer
+Colonoscopy: Tumor size 0  -  1 ,Congenital Heart Disease
+Echocardiogram: Left - to - right shunt,Congestive Heart Failure
+BNP: 0  -  100,Constipation
+Imaging: Fecal impaction present,Contact Dermatitis
+Patch Test: Positive for allergens,Coronary Artery Disease
+Lipid Panel: LDL 0  -  160 ,Croup
+X - ray: Narrowing of subglottic region,Crush Syndrome
+Serum Potassium 0  -  6.0 ,Cushing's Syndrome
+Urinary Cortisol 0  -  50,Cutaneous T - cell Lymphoma
+Biopsy: T - cell neoplasm present,Cystic Fibrosis
+Sweat Chloride 0  -  60 ,Cystitis
+Urine Cture: 0  -  10000 ,Cytomegalovirus V Infection
+"IgM Positive, IgG 0  -  4x increase",Cyclothymic Disorder
+Assessment: Cyclothymic pattern present,Cervical Cancer
+Pap Smear: High - grade squamous intraepithelial lesion,Cervical Spondylosis
+MRI: Disc degeneration present,Charcot - Marie - Tooth Disease
+Nerve Conduction: Slowed velocity 40  -  100,Chagas Disease
+Serology: Positive for Trypanosoma cruzi,Chemotherapy - Induced Nausea and Vomiting
+Assessment: Nausea/Vomiting 0  -  3 days,Chickenpox Varicella
+PCR: Positive for Varicella Zoster Virus,Chlamydia
+PCR: Positive for Chlamydia trachomatis,Cholecystitis
+trasound: Gallbladder wall thickening,Cholelithiasis Gallstones
+trasound: Gallstones present,Chronic Lymphocytic Leukemia CLL
+CBC: Lymphocyte count 0  -  500 ,Chronic Myeloid Leukemia L
+CBC: Blasts 0  -  5,Churg - Strauss Syndrome
+ANCA: 0  -  3.5 ,Cicatricial Pemphigoid
+Biopsy: Positive for pemphigoid,Cimex lectarius Infestation Bed Bugs
+Examination: Bed bug bites present,Cirrhosis of the Liver
+Liver Biopsy: Fibrosis stage ? 2,Citrobacter Infection
+Stool Cture: Citrobacter present,Claw Toe
+X - ray: Deformity classification,Clerical Syndrome Clerical Work - Related Injuries
+Assessment: Impairment 0  -  20,Clostridium Perfringens Infection
+Stool Cture: Positive for C. perfringens,Cold Agglutinin Disease
+Cold Agglutinin Titer: 0  -  1.64,Cold Urticaria
+Skin Test: Positive for cold stimus,Collagen Vascar Diseases
+ANA: 0  -  1.160,Color Blindness
+Ishihara Test: Errors on 0  -  3 plates,Colony Collapse Disorder CCD
+Observation: 0  -  30 popation loss,Comedonal Acne
+Examination: 0  -  20 comedones,Coon Cold
+Assessment: Symptoms 10  -  100 days,Concussion
+CT: No intracranial hemorrhage,Confusion
+Blood Test: Glucose  70  -  100 ,Congenital Adrenal Hyperplasia
+Electrolytes: Low cortisol levels,Congenital Hypothyroidism
+TSH: 0  -  5.0 mI,Constipation
+Imaging: Fecal impaction present,Contact Dermatitis
+Staining: Positive for abrasion,Corneal Abrasion
+Imaging: Costal cartilage inflaation,Coronary Artery Disease
+Serum Antigen: 0  -  1.2 dilution,Costochondritis
+Cryoglobin Test: Positive,Croup
+X - ray: Subglottic narrowing,Cryptococcosis
+Urinary Cortisol 0  -  50,Cryoglobinemia
+Cryoglobin Test: 0  -  1 ,Croup Laryngotracheobronchitis
+X - ray: Subglottic narrowing,Cushing's Disease
+Urinary Cortisol 0  -  50,Cutaneous Leishmaniasis
+Biopsy: Leishmania parasites present,Cyclophosphamide Toxicity
+CBC: WBC 300  -  100 ,Cystitis
+Urine Cture: 0  -  10000 ,Cytomegalovirus V Infection
+"IgM Positive, IgG 0  -  4x increase",Cystic Fibrosis
+Sweat Chloride 0  -  60 ,Cholecystitis
+trasound: Gallbladder wall thickening,Chronic Fatigue Syndrome
+Assessment: Fatigue 0  -  6 months,Chronic Lymphocytic Leukemia CLL
+CBC: Lymphocyte count 0  -  500 ,Chronic Myeloid Leukemia L
+CBC: Blasts 0  -  5,Crush Syndrome
+Serum Potassium 0  -  6.0 ,Cervical Spondylosis
+MRI: Disc degeneration present,Chronic Sinusitis
+CT: Mucosal thickening present,Chronic Obstructive Pmonary Disease COPD
+FEV1/FVC ratio 70  -  100,Cervical Cancer
+Pap Smear: High - grade squamous intraepithelial lesion,Cardiogenic Shock
+Troponin 0  -  0.04 ,Cystinuria
+Urine: Cystine crystals present,Cyclothymic Disorder
+Assessment: Cyclothymic pattern present,Calciphylaxis
+Serum Calcium 0  -  10.5 ,Chronic Granomatous Disease
+NBT Test: Negative for function,Cerebrospinal Fluid Leak
+"CSF: Low protein, normal glucose",Colonic Polyp
+Colonoscopy: Polyps present,Coagation Disorders
+"PT 0  -  12 , aPTT 0  -  35 ",Cerebellar Ataxia
+MRI: Cerebellar atrophy,Chronic Pancreatitis
+Lipase 0  -  3x normal,Cholesterol Gallstones
+trasound: Gallstones present,Chronic Bacterial Prostatitis
+PSA 0  -  4.0 ,Cramp - fascication Syndrome
+EMG: Abnormal spontaneous activity,Cyclic Vomiting Syndrome
+Gastric Emptying: 0  -  60 retention,Chronic Rhinosinusitis
+CT: Mucosal thickening and polyp present,Chronic Rashes
+Skin Biopsy: Eosinophils present,Claudication
+ABI  0.9  -  100 indicates claudication,Corneal Dystrophy
+Slit - lamp: Deposits present,Chlamydial Infection
+PCR: Positive for Chlamydia trachomatis,Chronic Bronchitis
+PFT: FEV1 70,Cerebral Aneurysm
+CT: Aneurysm 0  -  3 ,Chronic Otitis Media
+Tympanometry: Effusion present,Coon Variable Iunodeficiency
+IgG 700  -  100 ,Cutaneous Lymphoma
+Biopsy: T - cell neoplasm present,Caffeine Sensitivity
+Caffeine Challenge: Symptoms present,Calcium Deficiency
+Calcium 8.5  -  100 ,Cycling Injury
+Imaging: Soft tissue injury present,Comedonal Acne
+Examination: 0  -  20 comedones,Cardiac Arrhythmia
+ECG: Irregar rhythm present,Chronic Fatigue
+Assessment: Fatigue 0  -  6 months,Cervical Stenosis
+MRI: Stenosis 0  -  50,Colony Collapse Disorder CCD
+Observation: 0  -  30 popation loss,Citrlinemia
+Aonia 0  -  50 µmol,Cysticercosis
+Imaging: Cystic lesions present,Chronic Hepatitis B
+"HBsAg Positive, ALT 0  -  40 I",Chronic Hepatitis C
+"Anti - HCV Positive, HCV RNA 0  -  15 ",Cystinosis
+Cystine levels: 0 - 0.2  protein; Urine cystine: 50  -  100  creatinine,Chronic Sinusitis
+"CT scan findings: Mucosal thickening, obstruction",Cryoglobinemic Vascitis
+"Cryoglobins: Positive, Complement levels: C3 90  -  100 ",Chronic Pain Syndromes
+"VAS Score: 0 - 10, MRI findings: Disc herniation",Chronic Anemia
+"Hemoglobin: 12  -  100 , Iron: 60  -  100 , Vitamin B12: 200  -  100",Craniosynostosis
+CT findings: Premature closure of cranial sutures,Chronic Ppitis
+Radiographic findings: Periapical radiolucency,Cycling Injuries
+"MRI findings: Soft tissue swelling, contusion",Cytotoxic Therapy Effects
+"CBC: Neutrophils 1500  -  100, Liver enzymes: AST, ALT elevated",Chronic Gastritis
+"H. pylori: Positive, Biopsy: Chronic inflaation",Chronic Recurrent Aphthous Stomatitis
+CBC: Normal; Specific antibody tests: Variable,Cold Urticaria
+Positive test rests: Urticaria within 5 minutes,Chronic Obstructive Pmonary Disease COPD
+"FEV1/FVC ratio: 70  -  100, Chest X - ray: Hyperinflation",Dengue Fever
+"NS1 antigen: Positive, IgM: Positive/Negative, IgG: Positive",Diabetes Mellitus
+"Fasting: ?126 , HbA1c: ?6.5, OGTT: ?200 ",Diabetic Ketoacidosis
+"Blood glucose: 0  -  250 , Ketones: Positive",Diarrhea
+"CT: 0 - 1 , CBC: 000 - 10000, CRP: 0 - 10",Diverticitis
+"Karyotype: 46, XX/XY",Down Syndrome
+PCR: 100 - 10000,Diphtheria
+"X - ray: 0 - 1 , MRI: 0 - 5 ",Dislocation
+"CT: 0 - 1 , MRI: 0 - 5 ",Dizziness
+IQ: 85 - 115,Dysthymia Persistent Depressive Disorder
+trasound: 0 - 5 ,Dysmenorrhea
+Videofluoroscopy: 0 - 10 ,Dysphagia
+"IQ: 85 - 115, Reading score: 50 - 100",Dyslexia
+"FEV1: 80 - 120, X - ray: 0 - 1 ",Dyspnea
+"Patch test: 0 - 5 , Biopsy: 0 - 2 ",Dermatitis
+"Cognitive: 24 - 30, MRI: 0 - 5 ",Dementia
+PHQ - 9: 0 - 27,Depression
+"D - dimer: 0 - 500, CT/MRI: 0 - 1 ",Deep Vein Thrombosis DVT
+Biopsy: 0 - 2 ,Dermatofibroma
+Cholesterol: 150 - 200,Dyslipidemia
+OCT: 200 - 300 ,Diabetic Retinopathy
+Colonoscopy: 0 - 5 ,Diarrhea - Predominant Irritable Bowel Syndrome IBS
+Drug level: 0 - 100 ,Drug Addiction
+trasound: 0 - 5 ,Dupuytren’s Contracture
+CPK: 50 - 200 U/L,Duchenne Muscar Dystrophy
+"Urine: 0 - 5 WBC, Cture: 0 - 10000",Dysuria
+"MRI/CT: 0 - 5 , Biopsy: 0 - 2 ",Desmoid Tumors
+MRI/CT: 0 - 1 ,Dandy - Walker Malformation
+"Schirmer: 5 - 10 , Tear break - up: 0 - 10 ",Dry Eye Syndrome
+trasound: 0 - 5 ,Dupuytren's Disease
+Platelet: 150 - 450 x 10^3,Dengue Hemorrhagic Fever
+Imaging: 0 - 1 ,Decubitus cer Pressure Sore
+MRI/CT: 0 - 5 ,Dystonia
+MRI/CT: 0 - 5 ,Dysphasia
+"Cognitive: 24 - 30, MRI/CT: 0 - 5 ",Dementia with Lewy Bodies
+MRI/CT: 0 - 5 ,Dandy - Walker Syndrome
+"Creatinine: 0.6 - 1.2, Electrolytes: 135 - 145",Diphtheritic Nephritis
+"Nerve: 50 - 60 , EMG: 0 - 5 , Glucose: 70 - 140",Diabetic Neuropathy
+"Cognitive: 24 - 30, Blood levels: 0 - 500",Delirium
+"Platelet: 150 - 450 x 10^3, Hematocrit: 35 - 50",Dengue Shock Syndrome
+"Antibodies: 0 - 500, trasound: 0 - 5 ",Dirofilariasis
+"MRI/CT: 0 - 5 , Eye exam: 20/20 vision",Diplopia Double Vision
+"Hormone: 0 - 100, Tilt table: 60 - 90 degrees",Dysautonomia
+"Swallowing: 0 - 10 , Endoscopy: 0 - 5 ",Dysphagia Swallowing Disorder
+"Biopsy: 0 - 2 , CT/MRI: 0 - 5 ",Dendritic Cell Tumor
+"Enzymes: 50 - 200, Biopsy: 0 - 2 , EMG: 0 - 5 ",Dermatomyositis
+"X - ray: 0 - 1 , Karyotype: 46, XX/XY",Dentinogenesis Imperfecta
+"Hormone: 0 - 100, Imaging: 0 - 1 ",Delayed Puberty
+MRI/CT: 0 - 5 ,Dandy - Walker Variant
+"Serology: 0 - 500, Imaging: 0 - 5 ",Dromedary Disease Camel Disease
+MRI/CT: 0 - 5 ,Degenerative Disc Disease
+Stool: 0 - 10 parasites,Deworming Syndrome
+"BNP: 0 - 300, X - ray: 0 - 1 ",Diastolic Heart Failure
+Laryngoscopy: 0 - 5 ,Dysphonia
+"PT: 10 - 13 , PTT: 25 - 35 , D - dimer: 0 - 500",Disseminated Intravascar Coagation DIC
+Worm size: 0 - 1 ,Dracunciasis Guinea Worm Disease
+trasound: 0 - 5 ,Dysmenorrhea Menstrual Pain
+"DHT: 300 - 850, Testosterone: 300 - 1000",Dihydrotestosterone DHT Related Disorders
+"Sodium: 135 - 145, Osmolality: 275 - 295",Diabetes Insipidus
+"TSH: 0.5 - 5.0, T3: 80 - 200, T4: 5 - 12",Dysfunction of the Thyroid
+PHQ - 9: 0 - 27,Dysthymia Chronic Depression
+Taste score: 1 - 10,Dysgeusia
+"X - ray: 0 - 1 , CT: 0 - 5 ",Distal Radius Fracture
+Vestibar: 0 - 100 ,Dizziness Vertigo
+"Platelet: 150 - 450 x 10^3, Hematocrit: 35 - 50",Dengue Fever Severe
+Skin test: 0 - 5 ,Dermatographia
+IQ: 85 - 115,Dissociative Identity Disorder
+Psychological score: 0 - 100,Delusional Disorder
+"SCN1A gene: 0 - 1 variant, EEG: 0 - 5 ",Dravet Syndrome
+"IgA: 0 - 5 U/mL, Biopsy depth: 0 - 2 ",Dermatitis Herpetiformis
+"Hormone: 0 - 100, CBC: 0 - 500",Dysfunctional Uterine Bleeding
+Tear duct: 0 - 10 ,Dacryocystitis
+"BNP: 0 - 300, Chest X - ray: 0 - 1 ",Dilated Cardiomyopathy
+"Wound cture: 0 - 500, X - ray: 0 - 1 ",Diabetic Foot cer
+Motor score: 0 - 100,Developmental Coordination Disorder
+"CT: 0 - 5 , Colonoscopy: 0 - 5 , CBC: 0 - 500",Diverticar Disease
+"Maogram: 0 - 5 , Biopsy depth: 0 - 2 ",Ductal Carcinoma in Situ
+"Biopsy: 0 - 2 , Allergy: 0 - 5 ",Dermatitis of the Breast
+"Biopsy: 0 - 2 , Dermatoscopy: 0 - 5 ",Dysplastic Nevus Syndrome
+"trasound: 0 - 5 , CBC: 0 - 500",Dacryoadenitis
+"Autonomic: 0 - 100, Tilt: 60 - 90 degrees",Dysautonomia Autonomic Dysfunction
+"trasound: 0 - 5 , MRI: 0 - 5 ",De Quervain's Tenosynovitis
+X - ray: 0 - 1 ,Destructive Periodontitis
+CT/MRI: 0 - 5 ,Diffuse Axonal Injury
+Neurological score: 0 - 100,Dilated Pupil Mydriasis
+"trasound: 0 - 5 , MRI: 0 - 5 ",Dorsal Wrist Ganglion
+"Blood pressure: 80 - 120, Tilt: 60 - 90 degrees",Dizziness Orthostatic Hypotension
+Psychological score: 0 - 100,Depersonalization/Derealization Disorder
+Throat cture: 0 - 100 colonies,Diphtheria Severe
+"Liver function: 0 - 100, Toxicology: 0 - 500",Drug - Induced Liver Injury
+"Fundus: 0 - 5 , OCT: 0 - 500 ",Diabetes - Related Eye Disease
+Writing score: 0 - 100,Dysgraphia
+MRI/CT: 0 - 5 ,Dorsal Columns Injury
+"OCT: 0 - 500 , Angiography: 0 - 5 ",Diabetic Macar Edema
+"Biopsy depth: 0 - 2 , Cytology: 0 - 100 cells",Dysplasia Cellar
+BNP: 0 - 300,Diastolic Dysfunction
+"EMG: 0 - 5 , Nerve conduction: 50 - 60 ",Diminished Accessory Nerve Function
+"MRI: 0 - 5 , CSF: 0 - 10 WBC",Disseminated Sclerosis
+"EMG: 0 - 5 , MRI: 0 - 5 ",Dorsal Scapar Nerve Entrapment
+"Hormone: 0 - 100, CBC: 0 - 500",Dysfunctional Uterine Bleeding DUB
+"X - ray/MRI: 0 - 5 , Markers: 0 - 10",Dactylitis
+"Biopsy: 0 - 2 , LDH: 0 - 500",Diffuse Large B - Cell Lymphoma
+"Hormone: 0 - 100, trasound: 0 - 5 ",Dysfunctional Vascar Regation
+"Neurological score: 0 - 100, Imaging: 0 - 5 ",Dyssynergia
+"H. pylori: 0 - 100, Biopsy: 0 - 2 ",Destructive Gastritis
+Troponin: 0 - 100,Doxorubicin - Induced Cardiomyopathy
+Psychological score: 0 - 100,Dissociative Amnesia
+BNP: 0 - 300,Diastolic Heart Failure Heart Failure with preserved ejection fraction
+"PCR: 0 - 100, Serology: 0 - 100",Ebola Virus Disease
+"Viral cture: 0 - 500, PCR: 0 - 100",Echovirus Infection
+"Biopsy: 0 - 2 , Allergy test: 0 - 5 ",Eczema
+"trasound/MRI: 0 - 5 , CA - 125: 0 - 100",Endometriosis
+"MRI/CT: 0 - 5 , CSF: 0 - 10 WBC",Encephalitis
+"CBC: 0 - 500, Electrolytes: 0 - 100",Enteritis
+"EEG: 0 - 5 , MRI/CT: 0 - 5 ",Epilepsy
+"Imaging: 0 - 5 , Biopsy: 0 - 2 ",Ewing Sarcoma
+Sweat: 0 - 100,Excessive Sweating Hyperhidrosis
+Serology: 0 - 100,Exanthema Subitum Roseola
+"Biopsy: 0 - 2 , Tumor markers: 0 - 500",Esophageal Cancer
+"Neurological score: 0 - 100, MRI: 0 - 5 ",Essential Tremor
+"Biopsy: 0 - 2 , CBC: 0 - 500",Erythema Mtiforme
+"Porphyrin: 0 - 100, Biopsy depth: 0 - 2 ",Erythropoietic Protoporphyria
+Blood cture: 0 - 100 colonies,Endocarditis
+hCG: 0 - 100,Ectopic Pregnancy
+ABG: 0 - 100,Emphysema
+"PSA: 0 - 100, trasound: 0 - 5 ",Enlarged Prostate Benign Prostatic Hyperplasia
+CBC: 0 - 500,Elderberry Poisoning
+Genetic variant: 0 - 1,Ehlers - Danlos Syndrome
+"IgE: 0 - 500, Skin prick: 0 - 5 ",Environmental Allergies
+Pain scale: 0 - 10,Fibromyalgia
+Antibodies: 0 - 100,Flu Influenza
+Cture: 0 - 100 colonies,Fungal Infections
+"EEG: 0 - 5 , MRI/CT: 0 - 5 ",Focal Seizures
+"Viral cture: 0 - 500, Serology: 0 - 100",Foot and Mouth Disease
+"Liver function: 0 - 100, Imaging: 0 - 5 ",Fatty Liver Disease
+Genetic variant: 0 - 1,Friedreich's Ataxia
+"Cognitive score: 0 - 100, MRI/CT: 0 - 5 ",Frontal Lobe Dementia
+trasound/MRI: 0 - 5 ,Fibroid Tumors
+"RF: 0 - 50, CBC: 0 - 500",Felty's Syndrome
+"CBC: 0 - 500, Chromosome: 0 - 100",Fanconi Anemia
+"Neurological score: 0 - 100, MRI/CT: 0 - 5 ",Floppy Baby Syndrome Hypotonia
+"Biopsy: 0 - 2 , LDH: 0 - 500",Follicar Lymphoma
+Genetic variant: 0 - 1,Friedrich's Ataxia
+"CSF: 0 - 10 WBC, MRI/CT: 0 - 5 ",Fungal Meningitis
+"MRI: 0 - 5 , EMG: 0 - 5 ",Facial Nerve Palsy Bell's Palsy
+FMR1: 0 - 1,Fragile X Syndrome
+"Lung function: 0 - 100, CT: 0 - 5 ",Farmer's Lung
+Lipid panel: 0 - 500,Familial Hypercholesterolemia
+Corneal thickness: 0 - 5 ,Fuchs' Dystrophy
+"Imaging: 0 - 5 , Biopsy: 0 - 2 ",Fibrodysplasia Ossificans Progressiva
+"H. pylori: 0 - 100, CBC: 0 - 500",Gastritis
+Pathogens: 0 - 100,Gastroenteritis
+Uric acid: 0 - 100,Gout
+Liver: 0 - 100,Gallbladder Disease
+X - rays: 0 - 5 ,Gingivitis
+Eye pressure: 0 - 30 Hg,Glaucoma
+"Creatinine: 0 - 100, BUN: 0 - 100",Glomeronephritis
+"Glucose: 0 - 200, Enzyme: 0 - 500",Glycogen Storage Disease
+"CSF: 0 - 10 WBC, EMG: 0 - 5 ",Guillain - Barré Syndrome
+Enzyme: 0 - 500,Gaucher's Disease
+pH: 0 - 14,Gastroesophageal Reflux Disease GERD
+Glucose tolerance: 0 - 200,Gestational Diabetes
+Uric acid: 0 - 100,Gouty Arthritis
+Genetic variant: 0 - 1,Genetic Disorders
+"ESR: 0 - 100, CRP: 0 - 100",Giant Cell Arteritis
+Galactose: 0 - 100,Galactosemia
+Anti - GBM: 0 - 100,Goodpasture Syndrome
+"TSH: 0 - 5, T3: 0 - 10, T4: 0 - 20",Graves' Disease
+Bone marrow: 0 - 5 ,Graft - versus - Host Disease
+X - rays: 0 - 5 ,Gingival Hyperplasia
+"AFP: 0 - 100, hCG: 0 - 100, Biopsy: 0 - 2 ",Germ Cell Tumors
+"Uric acid: 0 - 100, trasound/CT: 0 - 5 ",Gouty Nephropathy
+"ANCA: 0 - 100, Biopsy: 0 - 2 ",Granomatosis with Polyangiitis Wegener's Granomatosis
+Bilirubin: 0 - 100,Gilbert's Syndrome
+"Tumor markers: 0 - 500, Biopsy: 0 - 2 ",Gastrointestinal Stromal Tumor GIST
+G6PD: 0 - 500,Glucose - 6 - Phosphate Dehydrogenase Deficiency G6PD Deficiency
+Skin biopsy: 0 - 2 ,Granoma Annare
+"Vision test: 0 - 20/20, Allergy: 0 - 5 ",Giant Papillary Conjunctivitis
+Anti - HAV: 0 - 100,Hepatitis A
+Blood Anti - HAV antibodies: Positive ? 1.0,Hepatitis B
+"Blood HBsAg: Positive 0 ? 0.5, Anti - HBs: Negative 10 -  100",Hepatitis C
+"Blood Anti - HCV: Positive ? 1.0, HCV RNA: Positive ? 15",HIV/AIDS
+"Blood HIV antigen: Positive 0 ? 1.0, CD4 count:  200  -  100 severe iunosuppression",Hypertension High Blood Pressure
+"BP: ? 140/90 , Blood Creatinine: Normal ? 1.2",Hypothyroidism
+" TSH: Elevated 0  -  4.0, T3: Low  0.8  -  100, T4: Low  5.0  -  100",Hyperthyroidism
+" TSH: Low 0  -  0. T3: Elevated 0  -  2.0, T4: Elevated 0  -  12.0",Herpes Simplex
+"Cture: Positive if detected, PCR: Positive if detected",Hansen's Disease Leprosy
+Biopsy: Positive for Mycobacterium leprae if detected,Hemophilia
+" APTT: Prolonged 0  -  40 , PT: Normal ? 12 ",Hodgkin's Lymphoma
+"Biopsy: Reed - Sternberg cells: Positive if detected, LDH: Elevated 0  -  250",Hypoglycemia
+ Glucose: 70  -  100  hypoglycemic range,Hyperglycemia
+ Glucose: 0  -  200  hyperglycemic range,Hemochromatosis
+" Ferritin: Elevated 0  -  300 , Transferrin saturation: 0  -  50",Hidradenitis Suppurativa
+Biopsy: Positive for inflaation if detected,Heart Failure
+"Echo: Ejection fraction 40  -  100 , BNP: Elevated 0  -  100",Hepatic Encephalopathy
+ Aonia: Elevated 0  -  50 ,Histoplasmosis
+ Antibody levels: Positive if detected,Hantavirus Pmonary Syndrome
+ Hantavirus antibodies: Positive if detected,Hemolytic Anemia
+" Hemoglobin: Low 12  -  100 , Reticocytes: Elevated 0  -  2.5",Helicobacter Pylori Infection
+Biopsy: H. pylori: Positive if detected,Herpes Zoster Shingles
+PCR: Positive for Varicella zoster virus if detected,Hypercholesterolemia
+"LDL: Elevated 0  -  130 , Total cholesterol: Elevated 0  -  240 ",Hypovolemia
+"Hemoglobin: Low 13  -  100 , Electrolytes: Abnormal if detected",Hydrocephalus
+CT: Ventricomegaly if detected,Hyperparathyroidism
+"Calcium: Elevated 0  -  10.5 , PTH: Elevated 0  -  65",Hypertrophic Cardiomyopathy
+Echo: Left ventricar hypertrophy if detected,Hives Urticaria
+Skin tests: Positive if detected,Horner Syndrome
+MRI: Positive for sympathetic nerve pathway involvement if detected,Hunter Syndrome
+Urine: Elevated glycosaminoglycans 0  -  10 creatinine,Hypopituitarism
+Blood Hormone levels: Abnormal if detected,Hypokalemia
+Blood Potassium: Low 3.5  -  100 ,Hypocalcemia
+Blood Calcium: Low 8.5  -  100 ,Hepatoblastoma
+Biopsy: Tumor cells: Positive if detected,Hematoma
+Imaging: Hematoma confirmed if detected,Hyperventilation
+"ABG: pH: Elevated 0  -  7.45, CO2: Low 35  -  100 ",Hydronephrosis
+Imaging: Dilation of renal pelvis if detected,Hereditary Angioedema
+Blood C1 inhibitor levels: Low 20  -  100 ,Hepatomegaly
+Imaging: Liver enlargement if detected,Horner’s Syndrome
+MRI: Positive for sympathetic nerve pathway involvement if detected,Hyperaldosteronism
+Blood Aldosterone: Elevated 0  -  15 ,Hypercapnia
+ABG: CO2: Elevated 0  -  45 ,Hydrocele
+Imaging: Hydrocele confirmed if detected,Hyponatremia
+Blood Sodium: Low 135  -  100 ,Hepatorenal Syndrome
+Blood Creatinine: Elevated 0  -  1.2 ,Hypogonadism
+Blood Testosterone: Low 300  -  100 ,Hypophosphatemia
+Blood Phosphate: Low 2.5  -  10 ,Hyperprolactinemia
+Blood Prolactin: Elevated 0  -  25 ,Hypersensitivity Pneumonitis
+"CT: Ground - glass opacities if detected, Lung function: Decreased FVC",Hypovolemic Shock
+"Blood Hemoglobin: Low  10  -  100  , Electrolytes: Abnormal if detected",Herpangina
+Throat cture: Positive for enterovirus if detected,Helminthiasis
+Stool: Eggs/parasites: Positive if detected,Hodgkin’s Disease
+"Biopsy: Reed - Sternberg cells: Positive if detected, LDH: Elevated 0  -  250",Hematological Cancers
+"CBC: Abnormal if detected, Bone marrow biopsy: Positive for malignancy if detected",Hepatic Cyst
+"Imaging: Cyst confirmed if detected, Blood Liver function tests: Normal",Hypoplastic Left Heart Syndrome
+Echo: Left heart structures underdeveloped if detected,Influenza Flu
+Rapid test: Positive for influenza virus if detected,Irritable Bowel Syndrome IBS
+Colonoscopy: No significant findings if detected,Iron Deficiency Anemia
+"Blood Hemoglobin: Low 12  -  100 , Iron: Low serum iron 60  -  100 , Ferritin: Low 12  -  100 ",Idiopathic Pmonary Fibrosis
+"Skin cture: 3 - 6, Swab: 2 - 4",Impetigo
+Intraocar pressure: 22 - 30,Iritis
+Swab cture: 2 - 4,Intertrigo
+Echocardiogram: 30 - 45,Infective Endocarditis
+Skin biopsy: 5 - 8,Ichthyosis Vgaris
+"CBC: 0  -  11000, Platelet count: 0  -  450, Bone marrow biopsy: 50 - 70",Idiopathic Thrombocytopenic Purpura ITP
+"ECG: 90 - 110, Stress testing: 30 - 45, Coronary angiography: 70 - 99",Ischemic Heart Disease
+"Lumbar puncture: 12 - 20, Imaging studies: 200 - 400",Idiopathic Intracranial Hypertension
+"Monospot test: 1.0 - 2.0, EBV - specific antibodies: 1.160 - 1.640",Inguinal Hernia
+"Cystoscopy: 10 - 50, Urine tests: 2.5 - 7.5",Infectious Mononucleosis
+"Colonoscopy: 0 - 20, Imaging studies: 100 - 500, CBC: 0  -  10000, Inflaatory markers: 15 - 35",Interstitial Cystitis
+"Joint fluid analysis: 3 - 5, CBC: 0  -  12000, Inflaatory markers: 25 - 45, Imaging studies: 250 - 400",Inflaatory Bowel Disease IBD
+"Insin levels: 10 - 60, 72 - hour fasting test: 50 - 100, Imaging studies: 200 - 300",Infectious Arthritis
+"Stool tests: 3 - 6, Colonoscopy: 0 - 20, Blood tests: CBC: 0  -  10000",Insinoma
+"Imaging studies: 100 - 500, Coagation profile: 1.0 - 1.5",Infectious Colitis
+"Sleep studies: 1 - 10, Sleep diary: 4 - 8",Ischemic Stroke
+"CBC: 0  -  11000, Platelet count: 0  -  450, Bone marrow biopsy: 50 - 70",Idiopathic Hypersomnia
+"TSH: 0.5 - 4.0, T4 levels: 5 - 12, Iodine levels: 100 - 300",Iune Thrombocytopenic Purpura ITP
+"Iune function tests: 200 - 1000, Genetic testing: 1.1 - 1.2",Iodine Deficiency
+"Muscle enzymes: 45 - 70, Muscle biopsy: 10 - 20, Imaging studies: 150 - 300",Iunodeficiency Disorders
+Imaging studies: 100 - 500,Inflaatory Myopathy
+"Organic acid levels: 50 - 150, Urine tests: 2.5 - 7.5, Genetic testing: 1.10 - 1.50",Intracerebral Hemorrhage
+Cobb angle: 10 - 40,Isovaleric Acidemia
+"Liver function tests: 15 - 35, Bile acids: 5 - 15",Idiopathic Scoliosis
+"Iune function tests: 150 - 800, Genetic testing: 1.5 - 1.15",Intrahepatic Cholestasis of Pregnancy
+"Muscle biopsy: 10 - 20, Muscle enzymes: 30 - 60, Imaging studies: 150 - 350",Iune System Disorders
+"Imaging studies: 200 - 500, Colonoscopy: 0 - 10, CBC: 0  -  12000",Inclusion Body Myositis
+"Echocardiogram: 50 - 70, Right heart catheterization: 12 - 20, CT scan: 200 - 400",Ischemic Colitis
+"Rheumatoid factor: 25 - 50, Anti - CCP: 10 - 20, Imaging studies: 150 - 300",Idiopathic Pmonary Hypertension
+"Imaging studies: 200 - 500, Physical examination: 3 - 6",Inflaatory Polyarthritis
+"Maogram: 4 - 6, Breast trasound: 0 - 20, Biopsy: 2 - 5",Intestinal Obstruction
+"Maogram: 4 - 6, Breast trasound: 0 - 20, Biopsy: 2 - 5",Invasive Ductal Carcinoma Breast Cancer
+"IgA levels: 60 - 80, Kidney function tests: 15 - 25, Kidney biopsy: 30 - 50",Invasive Lobar Carcinoma
+EEG: 2 -  MRI: 100 - 400,Iunoglobin A IgA Nephropathy
+"trasound: 200 - 500, Doppler studies: 1 - 2",Idiopathic Epilepsy
+"Imaging studies: 100 - 500, Laryngoscopy: 4 - 7",Intrauterine Growth Restriction IUGR
+"Blood pressure: 120/80 - 140/90, Kidney function tests: 10 - 30",Idiopathic Subglottic Stenosis
+"Chest X - ray: 100 - 300, Blood tests: CBC: 0  -  12000",Isolated Systolic Hypertension
+"ANCA: 1.20 - 1.80, Complement levels: 40 - 90",Infant Respiratory Distress Syndrome
+"Hormone levels: 0.5 - 1.5, Imaging studies: 100 - 300",Iune Complex Vascitis
+"Cortisol levels: 10 - 25, ACTH levels: 20 - 50",Idiopathic Short Stature
+"Pmonary function tests: 75 - 90, Imaging studies: 150 - 350",Iatrogenic Cushing's Syndrome
+"MRI: 150 - 350, Lumbar puncture: 10 - 20",Iunotherapy - Induced Pneumonitis
+"Imaging studies: 100 - 400, Genetic testing: 1.5 - 1.20",Idiopathic Optic Neuritis
+"Chest X - ray: 100 - 300, CT scan: 200 - 500",Inclusion Body Disease IBD
+"Neurological assessment: 3 - 6, Imaging studies: 150 - 350",Idiopathic Pmonary Alveolar Proteinosis
+"Skin cture: 3 - 6, Swab: 2 - 4",Idiopathic Dystonia
+"Imaging studies: 100 - 300, trasound: 100 - 500",Impetigo Herpetiformis
+"Calcium levels: 8.5 - 10.5, Urinalysis: 2 -  24 - hour urine calcium excretion: 100 - 250",Infantile Hemangioma
+"Gastric emptying study: 50 - 80, Endoscopy: 0 - 20",Idiopathic Hypercalciuria
+"Semen analysis: 20 - 80, Hormonal testing: 1.5 - 4.5, trasound of testes: 10 - 20",Idiopathic Gastroparesis
+"Complement levels: 40 - 90, Antibodies: 1.10 - 1.100, Urinalysis: 3 - 6",Idiopathic Male Infertility
+"Inflaatory markers: 5 - 30, Imaging studies: 150 - 350",Iune Complex Glomeronephritis
+"Polysomnography: 5 - 15, Genetic testing: 1.5 - 1.15",Iune - Related Adverse Events irAEs
+"Polysomnography: 5 - 15, Genetic testing: 1.5 - 1.15",Idiopathic Congenital Central Hypoventilation Syndrome
+"CSF pressure: 5 - 20, Imaging studies: 100 - 500",Intracranial Hypertension
+"Allergy testing: 1.5 - 1.20, Cold stimation tests: 3 - 6",Idiopathic Cold Urticaria
+"CBC: 0  -  11000, Bone marrow biopsy: 50 - 70",Idiopathic Aplastic Anemia
+"Sweat tests: 20 - 60, Imaging studies: 100 - 300",Idiopathic Hyperhidrosis
+EEG: 2 -  MRI: 100 - 400,Idiopathic Generalized Epilepsy
+"Cardiac MRI: 50 - 70, Echocardiogram: 30 - 45, Cardiac biomarkers: 100 - 500",Iunotherapy - Related Myocarditis
+"CBC: 0  -  12000, Bone marrow biopsy: 50 - 70, Imaging studies: 100 - 500",Idiopathic Myelofibrosis
+"EEG: 2 - 100, MRI: 100 - 400",Infantile Spasms West Syndrome
+"CT scan: 150 - 300, Lung biopsy: 5 - 10, Iron studies: 20 - 120",Idiopathic Pmonary Hemosiderosis
+"Right heart catheterization: 12 - 20, Echocardiogram: 50 - 70, CT scan: 150 - 350",Idiopathic Pmonary Hypertension IPH
+"Serological tests: 1.10 - 1.100, CSF analysis: 5 - 15",Japanese Encephalitis
+"Rheumatoid factor: 25 - 50, Anti - CCP: 10 - 20, Imaging studies: 150 - 350",Juvenile Idiopathic Arthritis JIA
+"Liver function tests: 15 - 35, Bilirubin levels: 0.2 - 1.0",Jaundice
+"Skin biopsy: 5 - 10, Genetic testing: 1.5 - 1.15",Junctional Epidermolysis Blosa JEB
+"IgE levels: 50 - 150, Genetic testing: 1.5 - 1.10",Job Syndrome Hyper - IgE Syndrome
+"Rheumatoid factor: 25 - 50, Anti - CCP: 10 - 20, Imaging studies: 150 - 350",Juvenile Rheumatoid Arthritis
+"Imaging studies: 100 - 300, Surgery: 1 - 5",Jejunal Atresia
+"Imaging studies: 100 - 300, Genetic testing: 1.5 - 1.10",Jansen’s Metaphyseal Chondrodysplasia
+"EEG: 2 - 100,  MRI: 100 - 400",Juvenile Myoclonic Epilepsy
+"Symptom assessment: 3 - 6, Skin examination: 5 - 10",Jellyfish Stings
+"Genetic testing: 1.5 - 1.20, Imaging studies: 100 - 300",Johanson - Blizzard Syndrome
+"Bone density scan: 0 - 20, Calcium levels: 8.5 - 10.5, Vitamin D levels: 20 - 40",Juvenile Osteoporosis
+"Genetic testing: 1.5 - 1.10, Audiological evaluation: 5 - 20",Jervell and Lange - Nielsen Syndrome
+"Beighton score: 3 - 9, Imaging studies: 100 - 300",Joint Hypermobility Syndrome
+"Muscle enzymes: 30 - 80, Muscle biopsy: 10 - 20, Imaging studies: 150 - 350",Juvenile Dermatomyositis
+"Colonoscopy: 0 - 10, Genetic testing: 1.5 - 1.15",Juvenile Polyposis Syndrome
+"MRI: 150 - 350, Genetic testing: 1.5 - 1.15",Joubert Syndrome
+"Imaging studies: 100 - 300, Genetic testing: 1.5 - 1.15",Jansen Type Metaphyseal Dysplasia
+"Genetic testing: 1.5 - 1.15, Imaging studies: 100 - 300",Jalili Syndrome
+"Imaging studies: 100 - 500, Biopsy: 5 - 10",Juvenile Xanthogranoma
+"Imaging studies: 100 - 300, Genetic testing: 1.5 - 1.10",Jarcho - Levin Syndrome
+"Imaging studies: 100 - 300, Physical examination: 3 - 6",Jelly Belly Syndrome
+"Bone scan: 100 - 300, Imaging studies: 100 - 400, Alkaline phosphatase levels: 50 - 150",Juvenile Paget's Disease
+"Genetic testing: 1.5 - 1.10, Imaging studies: 100 - 400",Juvenile Huntington’s Disease
+"Nutritional evaluation: 3 - 6, Behavioral assessment: 3 - 5",Junk Food Addiction
+"Serological tests: 1.10 - 1.100, Imaging studies: 100 - 300",Jungle Yellow Fever
+"Allergy testing: 1.5 - 1.20, Skin prick tests: 3 - 6",Jellyfish Allergy
+"Imaging studies: 100 - 300, Hormonal levels: 20 - 100, Biopsy: 5 - 10",Juvenile Granosa Cell Tumor
+"Imaging studies: 100 - 300, Genetic testing: 1.5 - 1.15",Jackson - Weiss Syndrome
+"Eye examination: 3 - 5, OCT: 10 - 50, Fundus photography: 5 - 20",Juvenile Macar Degeneration
+"Skin biopsy: 5 - 10, Clinical history: 5 - 15",Jacquet’s Dermatitis
+"Imaging studies: 100 - 500, Biopsy: 5 - 10",Juvenile Nasopharyngeal Angiofibroma
+"Imaging studies: 100 - 300, Colonoscopy: 0 - 10",Jejunal Diverticitis
+"ANA: 1.10 - 1.100, Anti - dsDNA: 1.20 - 1.80, Imaging studies: 100 - 400",Juvenile Systemic Lupus Erythematosus
+"MRI: 100 - 400, CT scan: 150 - 350, Genetic testing: 1.5 - 1.15",Janiceps Twins Conjoined Twins
+Cobb angle measurement: 10 - 30,Juvenile Idiopathic Scoliosis
+Karyotyping: 1.5 - 1.10,Jacobs Syndrome XYY Syndrome
+"Blood glucose levels: 80 - 180, A1C: 5.5 - 7.0, Urinalysis: 5 - 15",Juvenile Diabetes Type 1 Diabetes
+"Joint aspiration: 20 - 40, Imaging studies: 100 - 300",Joint Effusion Fluid on the Joint
+"Chest X - ray: 100 - 300, CT scan: 150 - 350, Biopsy: 5 - 10",Juvenile Sarcoidosis
+"Imaging studies: 100 - 300, Surgical evaluation: 1 - 5",Jejunoileal Atresia
+"Skin scrapings: 5 - 10, Fungal cture: 2 - 5",Jock Itch Tinea Cruris
+"Blood glucose levels: 80 - 180, A1C: 5.5 - 7.0",Juvenile - Onset Diabetes
+"D - dimer: 0.2 - 0.5, Imaging studies: 100 - 300",Jugar Vein Thrombosis
+"CBC: 5 - 15, LDH: 120 - 200, Imaging studies: 100 - 400",Juvenile Non - Hodgkin Lymphoma
+"CT: 150 - 350, MRI: 100 - 400, Biopsy: 5 - 10",Jaw Cancer
+"trasound: 100 - 300, Genetic testing: 1.5 - 1.15, MRI: 100 - 400",Juvenile Nephronophthisis
+Allergy testing: 1.5 - 1.20,Jalapeño Pepper Allergy
+"Skin scrapings: 5 - 10, Swab cture: 1 - 5",Juvenile Vvar Dermatitis
+"Bilirubin levels: 0.2 - 1.0, Imaging studies: 100 - 300",Jaundiced Eye Syndrome
+"MRI: 150 - 350, CSF analysis: 5 - 15",Juvenile Mtiple Sclerosis MS
+"PET scan: 100 - 400, MRI: 100 - 400",Juvenile Parkinsonism
+"Joint fluid analysis: 5 - 10, CBC: 0  -  12000, Imaging studies: 100 - 300",Joint Aspiration Infection
+"Genetic testing: 1.5 - 1.15, Imaging studies: 100 - 300",Jansen De Vries Syndrome
+"Anti - AChR antibodies: 5 - 20, EMG: 10 - 30",Juvenile Myasthenia Gravis
+Breath tests: 10 - 40,Jelly Belly Syndrome Carbohydrate Sensitivity
+"Gait analysis: 3 - 6, Imaging studies: 100 - 300",Joint Malalignment Syndrome
+"Imaging studies: 100 - 300, Biopsy: 5 - 10",Juvenile Pleomorphic Adenoma
+"IgE levels: 50 - 150, Genetic testing: 1.5 - 1.10",Job’s Syndrome Autosomal Dominant Hyper - IgE Syndrome
+"Rheumatoid factor: 25 - 50, Anti - CCP: 10 - 20, Imaging studies: 100 - 350",Juvenile Psoriatic Arthritis
+"Imaging studies: 100 - 300, Neurological evaluation: 3 - 6",Jingle Bell Palsy
+"Hormonal levels: 20 - 100, Imaging studies: 100 - 300, Biopsy: 5 - 10",Juvenile Granosa Cell Tumor of the Ovary
+"Liver function tests: 15 - 35, Hepatitis panels: 0 - 20",Jaundice Associated with Hepatitis
+"Echocardiogram: 50 - 70, MRI: 100 - 350",Juvenile Hypertrophic Cardiomyopathy
+"CEA levels: 5 - 15, Imaging studies: 100 - 400, Biopsy: 5 - 10",Jejunal Cancer
+"Biopsy: 5 - 10, Imaging studies: 100 - 400",Junctional Nevus
+"Inflaatory markers: 20 - 60, Imaging studies: 100 - 400",Juvenile Temporal Arteritis
+"Thick and thin blood smear: 5 - 10, Rapid diagnostic tests: 1 - 5",Malaria
+"CSF analysis: 5 - 15, CBC: 0  -  12000, Imaging studies: 100 - 400",Meningitis
+"Troponin levels: 0.1 - 0.5, ECG: 1 - 5, Imaging studies: 100 - 350",Myocardial Infarction
+"MRI: 150 - 350, CSF analysis: 5 - 15",Mtiple Sclerosis
+"Serological tests: 1.10 - 1.100, Swab of the throat: 5 - 10",Mumps
+"Serological tests: 1.10 - 1.100, PCR testing: 1.5 - 1.15",Measles
+"Genetic testing: 1.5 - 1.15, Imaging studies: 100 - 300",Marfan Syndrome
+"Skin examination: 5 - 10, Biopsy: 5 - 10, Imaging studies: 100 - 400",Melanoma
+Methemoglobin levels: 1 - 5,Methemoglobinemia
+"Audiometric tests: 10 - 30, MRI: 100 - 350",Meniere's Disease
+"Stool tests: 5 - 10, Nutritional deficiencies: 10 - 40, Imaging studies: 100 - 300",Malabsorption Syndrome
+"Milk cture: 5 - 10, trasound: 100 - 300",Mastitis
+"Anti - AChR antibodies: 5 - 20, EMG: 10 - 30",Myasthenia Gravis
+"PCR testing: 1.5 - 1.15, Serological testing: 1.10 - 1.100",Monkeypox
+"Nutritional evaluation: 3 - 6, Blood tests: 10 - 40",Marasmus
+"Enzyme activity testing: 10 - 50, Urine tests: 5 - 10, Genetic testing: 1.5 - 1.15",Mucopolysaccharidosis
+"Skin evaluation: 5 - 10, Dermatoscopy: 5 - 15",Melasma
+"trasound: 100 - 300, MRI: 150 - 350",Morton's Neuroma
+"Lactate levels: 0.5 - 2.5, Muscle biopsy: 5 - 10, Genetic testing: 1.5 - 1.15",Mitochondrial Myopathy
+"FSH: 5 - 20, Estradiol: 50 - 150",Menopause
+"Genetic testing: 1.5 - 1.15, Muscle biopsy: 5 - 10",Malignant Hyperthermia
+"AFB smear and cture: 5 - 10, Chest X - ray: 100 - 300, CT scan: 150 - 350",Mycobacterial Infections
+"trasound: 100 - 300, MRI: 150 - 350, Genetic testing: 1.5 - 1.15",Microcephaly
+"Muscle enzymes: 5 - 30, Muscle biopsy: 5 - 10, EMG: 10 - 30",Myopathy
+"Biopsy: 5 - 10, CT: 150 - 350, MRI: 100 - 400",Mucosal Melanoma
+"Keratan sfate levels: 5 - 10, Genetic testing: 1.5 - 1.10",Morquio Syndrome
+"CBC: 5 - 15, LDH: 120 - 200, Imaging studies: 100 - 400",Malignant Lymphoma
+"Tumor markers: 5 - 10, Imaging studies: 100 - 400, Biopsy: 5 - 10",Metastatic Cancer
+"Genetic testing: 1.5 - 1.15, Muscle biopsy: 5 - 10, Creatine kinase levels: 100 - 500",Muscar Dystrophy
+"CBC: 5 - 15, Bone marrow biopsy: 5 - 10, Imaging studies: 100 - 400",Myelofibrosis
+"Hormonal testing: 10 - 50, Imaging studies: 100 - 300",Menstrual Disorders
+Serum mineral levels: 5 - 15,Mineral Deficiency
+"Skin biopsy: 5 - 10, Autoantibodies: 1.5 - 1.20",Mucous Membrane Pemphigoid
+"Tryptase levels: 5 - 10, Skin biopsy: 5 - 10",Mastocytosis
+"Tumor markers: 5 - 10, Imaging studies: 100 - 400, Biopsy: 5 - 10",Malignant Neoplasm
+"Imaging studies: 100 - 400, Biopsy: 5 - 10",Mucosal Neuroma
+"Corneal scraping: 5 - 10, Cture tests: 1 - 5",Microbial Keratitis
+"Genetic testing: 1.5 - 1.15, Muscle biopsy: 5 - 10, Lactate levels: 0.5 - 2.5",Mitochondrial Disease
+"CBC: 5 - 15, Peripheral blood smear: 5 - 15",Malarial Anemia
+"BMI: 18 - 30, Lipid profile: 100 - 200, Glucose levels: 70 - 140",Morbid Obesity
+Pain diary: 1 - 5,Myofascial Pain Syndrome
+"Hormonal testing: 10 - 50, Symptom assessment: 3 - 6",Menstrual Dysphoria
+"SE: 24 - 30, MoCA: 25 - 30",Mild Cognitive Impairment
+"Echocardiogram: 50 - 70, Genetic testing: 1.5 - 1.15",Marfan Heart Disease
+"Tissue biopsy: 5 - 10, Fungal cture: 1 - 5",Mucormycosis
+"MRI: 150 - 350, CSF analysis: 5 - 15",Myelitis
+"MRI: 150 - 350, CSF analysis: 5 - 15",Meningeal Carcinomatosis
+"Enzyme activity testing: 10 - 50, Urine tests: 5 - 10, Genetic testing: 1.5 - 1.15",Mucopolysaccharidosis II
+"CBC: 5 - 15, Bone marrow biopsy: 5 - 10, Cytogenetic analysis: 5 - 10",Myelodysplastic Syndrome
+"Heterophile antibodies: 5 - 10, EBV specific antibodies: 1.5 - 1.15",Mononucleosis
+"Skin biopsy: 5 - 10, Clinical history: 3 - 6",Morphea
+"Cture: 5 - 10, Serological tests: 1.5 - 1.20",Melioidosis
+"Serological tests: 1.5 - 1.15, Swab of the throat: 5 - 10",Mumps Orchitis
+"Calcitonin levels: 5 - 10, Imaging studies: 100 - 400, Biopsy: 5 - 10",Medlary Thyroid Carcinoma
+"Audiometric tests: 10 - 30, MRI: 100 - 350",Meniere's Attack
+"Anti - AChR antibodies: 5 - 20, EMG: 10 - 30",Myasthenic Crisis
+"Toxicity levels: 0.5 - 1.5, Urinalysis: 5 - 15",Medication Overdose
+"Karyotyping: 1.5 - 1.10, Imaging studies: 100 - 300",Mosaic Down Syndrome
+"Imaging studies: 100 - 400, Cture: 5 - 10",Mycotic Aneurysm
+"trasound: 100 - 300, Aspiration: 5 - 10",Mucous Cyst
+"Testosterone levels: 300 - 1000, Hormonal testing: 10 - 50",Male Hypogonadism
+"Echocardiogram: 50 - 70, Imaging studies: 100 - 350",Mitral Valve Prolapse
+"Hormonal levels: 10 - 50, Imaging studies: 100 - 300",Metrorrhagia
+"MRI: 100 - 400, PET scan: 100 - 350, Neurological examination: 3 - 6",Mtiple System Atrophy
+"EEG: 1 - 5, MRI: 100 - 350",Myoclonus
+"Audiometric tests: 10 - 30, MRI: 100 - 350",Meniere's Syndrome
+"Skin biopsy: 5 - 10, Imaging studies: 100 - 300",Melanosis
+enzyme activity testing: 10 - 45 ,Mucopolysaccharidosis I
+glycosaminoglycan levels: 0.8 - 2.5 ,Myofibroblastoma
+"X - ray: 2 - 3, MRI: 3 - 5, Foot pressure: 45 - 65",Metatarsalgia
+"Ultrasound: 3 - 5, MRI: 2 - 4, Fetal screening: 10 - 15",Myelomeningocele
+"CT: 3 - 6, MRI: 3 - 5, PET scan: 2 - 4, Biopsy: 2 - 5, Tumor markers: 15 - 25",Mediastinal Tumor
+"Culture: 100000 - 10000000, Serological tests: 20 - 50, Imaging: 2 - 4, Clinical assessment: 4 - 6",Melioidosis
+"Calcium: 8.5 - 10.5, PTH levels: 10 - 65, Imaging: 3 - 5, Clinical assessment: 3 - 5",Malignant Hypercalcemia
+"Observation: 3 - 5, Family history: 2 - 4",Mongolian Spot
+"Audiometric test: 20 - 40, MRI: 2 - 4",Meniere's Disease
+"Anti - AChR antibodies: 0.5 - 2.0, EMG: 50 - 70, Clinical assessment: 4 - 6",Myasthenic Syndrome
+"Karyotyping: 46, Imaging studies: 3 - 4",Monosomy
+"CT: 3 - 6, MRI: 3 - 5, Biopsy: 2 - 4, Tumor markers: 15 - 25",Malignant Rhabdoid Tumor
+"Biopsy: 2 - 5, CT: 3 - 5, MRI: 3 - 4",Mucosal Melanoma
+"Bone marrow biopsy: 5 - 15 plasma cells, CBC: 11000 - 15000, CT: 3 - 5, MRI: 3 - 4",Myeloid Sarcoma
+"Ultrasound: 3 - 5, hCG levels: 50 - 150, Clinical assessment: 3 - 5",Molar Pregnancy
+"Ultrasound: 2 - 4, CT scan: 3 - 5, TSH: 0.4 - 4.0, T3: 1.1 - 2.3, T4: 4.5 - 12.0, Biopsy: 2 - 5",Mtinodar Goiter
+"MRI: 3 - 5, CT: 3 - 5, Biopsy: 2 - 5, Clinical assessment: 4 - 6",Meningioma
+"Culture: 10^4 - 10^6, AFB smear: 5 - 10, Chest X - ray: 3 - 5, CT: 3 - 5, Clinical assessment: 4 - 6",Mycobacterium Avium Complex
+"TSH: 0.4 - 4.0, T4 levels: 4.5 - 12.0, Imaging studies: 2 - 4",Myxedema Coma
+"Ultrasound: 2 - 4, CT: 3 - 5, Aspiration: 20 - 40",Mucus Retention Cyst
+"Serum protein electrophoresis: 4.5 - 5.5, Bone marrow biopsy: 5 - 15 plasma cells",Monoclonal Gaopathy
+"MRI: 3 - 5, Ultrasound: 2 - 4, Physical assessment: 3 - 5",Muscle Strain
+"Skin biopsy: 2 - 4, CT: 3 - 5, PET scan: 2 - 4",Mycosis Fungoides
+"Biopsy: 2 - 5, Dermatoscopy: 0.5 - 1.5",Melanocytic Nevus
+"Ear culture: 100000 - 10000000, CT: 3 - 5",Malignant Otitis Externa
+"CBC: 11,000 - 15,000, Bone marrow biopsy: 5 - 15 plasma cells, Cytogenetic analysis: 46, XY",Myelodysplastic Syndromes
+"Serological tests: 20 - 50, Throat swab: 10000 - 1000000",Mumps Virus Infection
+"Enzyme activity: 60 - 80, Glycosaminoglycan levels: 30 - 50, Genetic testing: 46",Mucopolysaccharidosis III
+"Imaging studies: 2 - 4, Clinical assessment: 3 - 5",Minimally Invasive Surgery
+"Pain history: 4 - 6 , Physical exam: 3 - 5 ",Myofascial Release Syndrome
+"Audiometric test: 20 - 40, MRI: 2 - 4",Meniere's Disease
+hCG levels: 5 - 50 ,Meckel's Diverticum
+aneurysms: 100 - 200  ,Moyamoya Disease
+"CRP: 0.5 - 6, ESR: 0 - 20",Mediastinitis
+"WBC: 500 - 1000, RBC: 4.5 - 5.9",Microangiopathic Hemolytic Anemia
+Lactate levels: 0.5 - 2.2,Mitochondrial Encephalomyopathy
+Retinal thickness: 200 - 300 ,Macar Degeneration
+"WBC: 0 - 5, Protein: 20 - 45 ",Myelitis
+"TSH: 0.5 - 5.0 , T3: 80 - 180, T4: 4.5 - 12.0",Myofascial Pain Disorder
+WBC: 0 - 5,Mtinodar Goiter
+Fungal cture: Positive/Negative,Marfan Syndrome
+"Total cholesterol: 150 - 200 , Glucose levels: 70 - 100 ",Meningococcal Disease
+"WBC: 500 - 1000, RBC: 4.5 - 5.9",Mucormycosis
+Ejection fraction: 55 - 70,Menorrhagia
+Serum magnesium levels: 1.5 - 2.5,Mucosal Iunology
+"Sodium: 135 - 145 , Potassium: 3.5 - 5.0 ",Malignant Fibrous Histiocytoma
+"Enzyme activity testing: 10 - 45 , Glycosaminoglycan: 0.8 - 2.5 ",Metabolic Syndrome
+"SE: 24 - 30, MoCA: 26 - 30",Melanoma
+"X - ray: Normal, CT: Normal/Abnormal",Myelofibrosis
+Troponin levels: 0.04  -  100,Mitral Stenosis
+"WBC: 500 - 1000, LDH: 125 - 220 ",Meningeal Carcinomatosis
+"CEA: 0 - 5 , AFP: 0 - 10 , CA 19 - 9: 0 - 37 ",Melanocytic Nevus
+"10 - 20 muscle fibers, 0.5 - 1.5",Myotonic Dystrophy
+"MRI: 0 - 1.5 , Neurological exam: 0 - 5",Mild Traumatic Brain Injury
+magnesium: 1.5 - 2.5 ,Magnesium Deficiency
+"electrolyte level: 135 - 145 , Neurological: 3.5 - 5.0 ",Muscle Weakness
+"Biopsy: 0 - 2, Imaging: 0 - 1 ",Malignant Melanoma
+"glycosaminoglycan levels: 10 - 45, genetic: 0.8 - 2.5 ",Mucopolysaccharidosis
+"MMSE: 24 - 30, MoCA: 26 - 30",Mild Cognitive Impairment
+"X - ray: 0 - 1 , CT: 0 - 5 ",Metatarsal Fracture
+"WBC: 0 - 5, CBC: 000 - 10000",Meningitis
+"audiometric: 0 - 2 , MRI: 0 - 1.5 ",Meniere's Disease
+trasound: 0 - 2 ,Malrotation
+Lactate leveks: 0.5 - 2.2 ,Mitochondrial Cytopathy
+"Genetic: 10 - 20, muscle fibers: 0.5 - 1.5",Myotubar Myopathy
+"Paracentesis: 0 - 10 mL, Ultrasound: 0 - 10",Malignant Ascites
+"Troponin: 0 - 0.04 , EF: 55 - 70",Myocarditis
+"CBC: 000 - 10000, LDH: 125 - 220 ",Mucosa - Associated Lymphoid Tissue MALT Lymphoma
+Pain: 0 - 10,Myofascial Pain Syndrome
+Tumor markers: 0 - 5  ,Metastatic Breast Cancer
+Karyotyping: 46,Mosaicism
+hormonal levels: 10 - 60,Menopausal Symptoms
+"Protein electrophoresis: 6 - 8 , Bone marrow: 30 - 50 ",Mtiple Myeloma
+"PCR: 100 - 10000 , WBC: 0 - 5",Meningococcal Meningitis
+"Stool tests: 5 - 10, Nutritional deficiencies: 10 - 40, Imaging studies: 100 - 300",Malabsorption
+"Muscle enzymes: 40 - 80, EMG: 0 - 10 ",Myopathy
+"Calcitonin: 0 - 10 L, Biopsy: 0 - 2 ",Medlary Carcinoma
+"Colonoscopy: 0 - 5 , Imaging: 0 - 1 ",Melanosis Coli
+"Muscle enzymes: 40 - 100 , Muscle biopsy: 10 - 30 fibers",Myositis
+EBV antibodies: 10 - 100 ,Mononucleosis
+"CT/MRI: 0 - 1 , Biopsy: 0 - 5 ",Malignant Transformation
+"hormonal levels: 0 - 1, Imaging: 0 - 1 ",Menstruation - Related Disorders
+Sodium: 135 - 145  Aldosterone: 4 - 10,Mineralocorticoid Deficiency
+"Imaging: 0 - 1 , Biopsy: 0 - 5 ",Mediastinal Lymphadenopathy
+"BMI: 18.5 - 24.9, Lipid profile: 150 - 200, Glucose: 70 - 100 ",Morbid Obesity
+"Biopsy: 0 - 5 , Imaging: 0 - 1 ",Maary Paget Disease
+"MRI/CT: 0 - 5 , Biopsy: 0 - 2 ",Meningioma
+"MRI: 0 - 1.5 T, WBC: 0 - 5",Myelitis
+hormonal levels: 10 - 60  ,Menopause
+"CBC: 000 - 10000, Cytogenetics: 46",Myelodysplastic Syndromes
+"Retinal Thickness: 250 - 500, Visual Acuity: 20/20 - 20/200, Fluorescein Leakage: 1.0 - 3.0, Macular Volume: 6.0 - 12.0",Macular Edema
+"Methemoglobin Level: 1.0 - 3.0, Oxygen Saturation: 85 - 95, Hemoglobin: 12.0 - 18.0, pO2: 80 - 100",Methemoglobinemia
+"Mesothelin Levels: 0.0 - 3.5, Tumor Thickness on CT: 0.5 - 4.0, Lymph Node Size: 0.0 - 2.0",Mesothelioma
+"CK Levels: 0 - 1000, CO? Levels: 35 - 45, Temperature: 98.6 - 110.0, Heart Rate: 60 - 180",Malignant Hyperthermia
+"MMSE Score: 24 - 30, Brain Volume on MRI: 1100 - 1400, B12 Levels: 200 - 900, Glucose: 70 - 140",Mild Cognitive Impairment
+"RBC Count: 3.0 - 4.5, Hemoglobin: 8.0 - 12.0, MCV: 100 - 120, Vitamin B12 Levels: 150 - 700",Megaloblastic Anemia
+"Nerve Conduction Velocity: 35 - 60, Muscle Response (EMG): 0.5 - 3.0, Blood Glucose: 70 - 140",Mononeuropathy
+"CRP: 10 - 100, WBC Count: 4 - 11, Hemoglobin: 10 - 15, ESR: 20 - 60",Mucocutaneous Lymph Node Syndrome
+"LDH Levels: 100 - 300, Tumor Size on PET: 1.0 - 5.0, WBC Count: 4 - 15, Hemoglobin: 8.0 - 14.0",Lymphoma
+"WBC Count: 20 - 200, Blast Cells Percentage: 0 - 20, Hemoglobin: 7.0 - 14.0, Platelets: 20 - 100",Leukemia
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2, Albumin: 3.5 - 5.0, Platelets: 100 - 300",Liver Cirrhosis
+"AFP Levels: 0 - 10, Liver Mass Size on CT: 1 - 5 cm, Bilirubin: 0.1 - 1.2, Albumin: 3.5 - 5.0",Liver Cancer
+"ANA Titer: 1:40 - 1:160, ESR: 0 - 20, Anti-dsDNA: 0 - 30, WBC Count: 4 - 11, Creatinine: 0.6 - 1.2",Lupus (Systemic Lupus Erythematosus)
+"Urinary Antigen Level: 0 - 10, WBC Count: 4 - 11, ESR: 0 - 20, Oxygen Saturation: 80 - 100",Legionnaires' Disease
+"Lyme Antibodies: 0 - 1.1, WBC Count: 4 - 11, ESR: 0 - 20, PCR: 0-1",Lyme Disease
+"WBC Count: 4 - 11, ESR: 0 - 20, Throat Culture: 0-1",Laryngitis
+"Nerve Conduction: 35 - 60 m/s, X-ray Evidence: Mild - Severe, Pain Scale: 1 - 10",Lumbago (Lower Back Pain)
+"Skin Thickness: 0 - 4, WBC Count: 4 - 11, ESR: 0 - 20",Lichen Planus
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2, Albumin: 3.5 - 5.0, Platelets: 100 - 300",Liver Disease
+"D-dimer Level: 0 - 500, Oxygen Saturation: 80 - 100, pH Level: 7.35 - 7.45",Lyophilized Powder Pulmonary Embolism
+"WBC Count: 4 - 11, ESR: 0 - 20, Lymphatic Swelling: 0 - 3 cm, Fever: 98.6 - 104",Lymphangitis
+"Bacterial Load in Smear: 1 - 6+, WBC Count: 4 - 11, Skin Thickness: 0 - 4",Leprosy (Hansen's Disease)
+"Lactose Absorption: 0 - 100, Breath Hydrogen: 0 - 20 ppm, Stool Acidity: 0 - 2",Lactose Intolerance
+"Femoral Head Necrosis: 0 - 100%, Pain Scale: 1 - 10, Inflammation Markers: 0 - 50",Legg-Calvé-Perthes Disease
+"ANA Titer: 1:40 - 1:160, Anti-dsDNA: 0 - 30, Complement (C3): 90 - 180, WBC Count: 4 - 11",Lupus Nephritis
+"Skin Thickness: 0 - 4, WBC Count: 4 - 11, ESR: 0 - 20",Lichen Sclerosus
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2, WBC Count: 4 - 11",Liver Abscess
+"WBC Count: 4 - 11, Neutrophil Adhesion: 0 - 100, Genetic Marker for LAD: 0-1",Leukocyte Adhesion Deficiency
+"LDL Levels: 0 - 100, Total Cholesterol: 100 - 200, Triglycerides: 0 - 150, WBC Count: 4 - 11",Lipid Storage Disorders
+"WBC Count: 4 - 11, TSH: 0 - 5, Prolactin: 0 - 20, Cortisol: 0 - 25, MRI Findings: 0 - 10",Lymphocytic Hypophysitis
+"WBC Count: 4 - 11, Muscle Strength: 0 - 5, Nerve Conduction Velocity: 0 - 60",Lumbosacral Plexopathy
+"Genetic Marker for Pompe: 0-1, Creatine Kinase: 0 - 500, Muscle Biopsy: 0 - 1",Late-Onset Pompe Disease
+"Skin Biopsy: 0 - 1, Cholesterol Levels: 0 - 200, Triglycerides: 0 - 150",Lipoid Proteinosis
+"Colonoscopy Results: 0 - 1, C-reactive Protein: 0 - 10, Biopsy Results: 0 - 1",Lymphocytic Colitis
+"X-ray Findings: 0 - 1, Pain Scale: 0 - 10, MRI Findings: 0 - 10",Lateral Epicondylitis (Tennis Elbow)
+"QT Interval: 0 - 500, Heart Rate: 60 - 100, ECG Findings: 0 - 1",Long QT Syndrome
+"WBC Count: 4 - 11, Hemoglobin: 13 - 17, Bone Marrow Results: 0 - 1",Lymphoid Leukemia
+"Tumor Markers: 0 - 10, WBC Count: 4 - 11, Imaging Results: 0 - 1",Laryngeal Cancer
+"Lymphatic Drainage: 0 - 1, WBC Count: 4 - 11, Circumference Measurement: 0 - 100",Lymphoedema
+"Urine Antigen: 0 - 1, Sputum Culture: 0 - 1, Blood Culture: 0 - 1",Legionella Pneumonia
+"WBC Count: 4 - 11, Muscle Strength: 0 - 5, Lactate Levels: 0 - 10",Limb-Girdle Muscular Dystrophy
+"Blood Lactic Acid: 0 - 10, pH Levels: 7 - 7.5, HCO3: 22 - 30",Lactate Acidosis
+"Spinal Imaging: 0 - 1, Pain Scale: 0 - 10, Neurological Exam: 0 - 1",Lumbar Spinal Stenosis
+"Skin Test: 0 - 1, Serum IgE Levels: 0 - 100, Allergic Reaction Score: 0 - 10",Limbic Encephalitis
+"Serum IgE: 0 - 100, Skin Test Result: 0 - 1, Total IgE: 0 - 200",Latex Allergy
+"CA-19-9: 0 - 37, CEA: 0 - 5, Biopsy Results: 0 - 1",Luminal GIT Cancer
+"Leptospira IgM: 0 - 1, Serologic Test: 0 - 1, PCR Result: 0-1",Leptospirosis
+"Lung Function: 80 - 120, Biopsy Results: 0 - 1, Imaging Findings: 0 - 1",Lymphangioleiomyomatosis
+"Neuropsychological Score: 0 - 100, MRI Findings: 0 - 1, CT Scan Results: 0 - 1",Limbic Dysfunction
+"EMG Findings: 0 - 1, Laryngeal Function: 0 - 10, Imaging Results: 0 - 1",Laryngeal Paralysis
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Neurological Exam Results: 0 - 1",Lateral Medullary Syndrome
+"Imaging Results: 0 - 1, ALT: 0 - 56, AST: 10 - 40",Lucent Hepatic Lesions
+"Tumor Markers: 0 - 10, WBC Count: 4 - 11, Imaging Findings: 0 - 1",Laryngeal Papillomatosis
+"WBC Count: 4 - 11, Bone Marrow Results: 0 - 1, Imaging Results: 0 - 1",Lymphoblastic Lymphoma
+"Weight: 0-250, Length: 0-45, Head Circumference: 0- 32",Low Birth Weight
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Biopsy Results: 0 - 1",Lymphoma (Non-Hodgkin)
+"ANA: 0 - 1, Anti-dsDNA: 0 - 10, Complement Levels: 0 - 100",Lupus Erythematosus
+"Culture Result: 0 - 1, Imaging Results: 0 - 1, Laryngeal Findings: 0 - 1",Laryngeal Infection
+"WBC Count: 4 - 11, Imaging Findings: 0 - 1, CSF Analysis: 0 - 1",Leukoencephalopathy
+"Hip Joint Space: 2 - 5, MRI Findings: 0 - 1, X-ray Findings: 0 - 1",Legg-Calvé-Perthes Disease
+"Protein Level: 0 - 1, Tumor Markers: 0 - 10, Imaging Findings: 0 - 1",Leptomeningeal Carcinomatosis
+"Laryngeal Biopsy Results: 0 - 1, Imaging Results: 0 - 1, Laryngoscopy Findings: 0 - 1",Laryngeal Cysts
+"Blood Glucose: 70 - 130, Lipid Profile: 0 - 1, MRI Findings: 0 - 1",Lipodystrophy
+"Lactobacillus Count: 0 - 10, Blood Test: 0 - 1, Imaging Studies: 0 - 1",Lactobacillus Infection
+"WBC Count: 4 - 11, Imaging Findings: 0 - 1, Serological Tests: 0 - 1",Lymphatic Filariasis
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Biopsy Results: 0 - 1",Langerhans Cell Histiocytosis
+"Immunofluorescence: 0-1, Skin Biopsy Results: 0 - 1, Clinical Evaluation: 0 - 1",Lethargy Syndrome
+"Reflex Tests: 0 - 1, MRI Findings: 0 - 1, Neurological Exam: 0 - 1",Linear IgA Dermatosis
+"MRI Results: 0 - 1, EMG Results: 0 - 1, Neurological Exam Results: 0 - 1",Lhermitte's Sign
+"Tumor Markers: 0 - 10, WBC Count: 4 - 11, Imaging Findings: 0 - 1",Lateral Ventricular Tumors
+"Lymphocyte Count: 0 - 100, Genetic Testing: 0 - 1, Imaging Studies: 0 - 1",Low-Grade Glioma
+"Imaging Findings: 0 - 1, Serum Chemistry: 0 - 1, Blood Test Results: 0 - 1",Lymphocyte Activation Gene 3 (LAG-3) Deficiency
+"WBC Count: 4 - 11, Imaging Findings: 0 - 1, CSF Analysis: 0 - 1",Lithiasis
+"Cortisol Level: 5 - 25, MRI Findings: 0 - 1, Hormonal Levels: 0 - 100",Lymphocytic Hypophysitis
+"EEG Results: 0 - 1, MRI Findings: 0 - 1, CSF Protein Level: 0 - 1",Limbic Encephalitis
+"TSH: 0.5 - 4.5, Free T4: 0.8 - 2.0, Thyroid Antibodies: 0-1",Lymphocytic Thyroiditis
+"Hydrogen Level: 0 - 20, Lactose Level: 0 - 10, Breath Test Results: 0 - 1",Lactose Malabsorption
+"Fracture Line Width: 0 - 1, Imaging Results: 0 - 1, Physical Exam Findings: 0 - 1",Long Bone Fracture
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2",Liver Dysfunction
+"Lipid Level: 0 - 1, Sputum Culture: Negative/Positive, Imaging Findings: 0 - 1",Lipoid Pneumonia
+"Serum Iron: 50 - 150, Ferritin: 20 - 300, Transferrin: 200 - 400",Low Serum Iron
+"Nerve Conduction Velocity: 50 - 70, MRI Findings: 0 - 1, Physical Examination: 0 - 1",Lumbar Radiculopathy
+"Potassium: 3.5 - 5.0, ECG: 0-1, Serum Electrolytes: 0 - 1",Low Potassium Levels (Hypokalemia)
+"Clinical Findings: 0 - 1, MRI Results: 0 - 1, Nerve Conduction Study: 0 - 1",Lateral Sclerosis
+"Laceration Depth: 0 - 10, Wound Culture: 0 - 1, Physical Exam Findings: 0 - 1",Laceration
+"Genetic Testing: 0-1, Sleep Study Results: 0 - 1, MRI Findings: 0 - 1",Lethal Familial Insomnia
+"Gallstones: Present/Absent, Imaging Findings: 0 - 1, Ultrasound Results: 0 - 1",Lithiasis (Cholelithiasis)
+"Lymph Node Size: 0 - 1, Imaging Studies: 0 - 1, Physical Examination: 0 - 1",Lymphadenopathy
+"Lipid Levels: 0 - 1, Imaging Results: 0 - 1, Genetic Testing: 0-1",Lipoedema
+"Blood Culture: 0-1, Serology: 0 - 1, Imaging Studies: 0 - 1",Limb Length Discrepancy
+"CSF Analysis: 0 - 1, Imaging Studies: 0 - 1, Biopsy Results: 0 - 1",Langerhans Cell Histiocytosis
+"EEG Results: 0 - 1, Clinical Examination: 0 - 1, Imaging Findings: 0 - 1",Late Onset Alzheimer’s Disease
+"CK: 0 - 170, Genetic Markers: 0-1, Muscle Biopsy: 0 - 1",Limb-Girdle Muscular Dystrophy
+"Urine Protein: 0 - 150, Serum Creatinine: 0.5 - 1.5, Antinuclear Antibodies: 0-1",Lupus Nephritis
+"Imaging Findings: 0 - 1, Biopsy Results: 0 - 1, Physical Exam Findings: 0 - 1",Lymphangiosarcoma
+"Total Cholesterol: 0 - 240, LDL: 0 - 160, HDL: 0 - 60",Lipid Metabolism Disorders
+"Legionella Antigen: 0-1, Imaging Results: 0 - 1, Culture Results: 0 - 1",Legionella Infection
+"CSF Protein Level: 0 - 1, MRI Findings: 0 - 1, Clinical Findings: 0 - 1",Leptomeningeal Disease
+"Neuropsychological Test Scores: 0 - 100, MRI Findings: 0 - 1, Clinical Examination: 0 - 1",Limbic Dysfunction
+"MRI Findings: 0 - 1, Genetic Testing: 0-1, Blood Tests: 0 - 1",Leukodystrophy
+"Lymphocyte Count: 0 - 10, Imaging Studies: 0 - 1, Bone Marrow Findings: 0 - 1",Lymphoplasmacytic Lymphoma
+"Imaging Findings: 0 - 1, Liver Function Tests: 0 - 1, Physical Exam: 0 - 1",Liver Hemangioma
+"Audiometry Results: 0 - 1, Imaging Studies: 0 - 1, Physical Examination: 0 - 1",Labyrinthitis
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2",Liver Injury
+"CK: 0 - 170, Imaging Studies: 0 - 1, Physical Exam Findings: 0 - 1",Long QT Syndrome
+"QT Interval: 0 - 440, Imaging Studies: 0 - 1, Clinical Findings: 0 - 1",Lichen Simplex Chronicus
+"Lethargy Scale: 0 - 10, Imaging Findings: 0 - 1, CSF Analysis: 0 - 1",Lethargic Encephalitis
+"Clinical Findings: 0 - 1, Imaging Studies: 0 - 1, Pain Assessment: 0 - 10",Lactation Mastitis
+"Pain Scale: 0 - 10, Imaging Findings: 0 - 1, Physical Exam Findings: 0 - 1",Leg Pain Syndrome
+"Light Sensitivity Score: 0 - 10, Imaging Findings: 0 - 1, Neurological Assessment: 0 - 1",Light Sensitivity (Photophobia)
+"Imaging Findings: 0 - 1, Pain Scale: 0 - 10, Physical Exam Findings: 0 - 1",Lumbosacral Strain
+"Testosterone: 300 - 1000, Hormonal Panel Results: 0 - 1, Imaging Studies: 0 - 1",Low Testosterone (Hypogonadism)
+"Imaging Results: 0 - 1, Biopsy Results: 0 - 1, Blood Tests: 0 - 1",Low-Grade Lymphoma
+"Hydrogen Breath Test: 0-1, Stool Test: 0-1, Blood Tests: 0 - 1",Lactose Deficiency
+"Imaging Findings: 0 - 1, CT Scan Results: 0 - 1, MRI Findings: 0 - 1",Lateral Medullary Infarct
+"Pain Scale: 0 - 10, Imaging Studies: 0 - 1, Physical Exam: 0 - 1",Lumbago (Back Pain)
+"Blood Pressure: 90 - 60, Imaging Studies: 0 - 1, Physical Examination: 0 - 1",Low Blood Pressure (Hypotension)
+"Laryngoscopy Results: 0 - 1, Imaging Findings: 0 - 1, Physical Exam Findings: 0 - 1",Laryngomalacia
+"WBC Count: 4 - 11, CSF Protein Level: 0 - 1, Imaging Studies: 0 - 1",Lymphocytic Meningitis
+"Lymphocyte Count: 0 - 10, Reactivity Score: 0 - 100, Imaging Studies: 0 - 1",Lymphocyte Reactivity
+"Imaging Results: 0 - 1, Physical Exam Findings: 0 - 1, Clinical Examination: 0 - 1",Laryngeal Edema
+"Total Cholesterol: 0 - 240, LDL: 0 - 160, HDL: 0 - 60",Lipid Disorders
+"Plant Tissue Analysis: 0 - 1, Soil Sample Results: 0 - 1, Environmental Testing: 0 - 1",Late Blight (Phytophthora Infestation)
+"Imaging Findings: 0 - 1, Blood Tests: 0 - 1, Bone Marrow Findings: 0 - 1",Leukemia (Acute Myeloid)
+"Cyst Size: 0 - 5, Imaging Findings: 0 - 1, Physical Exam Findings: 0 - 1",Lymphatic Cysts
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2",Liver Fibrosis
+"Serology: 0-1, PCR Results: 0-1, Clinical Findings: 0 - 1",Lyme Borreliosis
+"Imaging Findings: 0 - 1, Physical Exam Findings: 0 - 1, Pain Scale: 0 - 10",Lumbar Spondylosis
+"Imaging Results: 0 - 1, Neurological Assessment: 0 - 1, Pain Scale: 0 - 10",Lateral Fasciculus Lesion
+"Imaging Results: 0 - 1, Neurological Assessment: 0 - 1, Physical Exam Findings: 0 - 1",Lumbosacral Spondylosis
+"WBC Count: 4 - 11, CSF Protein Level: 0 - 1, Imaging Findings: 0 - 1",Leukoencephalitis
+"Imaging Results: 0 - 1, Biopsy Results: 0 - 1, Clinical Examination: 0 - 1",Lipomatosis
+"Hormonal Level: 0 - 1, Physical Exam Findings: 0 - 1, Imaging Results: 0 - 1",Lactation Suppression
+"Hydrogen Breath Test: 0-1, Stool Test: 0-1, Blood Tests: 0 - 1",Lactose-Intolerant Colitis
+"Imaging Findings: 0 - 1, Clinical Examination: 0 - 1, Biopsy Results: 0 - 1",Lymphatic Malformation
+"Muscle Strength Score: 0 - 10, Imaging Studies: 0 - 1, Physical Exam Findings: 0 - 1",Leg Weakness
+"Leptin Levels: 0 - 10, Blood Tests: 0 - 1, Hormonal Panel Results: 0 - 1",Leptin Receptor Deficiency
+"Coagulation Factors: 0 - 1, Imaging Findings: 0 - 1, Blood Tests: 0 - 1",Lupus Anticoagulant Syndrome
+"Ammonia Levels: 0 - 70, Blood Tests: 0 - 1, Imaging Studies: 0 - 1",Liver Encephalopathy
+"WBC Count: 4 - 11, Erythrocyte Sedimentation Rate: 0 - 20, C-reactive Protein: 0 - 10",Lymphocytic Vasculitis
+"Platelet Count: 150 - 450, Echocardiogram Findings: 0 - 1, Clinical Symptoms: 0 - 1",Kawasaki Disease
+"Testosterone: 300 - 1,000, FSH: 1 - 10, LH: 1 - 10",Klinefelter Syndrome
+"Visual Acuity: 20/20 - 20/40, Intraocular Pressure: 10 - 21, Corneal Thickness: 400 - 600",Keratitis
+"X-ray Findings: 0 - 1, Joint Space Width: 3 - 5, Pain Scale: 0 - 10",Knee Osteoarthritis
+"Corneal Curvature: 40 - 50, Visual Acuity: 20/20 - 20/40, Slit Lamp Findings: 0 - 1",Keratoconus
+"Urine pH: 5 - 7, Stone Composition: 0 - 1, Serum Creatinine: 0.6 - 1.2",Kidney Stones
+"Sputum AFB Smear: 0-1, Chest X-ray Findings: 0 - 1, TB Test: 0-1",Koch’s Disease (Tuberculosis)
+"Tear Film Break-Up Time: 10 - 30, Conjunctival Swab: 0 - 1, Visual Acuity: 20/20 - 20/40",Keratoconjunctivitis
+"Synovial Fluid Analysis: 0 - 1, Joint Pain Scale: 0 - 10, Imaging Findings: 0 - 1",Knee Bursitis
+"Skin Biopsy Results: 0 - 1, Family History: 0 - 1, Clinical Symptoms: 0 - 1",Keloids
+"Echocardiogram Findings: 0 - 1, Blood Tests: 0 - 1, Clinical Symptoms: 0 - 1",Kawasaki Syndrome
+"Skin Biopsy Results: 0 - 1, Scar Width: 0 - 2, Symptoms: 0 - 1",Keloid Scarring
+"Imaging Studies: 0 - 1, Biopsy Results: 0 - 1, Hormonal Panel: 0 - 1",Kucchaar (Fibrous Dysplasia)
+"Imaging Findings: 0 - 1, Biopsy Results: 0 - 1, Physical Exam Findings: 0 - 1",Kaposi's Sarcoma
+"Coordination Scale: 0 - 10, Genetic Markers: 0 - 1, MRI Findings: 0 - 1",Kumar’s Syndrome (Cerebellar Ataxia)
+"LH: 1 - 10, FSH: 1 - 10, Sense of Smell: 0 - 1",Kallmann Syndrome
+"MRI Findings: 0 - 1, Joint Stability Scale: 0 - 10, Pain Scale: 0 - 10",Knee Meniscus Tear
+"Tear Production: 10 - 30, Break-Up Time: 10 - 30, Corneal Surface Staining: 0 - 1",Keratitis Sicca (Dry Eye Syndrome)
+"Vitamin B1 Levels: 70 - 180, Neurological Exam: 0 - 1, MRI Findings: 0 - 1",Korsakoff Syndrome
+"GFR: 90 - 120, Blood Urea Nitrogen: 7 - 20, Serum Creatinine: 0.6 - 1.2",Kidney Disease
+"Corneal Surface Staining: 0 - 1, Break-Up Time: 10 - 30, Inflammation Score: 0 - 10",Keratitis Exposita
+"Toxin Level: 0 - 1, Liver Function: 0 - 1, Neurological Signs: 0 - 1",Knotweed Poisoning
+"Skin Texture Score: 0 - 10, Follicular Plugging: 0 - 1, Inflammation Score: 0 - 10",Keratosis Pilaris
+"Galactocerebrosidase Activity: 0 - 10, MRI Findings: 0 - 1, Nerve Conduction Speed: 0 - 1",Krabbe Disease
+"Spore Count: 0 - 1, Fungus ID: 0 - 1, Morphological Assessment: 0 - 1",Karnal Bunt
+"Corneal Thickness: 400 - 600, Slit Lamp Findings: 0 - 1, Visual Acuity: 20/20 - 20/40",Keratopathy
+"GFR: 90 - 120, BUN: 7 - 20, Creatinine: 0.6 - 1.2",Kidney Failure
+"Spinal Curvature Angle: 0 - 60, Pain Scale: 0 - 10, Flexibility Test: 0 - 1",Kyphosis
+"LH: 1 - 10, FSH: 1 - 10, Testosterone: 300 - 1,000",Kallmann's Syndrome
+"Blood Glucose: 70 - 140, Ketones: 0 - 5, Blood pH: 7.35 - 7.45",Ketoacidosis
+"Chromosome Analysis: 46,XY - 47,XXY, FSH: 1 - 10, LH: 1 - 10",Klinefelter Syndrome
+"Keratinized Skin: 0 - 1, Scar Tissue Thickness: 0 - 1, Pain Scale: 0 - 10",Keratoma
+"Enzyme Activity Level: 0 - 100, Genetic Markers: 0 - 1, Biochemical Findings: 0 - 1",Krebs Cycle Deficiencies
+"Growth Hormone: 0 - 10, LH: 1 - 10, ACTH: 1 - 10",Kumar's Disease (Hypopituitarism)
+"Knee Angle: 0 - 15, Bone Density: 800 - 1200, Gait Score: 0 - 10",Knock-Knee (Genu Valgum)
+"Corneal Thickness: 400 - 600, Visual Acuity: 20/20 - 20/200, Gene Mutation Presence: 0 - 1",Keratopathy (Corneal Dystrophy)
+"WBC Count: 4 - 11, CSF Protein: 15 - 45, CSF Glucose: 40 - 80",Kumar's Disease (Meningitis)
+"Inflammation Score: 0 - 10, Scar Size: 1 - 5, Skin Thickness: 0 - 2",Keloidal Scar Formation
+"HIV Viral Load: 0 - 100,000, Skin Lesion: 0 - 1, Chest Opacity: 0 - 1",Kaposi's Sarcoma (HIV-associated)
+"WBC Count: 4 - 11, Urine Protein: 0 - 150, Imaging Findings: 0 - 1",Kidney Infection (Pyelonephritis)
+"CEA Level: 0 - 5, CA 125: 0 - 35, Tumor Size: 0 - 10",Krukenberg Tumor
+"Corneal Curvature: 30 - 55, Corneal Thickness: 400 - 600, Astigmatism: 0 - 10",Keratoconus (Advanced)
+"Renal Papillary Integrity: 0 - 1, WBC in Urine: 0 - 5, Kidney Imaging Score: 0 - 1",Kidney Papillary Necrosis
+"Vitamin B1 Levels: 70 - 180, MRI Findings: 0 - 1, Cognitive Score: 0 - 30",Korsakoff's Psychosis
+"WBC Count: 4 - 11, Lymph Node Size: 0 - 1, Inflammatory Markers: 0 - 10",Kikuchi Disease
+"Gait Symmetry: 0 - 1, Joint Motion Range: 0 - 100, Stability Score: 0 - 10",Kinematic Disease
+"Limb Size Difference: 0 - 5, Genetic Marker: 0 - 1, Vascular Abnormalities: 0 - 1",Klippel-Trenaunay Syndrome
+"Serum Protein: 6 - 8, Plasma Cells: 0 - 10, Calcium: 8 - 10",Kahler's Disease (Multiple Myeloma)
+"Corneal Pigmentation: 0 - 1, Corneal Opacity: 0 - 1, Genetic Mutations: 0 - 1",Keratitis Pigmentosa
+"LH: 1 - 10, FSH: 1 - 10, Testosterone: 300 - 1,000",Kallmann Syndrome (Genetic)
+"Cyst Size: 0 - 5, GFR: 90 - 120, Blood Urea Nitrogen: 7 - 20",Kidney Cysts
+"Muscle Strength Score: 0 - 5, Creatine Kinase: 0 - 200, EMG Findings: 0 - 1",Kumar's Disease (Myopathy)
+"Procedure Outcome: 0 - 1, Inflammation Score: 0 - 10, Functional Recovery: 0 - 1",Kryofrontomy
+"Spinal Fusion Score: 0 - 1, Vertebral Alignment: 0 - 10, Cervical Mobility: 0 - 10",Klippel-Feil Syndrome
+"Genetic Mutation Presence: 0 - 1, Cognitive Score: 0 - 30, Chromosome Count: 46 - 47",Kleefstra Syndrome
+"Tear Production: 5 - 35, Tear Breakup Time: 5 - 10, Corneal Staining: 0 - 1",Keratoconjunctivitis Sicca
+"Motor Response Time: 0 - 100, Muscle Strength: 0 - 5, Reflex Score: 0 - 1",Kinesia
+"Corneal Thickness: 400 - 600, Intraocular Pressure: 10 - 21, Infection Score: 0 - 10",Keratitis Bullosa
+"Tumor Size: 0 - 5, Skin Thickness: 0 - 2, Inflammation Level: 0 - 10",Keratoacanthoma
+"Mutation Presence: 0 - 1, Neurological Exam Findings: 0 - 1, Muscle Function Score: 0 - 5",Kryptonite Syndrome
+"Pain Level: 0 - 10, Tendon Thickness: 0 - 2, Inflammation Score: 0 - 10",Knee Tendinitis
+"Renal Blood Flow: 50 - 100, Glomerular Filtration Rate (GFR): 90 - 120, Blood Pressure: 80 - 120",Kidney Vascular Disease
+"Cartilage Integrity Score: 0 - 10, Joint Space: 1 - 5, Pain Level: 0 - 10",Knee Cartilage Injury
+"Lymph Node Size: 0 - 1, Inflammation Marker: 0 - 10, White Blood Cells: 4 - 11",Kikuchi-Fujimoto Disease
+"Systolic BP: 90 - 140, Diastolic BP: 60 - 90, Urine Protein: 0 - 150",Kidney-Related Hypertension
+"Lymph Node Size: 0 - 1, WBC Count: 4 - 11, ESR: 0 - 20",Kikuchi Disease
+"Corneal Ulcer Size: 0 - 1, Corneal Thickness: 400 - 600, Infection Score: 0 - 10",Keratitis with Ulceration
+"Respiratory Rate: 12 - 20, Heart Rate: 60 - 100, Kymographic Amplitude: 0 - 10",Kymograph
+"Keratinization Score: 0 - 10, Skin Thickness: 0 - 2, Pigmentation Level: 0 - 5",Keratotic Acanthosis
+"Genetic Mutation Presence: 0 - 1, Immune Marker: 0 - 10, Blood Iron: 50 - 150",Kumamoto Disease
+"Chromosome Count: 46 - 47, Chromosome Integrity: 0 - 1, Genetic Abnormality Score: 0 - 1",Karyotype Abnormalities
+"Bone Density: 0 - 1, Bone Integrity Score: 0 - 10, Pain Level: 0 - 10",Kienbock Disease
+"Fatigue Level: 0 - 10, Muscle Strength: 0 - 5, Cognitive Score: 0 - 30",Kumar's Disease (Chronic Fatigue Syndrome)
+"CA 125 Level: 0 - 35, Tumor Size: 0 - 10, Cancer Marker Presence: 0 - 1",Krukenberg Tumor (Ovarian Cancer)
+"Fracture Gap: 0 - 10, Bone Density: 0 - 1, Swelling Level: 0 - 10",Knee Fracture
+"Lunate Density: 0 - 100, Bone Integrity: 0 - 1, MRI Signal Change: 0 - 10",Kienbock's Disease
+"Curvature Degree: 0 - 60, Scoliometer Angle: 0 - 30, Vertebral Integrity: 0 - 1",Kyphoscoliosis
+"Displacement Degree: 0 - 10, Pain Level: 0 - 10, Joint Stability: 0 - 1",Knee Dislocation
+"Impulse Control Score: 0 - 10, Compulsion Severity: 0 - 10, Self-Awareness: 0 - 1",Kleptomania
+"Energy Flow: 0 - 10, EEG Abnormality: 0 - 1, Neurological Score: 0 - 30",Kundalini Syndrome
+"Vertebral Integrity: 0 - 1, Bone Density: 0 - 1, Pain Score: 0 - 10",Kummell's Disease
+"Blood Glucose Level: 0 - 500, Blood pH: 7 - 8, Urine Ketones: 0 - 100",Ketoacidosis in Diabetes
+"Cerebral Blood Flow: 0 - 100, Plaque Volume: 0 - 1, Stroke Volume: 0 - 10",Kryptogenic Stroke
+"Factor VIII Level: 0 - 100, Factor IX Level: 0 - 100, Bleeding Time: 0 - 10",Kumar's Disease (Hemophilia)
+"Hematuria Presence: 0 - 1, Protein Levels: 0 - 500, Inflammation Score: 0 - 10",Kidney Biopsy Complications
+"M Protein: 0 - 1, Bone Lesion Size: 0 - 10, Hemoglobin Level: 0 - 20",Kahler's Disease
+"Visual Acuity Score: 0 - 1, Corneal Clarity: 0 - 100, Tear Film Stability: 0 - 10",Keratoplasty (Corneal Transplant)
+"Vertebral Collapse: 0 - 1, Bone Density: 0 - 1, MRI Signal Loss: 0 - 10",Kummell's Disease (Vertebral Osteoporosis)
+"Tear Production: 0 - 35, Allergy Severity: 0 - 10, Corneal Damage: 0 - 10",Keratoconjunctivitis with Allergies
+"Muscle Strength: 0 - 5, Muscle Tone: 0 - 1, Coordination Score: 0 - 10",Kumar's Disease (Hypotonia)
+"Chromosome Count: 46 - 47, Testosterone Level: 0 - 10, Physical Development Score: 0 - 10",Klinefelter Syndrome (XXY)
+"Cognitive Score: 0 - 30, Memory Recall: 0 - 100, Vitamin B1 Level: 0 - 20",Korsakoff Syndrome (Alcoholic)
+"Cartilage Integrity: 0 - 1, Pain Level: 0 - 10, Joint Stability: 0 - 1",Knee Osteochondritis Dissecans
+"Conjunctival Staining: 0 - 1, Tear Production: 0 - 35, Allergy Severity: 0 - 10",Keratogenic Conjunctivitis
+"Ligament Integrity: 0 - 1, Swelling: 0 - 10, Pain Level: 0 - 10",Knee Ligament Injury
+"TB Bacteria Count: 0 - 100, Urine Clarity: 0 - 10, Kidney Swelling: 0 - 10",Kidney Tuberculosis
+"Proteinuria Level: 0 - 100, Blood Urea: 10 - 40, Inflammation Score: 0 - 10",Kidney Inflammation (Nephritis)
+"Fasciitis Severity: 0 - 10, Heel Pain: 0 - 10, Plantar Thickness: 0 - 5",Keller's Disease (Severe Plantar Fasciitis)
+"Keratin Level: 0 - 100, Papule Density: 0 - 10, Skin Integrity: 0 - 1",Keratotic Papules
+"Muscle Tone: 0 - 5, Nerve Conduction: 0 - 100, Reflex Score: 0 - 10",Kumar's Syndrome (Neuromuscular)
+"Corneal Opacity: 0 - 1, Lens Fitting: 0 - 10, Tear Film Stability: 0 - 10",Keratitis from Contact Lenses
+"Bilirubin: 1 - 20, Neurological Impact Score: 0 - 10, Jaundice Severity: 0 - 10",Kernicterus
+"Sensory Integrity: 0 - 1, Nerve Damage: 0 - 100, Reflexes: 0 - 10",Kumar's Disease (Peripheral Neuropathy)
+"Chromosome Count: 46 - 47, Testosterone: 0 - 10, Physical Development: 0 - 10",Klinefelter's Syndrome
+"Reflux Score: 0 - 10, Kidney Damage: 0 - 10, Urinary Flow: 0 - 100",Kidney Reflux Disease
+"Pain Scale: 0 - 10, Blood Inflammation: 0 - 100, Quality of Life Score: 0 - 10",Kumar's Disease (Chronic Pain)
+"GFR: 15 - 120, Creatinine: 0 - 2, Transplant Rejection Score: 0 - 10",Kidney Transplant Complications
+"Fibrosis Marker: 0 - 10, Kidney Function: 0 - 100, Tissue Scarring: 0 - 10",Kidney Fibrosis
+"Impingement Severity: 0 - 10, Range of Motion: 0 - 100, Swelling: 0 - 10",Knee Impingement Syndrome
+"Bilirubin: 1 - 20, RBC Count: 0 - 5, Jaundice Severity: 0 - 10",Kernicterus due to Hemolytic Disease
+"Sensory Responsiveness: 0 - 10, Processing Delay: 0 - 100, Auditory Sensitivity: 0 - 10",Kumar's Disease (Sensory Processing Disorder)
+"UV Exposure Level: 0 - 10, Corneal Thickness: 0 - 100, Eye Sensitivity: 0 - 10",Keratitis from UV Light
+"Cyst Size: 0 - 10, Kidney Function Score: 0 - 100, Genetic Mutation Score: 0 - 1",Kidney Cystic Disease
+"Osteophyte Size: 0 - 10, Joint Flexibility: 0 - 10, Pain Level: 0 - 10",Knee Osteophytes
+"Hemoglobin Level: 10 - 15, Erythropoietin: 0 - 100, RBC Count: 4 - 11",Kidney-Related Anemia
+"Hemorrhage Size: 0 - 10, Clot Formation: 0 - 10, Kidney Swelling: 0 - 10",Kidney Hemorrhage
+"Cartilage Thickness: 0 - 10, Pain Level: 0 - 10, Flexibility: 0 - 100",Knee Articular Cartilage Defect
+"Joint Space: 0 - 5, Osteophyte Presence: 0 - 1, Pain Level: 0 - 10",Knee Joint Osteoarthritis
+"Metabolic Marker: 0 - 10, Enzyme Level: 0 - 100, Genetic Mutation: 0 - 1",Kronor's Disease (Genetic Metabolic Disorder)
+"Fatigue Impact Score: 0 - 100, Blood Pressure: 90 - 120, Heart Rate: 60 - 100",Kumar's Syndrome (Chronic Fatigue Syndrome)
+"Creatinine: 0 - 2, Blood Urea: 10 - 40, Electrolyte Balance: 0 - 100",Kidney Failure (Acute)
+"Lung Capacity: 0 - 100, Oxygen Saturation: 90 - 100, CO2 Levels: 0 - 50",Kuwait Disease (Chronic Respiratory Issues)
+"Mutation Analysis: 0 - 1, Gene Count: 0 - 100, Cellular Integrity: 0 - 10",Kollmann's Disease (Rare Genetic Disorder)
+"Polyp Size: 0 - 10, Airway Blockage: 0 - 10, Inflammation: 0 - 10",Nasal Polyps
+"Protein Level in Urine: 0 - 100, Inflammation Score: 0 - 10, Blood Pressure: 90 - 120",Nephritis
+"Nerve Damage Score: 0 - 100, Muscle Response: 0 - 10, Sensation Level: 0 - 10",Neuropathy
+"Tumor Presence: 0 - 1, Nerve Growth: 0 - 100, Genetic Mutation Score: 0 - 1",Neurofibromatosis
+"Nausea Intensity: 0 - 10, Hydration Level: 0 - 100, Electrolytes: 0 - 100",Nausea
+"Vitamin Levels: 0 - 100, Mineral Deficiency: 0 - 10, Protein Level: 0 - 100",Nutritional Deficiencies
+"Nasal Passage Blockage: 0 - 10, Inflammation: 0 - 10, Mucus Production: 0 - 100",Nasal Congestion
+"Stone Size: 0 - 10, Calcium Level: 0 - 100, Urinary Flow: 0 - 100",Nephrolithiasis (Kidney Stones)
+"Sphingomyelinase Level: 0 - 100, Lipid Levels: 0 - 10, Liver Function: 0 - 100",Niemann-Pick Disease
+"Neurodegeneration Level: 0 - 10, Cognitive Decline: 0 - 100, Motor Response: 0 - 100",Neurodegeneration
+"Narcotic Levels: 0 - 100, Blood Oxygen: 0 - 100, Toxicity Level: 0 - 10",Narcotic Overdose
+"Creatinine Level: 0.6 - 1.3, Blood Pressure: 90 - 120, Protein in Urine: 0 - 100",Nephropathy
+"TSH Level: 0.4 - 4.0, Nodule Size: 0 - 5, Biopsy Result: 0 - 1",Nodular Goiter
+"Melanin Presence: 0 - 100, Tumor Thickness: 0 - 5, Lymph Node Involvement: 0 - 1",Nodular Melanoma
+"Bacteria Count: 0 - 100, WBC in Urine: 0 - 5, Urine Clarity: 0 - 1",Nonspecific Urethritis
+"Parasite Presence: 0 - 1, Antibody Level: 0 - 100, Inflammation Score: 0 - 10",Neurocysticercosis
+"Sodium Level: 135 - 145, Blood Osmolality: 280 - 300, Urine Concentration: 0 - 100",Nephrogenic Diabetes Insipidus
+"Sleep Latency: 0 - 5, REM Latency: 0 - 100, Sleep Efficiency: 0 - 100",Narcolepsy
+"Sphingomyelinase Activity: 0 - 100, Lipid Level: 0 - 10, Genetic Mutation: 0 - 1",Niemann-Pick Disease
+"Lymph Node Size: 0 - 5, Cell Type: 0 - 1, Cancer Stage: 0 - 5",Non-Hodgkin Lymphoma
+"Bladder Capacity: 0 - 100, Residual Volume: 0 - 100, Urethral Pressure: 0 - 100",Neurogenic Bladder
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2, Liver Fat Level: 0 - 100",Non-alcoholic Fatty Liver Disease (NAFLD)
+"Calcium Level: 0 - 10, Bone Density: 0 - 100, Vitamin D Level: 0 - 100",Nutritional Rickets
+"Tumor Size: 0 - 5, Blood in Urine: 0 - 1, Pain Level: 0 - 10",Nephroblastoma (Wilms Tumor)
+"Nerve Damage Score: 0 - 10, Muscle Reflex: 0 - 10, Pain Level: 0 - 10",Neuritis
+"Lens Opacity: 0 - 5, Eye Pressure: 10 - 20, Visual Acuity: 0 - 10",Nuclear Sclerosis
+"White Blood Cell Count: 4 - 11, Viral Load: 0 - 100, Inflammation Level: 0 - 10",Neuroinfections
+"Hemoglobin: 12 - 15, Iron Level: 0 - 100, Ferritin: 10 - 300",Nutritional Anemia
+"Nasal Obstruction Level: 0 - 100, Septal Deviation Degree: 0 - 100",Nasal Septum Deviation
+"Lymph Node Size: 0 - 5, Bacterial Count: 0 - 100, Inflammation Score: 0 - 10",Nodular Lymphangitis
+"Pain Score: 0 - 10, Muscle Flexibility: 0 - 100, Bone Density: 0 - 10",Non-specific Back Pain
+"Tumor Stage: 0 - 5, Cell Type: 0 - 1, Mutation Analysis: 0 - 100",Neoplastic Diseases
+"Fracture Size: 0 - 10, Bone Alignment: 0 - 10, Swelling: 0 - 10",Nasal Fractures
+"Cancer Stage: 0 - 5, Tumor Size: 0 - 5, Blood Marker Level: 0 - 100",Neuroblastoma
+"Cancer Stage: 0 - 5, Cell Type: 0 - 1, Genetic Mutation Score: 0 - 100",Non-invasive Cancer
+"Radiation Dose: 0 - 100, Nausea Score: 0 - 10, Fatigue Level: 0 - 100",Nuclear Medicine Side Effects
+"Fungal Growth: 0 - 5, Spore Count: 0 - 100, KOH Test Result: 0 - 1",Nail Fungus
+"Mite Count: 0 - 10, Inflammation Level: 0 - 5, Skin Biopsy Result: 0 - 1",Nodular Scabies
+"Creatinine Level: 0.6 - 1.3, Blood Pressure: 90 - 120, Protein in Urine: 0 - 100",Nephrotoxicity
+"Pain Score: 0 - 10, Nerve Function: 0 - 100, Inflammation Level: 0 - 5",Neurogenic Pain
+"Imaging Abnormalities: 0 - 10, Blood Cell Count: 4 - 11, Electrolyte Levels: 0 - 100",Nephrectomy Complications
+"Spina Bifida Presence: 0 - 1, Genetic Markers: 0 - 1, Fetal Development Stage: 0 - 100",Neural Tube Defects
+"Stress Level: 0 - 100, Hormone Levels: 0 - 10, Cognitive Function: 0 - 100",Nervous Breakdown
+"Bacteria Presence: 0 - 1, Inflammation Score: 0 - 5, Redness Level: 0 - 5",Nasal Vestibulitis
+"Bacterial Count: 0 - 100, White Blood Cell Count: 4 - 11, Chest Infiltration Score: 0 - 10",Nocardiosis
+"Eye Movement: 0 - 10, Vertigo Intensity: 0 - 10, MRI Findings: 0 - 1",Nystagmus
+"Tumor Size: 0 - 10, Genetic Mutation: 0 - 1, Nerve Damage Level: 0 - 5",Neurofibromatosis Type 1
+"ALT: 7 - 56, AST: 10 - 40, Hepatitis Marker: 0 - 1",Non-viral Hepatitis
+"Bacterial Growth: 0 - 10, Inflammation Level: 0 - 5, Tissue Necrosis: 0 - 100",Necrotizing Fasciitis
+"Liver Fat Level: 0 - 100, ALT: 7 - 56, AST: 10 - 40",Nonalcoholic Steatohepatitis (NASH)
+"Swelling Level: 0 - 5, Nasal Obstruction: 0 - 100, Redness Level: 0 - 5",Nasal Irritation
+"Inflammation Level: 0 - 10, Erythema Score: 0 - 5, Itchiness Level: 0 - 10",Nummular Eczema
+"Bilirubin: 0 - 20, Liver Enzyme Level: 0 - 100, Hemoglobin: 12 - 15",Neonatal Jaundice
+"Vitamin Levels: 0 - 100, Mineral Deficiencies: 0 - 100, Hemoglobin: 12 - 15",Nutritional Bowel Disorders
+"Allergy Test Result: 0 - 1, Nasal Swelling: 0 - 5, Congestion Level: 0 - 100",Nasal Congestion due to Allergies
+"Inflammation Level: 0 - 10, Nerve Function: 0 - 5, Pain Level: 0 - 10",Neurosarcoidosis
+"Prostate Size: 0 - 5, White Blood Cells: 4 - 11, Inflammation Score: 0 - 5",Nonbacterial Prostatitis
+"Collagen Level: 0 - 100, Kidney Fibrosis Level: 0 - 10, Pain Level: 0 - 10",Nephrogenic Systemic Fibrosis
+"Cancer Stage: 0 - 5, Tumor Marker Level: 0 - 100, Spinal Fluid Protein: 15 - 45",Neoplastic Meningitis
+"Vitamin B12: 200 - 900, Folate Level: 2 - 20, Nerve Conduction Velocity: 40 - 70",Nutritional Peripheral Neuropathy
+"White Blood Cell Count: 4 - 11, CRP Level: 0 - 5, Bacteria Presence: 0 - 1",Neonatal Sepsis
+"Brain Activity: 0 - 100, Blood Flow Level: 0 - 100, Neurotransmitter Level: 0 - 1",Neurological Disorders
+"Pain Score: 0 - 10, Nerve Response Rate: 0 - 100, Inflammation Level: 0 - 5",Neuropathic Pain
+"Bacterial Growth: 0 - 10, White Blood Cell Count: 4 - 11, Chest Infiltration Score: 0 - 10",Nocardia Infections
+"Psoriasis Severity: 0 - 5, Inflammation Level: 0 - 5, Skin Lesion Count: 0 - 100",Nail Psoriasis
+"Neurotoxicity Level: 0 - 100, Blood Toxin Levels: 0 - 10, Urinary Biomarkers: 0 - 5",Neurotoxicity
+"Lymph Node Size: 0 - 10, White Blood Cell Count: 4 - 11, Inflammation Level: 0 - 5",Nodular Sclerosis
+"Radiation Exposure Level: 0 - 100, Organ Damage Score: 0 - 10, Blood Cell Count: 4 - 11",Nuclear Radiation Exposure
+"Creatinine Level: 0.6 - 1.3, Blood Pressure: 90 - 120, Drug Level: 0 - 100",Nephrotoxic Medications
+"Bacteria Presence: 0 - 1, Redness Level: 0 - 5, Inflammation Level: 0 - 5",Nasal Vestibulitis
+"CPK Level: 10 - 120, White Blood Cell Count: 4 - 11, Fever Presence: 0 - 1",Neuroleptic Malignant Syndrome
+"Fracture Presence: 0 - 1, Bone Density: 0 - 100, Swelling Level: 0 - 5",Nasal Bone Fracture
+"Cognitive Score: 0 - 100, Brain Imaging Abnormalities: 0 - 1, Blood Biomarkers: 0 - 100",Neuropsychological Disorders
+"Withdrawal Score: 0 - 10, Toxin Levels: 0 - 100, Neonatal Reflex Score: 0 - 10",Neonatal Abstinence Syndrome
+"Allergy Response: 0 - 100, Nasal Swelling: 0 - 5, Congestion Level: 0 - 5",Nasal Allergy
+"Tumor Marker Level: 0 - 100, Lymph Node Involvement: 0 - 10, Bone Marrow Activity: 0 - 5",Non-Hodgkin's Lymphoma
+"Vitamin D Level: 20 - 50, Calcium Level: 8.5 - 10.2, Bone Density: 0 - 100",Nutritional Deficiencies
+"Cognitive Function: 0 - 100, Neurotransmitter Level: 0 - 1, Hormone Level: 0 - 10",Neuropsychiatric Disorders
+"Bone Density: 0 - 100, Calcium Level: 8.5 - 10.2, Phosphate Level: 2.5 - 4.5",Nutritional Osteomalacia
+"Brain Development Score: 0 - 100, Gene Mutation: 0 - 1, Neuron Count: 0 - 100",Neuronal Migration Disorders
+"Swallow Reflex Score: 0 - 10, Esophageal Strength: 0 - 100, Aspiration Level: 0 - 5",Neurogenic Dysphagia
+"Acne Severity: 0 - 5, Hormone Level: 0 - 10, Inflammation Level: 0 - 5",Nodular Acne
+"Bacterial Growth: 0 - 10, White Blood Cell Count: 4 - 11, Spinal Fluid Glucose Level: 50 - 80",Neonatal Meningitis
+"Liver Enzyme Level: 0 - 100, Liver Fat Content: 0 - 100, Blood Glucose Level: 70 - 110",Nonalcoholic Fatty Liver Disease
+"Ketone Level: 0 - 3, Blood Glucose Level: 70 - 110, Electrolyte Balance: 0 - 100",Nutritional Ketosis
+"Pain Score: 0 - 10, Cervical Spine Health: 0 - 100, Nerve Function: 0 - 10",Neck Pain (Cervicalgia)
+"Seizure Frequency: 0 - 10, EEG Abnormality Score: 0 - 1, Psychological Impact Score: 0 - 100",Non-epileptic Seizures
+"Tumor Size: 0 - 10, Hearing Level: 0 - 100, Vision Acuity: 0 - 1",Neurofibromatosis Type 2
+"Symptom Severity: 0 - 5, Tumor Marker Level: 0 - 100, Imaging Results: 0 - 1",Non-specific Symptoms of Cancer
+"Fracture Presence: 0 - 1, Bone Density: 0 - 100, Swelling Level: 0 - 5",Nasal Bone Fractures
+"Avulsion Severity: 0 - 5, Pain Level: 0 - 10, Healing Time: 0 - 30 days",Nail Avulsion
+"Shock Severity: 0 - 5, Blood Pressure: 90 - 120, ECG Abnormalities: 0 - 1",Neurogenic Shock
+"Hemoglobin Level: 12 - 16 g/dL, Ferritin Level: 15 - 150 ng/mL, Blood Iron Level: 60 - 170 µg/dL",Nutritional Anemia (Iron Deficiency)
+"Prostate Inflammation Score: 0 - 10, White Blood Cell Count: 4 - 11, Pain Level: 0 - 10",Non-bacterial Prostatitis
+"Serum ADH Level: 0 - 5, Blood Sodium: 135 - 145 mmol/L, Urine Osmolality: 50 - 1200 mOsm/kg",Nephrogenic Syndrome of Inappropriate Antidiuretic Hormone (SIADH)
+"Muscle Strength Score: 0 - 100, Nerve Response Rate: 0 - 100, Inflammation Level: 0 - 5",Neuromuscular Disease
+"Blood Toxin Level: 0 - 10, Neurotoxicity Score: 0 - 5, Urinary Biomarkers: 0 - 5",Neurotoxicity from Heavy Metals
+"Congestion Level: 0 - 5, Allergen Sensitivity: 0 - 10, Swelling Level: 0 - 5",Nasal Vasomotor Rhinitis
+"Visual Acuity: 20/20 - 20/200, Optic Nerve Damage: 0 - 10, Inflammation Level: 0 - 5",Neuritis (Optic Nerve)
+"Fungal Growth: 0 - 10, Nail Thickness: 0 - 5, Discoloration Level: 0 - 5",Nail Fungus (Onychomycosis)
+"Blood Glucose: 40 - 100 mg/dL, Insulin Level: 0 - 5, Neonatal Reflex Score: 0 - 10",Neonatal Hypoglycemia
+"Cognitive Function: 0 - 100, Brain Imaging Abnormalities: 0 - 1, Neuron Density: 0 - 100",Neurodegenerative Diseases
+"Stone Size: 0 - 10 mm, Pain Level: 0 - 10, Urinary Obstruction Level: 0 - 5",Nephrolithiasis (Ureteral Stones)
+"Neuroleptic Side Effect Score: 0 - 10, Patient Discomfort: 0 - 5, Vital Stability: 0 - 1",Neuroleptic Side Effects
+"Tumor Size: 0 - 10, Inflammation Level: 0 - 5, Pain Level: 0 - 10",Nodular Fasciitis
+"Neuroma Size: 0 - 5, Nerve Damage: 0 - 100, Pain Level: 0 - 10",Neuromas
+"Immune Response Level: 0 - 10, Inflammatory Markers: 0 - 5, Symptom Severity: 0 - 10",Non-specific Immune Disorders
+"Drug Toxicity Level: 0 - 100, Kidney Function: 0 - 100, Electrolyte Imbalance: 0 - 5",Nephrotoxic Effects of Certain Drugs
+"Congestion Level: 0 - 5, Inflammation Level: 0 - 5, Pain Level: 0 - 10",Nasal Congestion due to Sinusitis
+"White Blood Cell Count: 1 - 11, Infection Presence: 0 - 1, Bone Marrow Activity: 0 - 100",Neutropenia
+"Nutritional Level: 0 - 100, Blood Vitamin Level: 0 - 100, Bone Density: 0 - 100",Nutritional Support Needs
+"Cognitive Function Score: 0 - 100, Neuroplasticity Index: 0 - 10",Neuroplasticity Disorders
+"Lymphocyte Count: 1 - 10, Tumor Size: 0 - 10, Infection Level: 0 - 5",Non-Hodgkin's Lymphoma (B-cell and T-cell)
+"Nausea Severity: 0 - 5, Weight Loss: 0 - 10, Physical Exam Score: 0 - 10",Nausea and Vomiting of Pregnancy (NVP)
+"Nail Damage Level: 0 - 5, Healing Time: 0 - 30 days, Pain Level: 0 - 10",Nail Trauma
+"BMI: 0 - 50, Cholesterol Levels: 0 - 300, Blood Sugar Levels: 70 - 130 mg/dL",Obesity
+"Joint Space Narrowing: 0 - 5, Pain Level: 0 - 10, Mobility Score: 0 - 100",Osteoarthritis
+"Bone Density Score: 0 - 100, Fracture Risk: 0 - 10, Calcium Level: 8.5 - 10.5 mg/dL",Osteoporosis
+"Ear Pressure: 0 - 5, Fluid Level: 0 - 10, Hearing Loss Level: 0 - 5",Otitis Media
+"Intraocular Pressure: 10 - 21 mmHg, Visual Acuity: 20/20 - 20/200",Ocular Hypertension
+"Migraine Frequency: 0 - 30, Severity Score: 0 - 10, Aura Presence: 0 - 1",Ocular Migraine
+"Viral Load: 0 - 1000, Symptom Severity: 0 - 5, Eye Inflammation Level: 0 - 5",Ophthalmic Herpes Simplex
+"Sleep Apnea Index: 0 - 10, Oxygen Saturation: 90% - 100%, Daytime Sleepiness Level: 0 - 10",Obstructive Sleep Apnea
+"Bone Infection Score: 0 - 5, Wound Healing Time: 0 - 30 days, Pain Level: 0 - 10",Osteomyelitis
+"Cyst Size: 0 - 10 cm, Hormonal Levels: 0 - 100, Pain Level: 0 - 10",Ovarian Cysts
+"Tumor Size: 0 - 10, Stage Level: 0 - 5, Pain Level: 0 - 10",Oral Cancer
+"Ear Discharge Level: 0 - 5, Infection Level: 0 - 10, Pain Level: 0 - 10",Otorrhea
+"Fungal Infection Score: 0 - 5, Nail Thickness: 0 - 5, Discoloration Level: 0 - 5",Onychomycosis
+"Eye Movement Score: 0 - 10, Inflammation Level: 0 - 5, Vision Clarity: 0 - 100",Ophthalmoplegia
+"Bone Density Score: 0 - 100, Fracture Risk: 0 - 10, Genetic Risk Score: 0 - 5",Osteogenesis Imperfecta
+"Eye Surface Damage Score: 0 - 5, Tear Production Level: 0 - 10, Pain Level: 0 - 10",Ocular Surface Disorder
+"Orchitis Severity: 0 - 5, Hormone Levels: 0 - 100, Pain Level: 0 - 10",Orchitis
+"Lung Function Score: 0 - 100, Blood Gas Levels: 0 - 100, Symptoms Level: 0 - 10",Obstructive Pulmonary Disease (COPD)
+"Tumor Size: 0 - 10, Pain Level: 0 - 10, Treatment Response Score: 0 - 10",Osteosarcoma
+"Oral Candidiasis Level: 0 - 5, Discomfort Level: 0 - 10, Healing Time: 0 - 30 days",Oral Thrush
+"Cyst Size: 0 - 10 cm, Complication Level: 0 - 5, Surgery Risk Level: 0 - 10",Omphalocele
+"Urine Morphine Levels: 0 - 1000 ng/mL, Dependence Severity: 0 - 10",Opioid Dependence
+"Vitamin D Levels: 0 - 100 ng/mL, Bone Density Score: 0 - 100",Osteomalacia
+"Ear Discharge Level: 0 - 5, Infection Level: 0 - 10",Otitis Externa
+"Urine Output: 0 - 100 mL/hr, Serum Creatinine Level: 0.5 - 1.5 mg/dL",Oliguria
+"OCD Severity Scale: 0 - 40, Compulsion Frequency: 0 - 10",Obsession-Compulsive Disorder (OCD)
+"Orthorexia Score: 0 - 10, Nutritional Knowledge Score: 0 - 100",Orthorexia
+"CSF White Blood Cell Count: 0 - 5, Culture Results: 0-1",Otogenic Meningitis
+"Opportunistic Infection Level: 0 - 10, Immunocompromised Score: 0 - 10",Opportunistic Infections
+"Urinary Frequency: 0 - 10, Bladder Capacity: 0 - 1000 mL",Overactive Bladder
+"Tumor Size: 0 - 10 cm, Cell Type: Oligodendroglioma Grade 1 - 4",Oligodendroglioma
+"Lichen Planus Severity: 0 - 5, Oral Lesion Score: 0 - 10",Oral Lichen Planus
+"Bone Density Score: 0 - 100, Serum Alkaline Phosphatase Level: 30 - 120 IU/L",Osteitis Deformans (Paget's Disease)
+"Oxalate Levels: 0 - 50 mg/24 hours, Urine Volume: 0 - 2000 mL",Oxalosis
+"Middle Ear Pressure: 0 - 5, Fluid Level: 0 - 5",Otitis Media with Effusion
+"Tumor Size: 0 - 10 cm, Immunohistochemistry Results: 0-1",Oncocytoma
+"Joint Inflammation Score: 0 - 10, Range of Motion: 0 - 100%",Oligoarticular Juvenile Idiopathic Arthritis
+"CA-125 Levels: 0 - 35 U/mL, Tumor Size: 0 - 10 cm",Ovarian Cancer
+"Toxicology Levels: 0 - 1000 ng/mL, Severity of Overdose: 0 - 10",Overdose (Drug)
+"Imaging Report: 0-1, Renal Function Score: 0 - 10",Obstructive Uropathy
+"Melanoma Thickness: 0 - 10 mm, Tumor Stage: 0 - 5",Ocular Melanoma
+"Sperm Count: 0 - 200 million/mL, Motility Score: 0 - 100%",Oligospermia
+"Estradiol Levels: 0 - 2000 pg/mL, Ovarian Response Score: 0 - 10",Ovarian Hyperstimulation Syndrome
+"Ozone Level Exposure: 0 - 300 ppb, Respiratory Function Score: 0 - 10",Ozone Exposure Effects
+"Liver Function Test Results: 0-1, Bilirubin Level: 0.1 - 1.5 mg/dL",Obstetric Cholestasis
+"Tumor Size: 0 - 10 cm, Bone Metastasis Score: 0 - 5",Osteosarcoma
+"Allergy Score: 0 - 10, Symptom Severity: 0 - 5",Ocular Allergies
+"HSV Viral Load: 0 - 1000 copies/mL, Severity of Cold Sores: 0 - 5",Oral Herpes (Cold Sores)
+"MRI Findings: 0-1, Pain Level: 0 - 10",Osteochondritis Dissecans
+"Fetal Heart Rate: 120 - 160 bpm, Complication Severity: 0 - 10",Obstetric Complications
+"Bone Density Score: 0 - 100, Pain Level: 0 - 10",Osteonecrosis
+"Hormonal Levels: 0-1, Menstrual Cycle Regularity: Regular/Irregular",Onset of Menstruation Disorders
+"Nail Separation Score: 0 - 10, Infection Level: 0 - 5",Onycholysis
+"Intraocular Pressure: 0 - 21 mmHg, Inflammation Level: 0 - 10",Ocular Inflammation (Uveitis)
+"Oxygen Saturation: 90 - 100%, Obesity Score: 0 - 10",Obesity Hypoventilation Syndrome
+"Cleft Severity Score: 0 - 10, Imaging Findings: 0-1",Orofacial Clefts
+"Organophosphate Levels: 0 - 10, Severity of Poisoning: 0 - 10",Organophosphate Poisoning
+"Oxidative Stress Level: 0 - 10, Biomarker Levels: 0-1",Oxidative Stress Disorders
+"Omphalocele Size: 0 - 10 cm, Associated Anomalies: Present/Absent",Omphalocele
+"Nail Regrowth Score: 0 - 10, Infection Level: 0 - 5",Onychomadesis
+"Imaging Findings: 0-1, Inflammation Level: 0 - 10",Orbital Cellulitis
+"Neuritis Severity: 0 - 10, Imaging Findings: 0-1",Optic Neuritis
+"Hormonal Levels: 0-1, Ischemic Score: 0 - 10",Oligomenorrhea
+"Oral Fibroma Size: 0 - 5 cm, Biopsy Results: Benign/Malignant",Ocular Ischemic Syndrome
+"Ocular Pain Severity: 0 - 10, Scleritis Score: 0 - 10",Oral Fibroma
+"Genetic Testing Results: 0-1, Severity of Omenn Syndrome: 0 - 10",Ocular Pain (Scleritis)
+"Complication Severity: 0 - 10, Imaging Findings: 0-1",Omenn Syndrome
+"Organic Brain Dysfunction Score: 0 - 10, Imaging Findings: 0-1",Obstetric Emergencies
+"Urinary Oxalate Levels: 0 - 40 mg/24 hours, Stone Size: 0 - 10 mm",Organic Brain Syndrome
+"Tumor Size: 0 - 10 cm, Grade: Low/Intermediate/High",Oxalate Kidney Stones
+"Tumor Size: 0 - 10 cm, Grade: Low/Intermediate/High",Oligodendroglioma
+"Lung Function Values: FEV1/FVC Ratio, Pulmonary Pressure: 0 - 100 mmHg",Onset of Pulmonary Conditions
+"Headache Severity: 0 - 10, Migraine Frequency: 0 - 10",Ophtalmoplegic Migraine
+"Injury Severity Score: 0 - 10, Vision Score: 0-1",Ocular Trauma
+"Blood Pressure: Normal/High, Symptoms Score: 0 - 10",Orthostatic Hypotension
+"Tumor Size: 0 - 10 cm, Symptoms Score: 0 - 10",Osteochondroma
+"Amyloid Levels: 0-1, Severity of Symptoms: 0 - 10",Oligomeric Amyloid Formation
+"Imaging Findings: 0-1, Severity of Manifestations: 0 - 10",Ocular Manifestations of Systemic Diseases
+"Tumor Size: 0 - 10 cm, Biopsy Results: Benign/Malignant",Orbital Tumors
+"Lesion Size: 0 - 5 cm, Severity Score: 0 - 10",Oral Mucosal Disorders
+"Imaging Findings: 0-1, Severity of Uropathy: 0 - 10",Obstructive Uropathy
+"Bone Scan Findings: 0-1, Symptoms Score: 0 - 10",Osteitis
+"Oligoclonal Band Presence: 0-1, Severity of Symptoms: 0 - 10",Oral Squamous Cell Carcinoma
+"Viral Load: 0 - 1000 copies/mL, CD4 Count: 0 - 1000 cells/mm³",Oligoclonal Bands
+"Hemoglobin Levels: 0-1, Symptoms Score: 0 - 10",Opportunistic Infections in HIV
+"Visual Acuity Score: 0-1, Damage Score: 0 - 10",Organic Anemia
+"Hearing Test Results: 0-1, Symptoms Score: 0 - 10",Optic Nerve Damage
+"Imaging Findings: 0-1, Symptoms Score: 0 - 10",Otologic Disorders
+"Severity of Infection: 0 - 10, Imaging Findings: 0-1",Opthalmic Artery Occlusion
+"Skin Lesion Size: 0 - 10 cm, Severity of Symptoms: 0 - 10",Orthopedic Disorders
+"Parkinson's Disease Severity: 0 - 10, Symptom Severity: 0 - 10",Pneumonia
+"Ulcer Size: 0 - 5 cm, Symptoms Score: 0 - 10",Psoriasis
+"Pulmonary Pressure: 0-1, Symptoms Score: 0 - 10",Parkinson's Disease
+"Pancreas Size: 0-1, Symptoms Score: 0 - 10",Peptic Ulcer Disease
+"Pulmonary Pressure: 10-20 - 20, Symptoms Score: 0 - 10",Pulmonary Hypertension
+"Enzyme Levels: 0 - 40 - 40, Symptoms Score: 0 - 10",Pancreatitis
+"Hemoglobin Levels: 13.5 - 17.5 - 17.5, Symptoms Score: 0 - 10",Polycythemia Vera
+"Nerve Conduction Velocity: 60 - 60, Symptoms Score: 0 - 10",Peripheral Neuropathy
+"Hormone Levels: varies - varies, Symptoms Score: 0 - 10",Polycystic Ovary Syndrome (PCOS)
+"Throat Culture Results: Positive - Negative, Symptoms Score: 0 - 10",Pharyngitis
+"B12 Levels: 200 - 900 - 900, Symptoms Score: 0 - 10",Pernicious Anemia
+"Air Leak Size: 0 - 5, Symptoms Score: 0 - 10",Pneumothorax
+"Nutritional Status: 90 - 90 - 90, Symptoms Score: 0 - 10",Pallagra
+"PSA Levels: 0 - 4 - 4, Symptoms Score: 0 - 10",Prostate Cancer
+Asthma Severity: 0 - 10,Pediatric Asthma
+Fibrosis Severity: 0 - 10,Pulmonary Fibrosis
+Infection Severity: 0 - 10,Plague
+"Culture Results: Positive - Negative, Symptoms Score: 0 - 10",Pneumococcal Infection
+"Skin Biopsy Results: Benign - Malignant, Symptoms Score: 0 - 10",Pityriasis Rosea
+"Cardiac Function: 100 - 100, Symptoms Score: 0 - 10",Pericarditis
+"Imaging Findings: Normal - Abnormal, Symptoms Score: 0 - 10",Pseudomonas Infection
+"Bone Density: T-score -1 - -1, Symptoms Score: 0 - 10",Placenta Previa
+"Psychological Assessment: Normal - Abnormal, Symptoms Score: 0 - 10",Paget's Disease of Bone
+"Genetic Markers: Positive - Negative, Symptoms Score: 0 - 10",Primary Biliary Cholangitis
+"Skin Examination Results: Normal - Abnormal, Symptoms Score: 0 - 10",Post-Traumatic Stress Disorder (PTSD)
+"Imaging Findings: Normal - Abnormal, Symptoms Score: 0 - 10",Pachyonychia Congenita
+"Immune Response: Normal - Abnormal, Symptoms Score: 0 - 10",Pemphigus Vulgaris
+"Urine Culture Results: Positive - Negative, Symptoms Score: 0 - 10",Pneumocystis Pneumonia
+"ABI Ratio: 0.9 - 1.3 - 1.3, Symptoms Score: 0 - 10",Postural Orthostatic Tachycardia Syndrome (POTS)
+"Urine Bacterial Count: 0 - 1, Symptoms Score: 0 - 10",Pyelonephritis
+"Ankle-Brachial Index: 0 - 1, Severity of Symptoms: 0 - 10",Peripheral Artery Disease (PAD)
+"Pain Severity: 0 - 10, Imaging Findings: 0 - 1",Plantar Fasciitis
+"Fungal Infection: 0 - 1, Severity of Symptoms: 0 - 10",Pityriasis Versicolor
+"Allergy Test Results: 0 - 1, Severity of Symptoms: 0 - 10",Papular Urticaria
+"Cerebrospinal Fluid Analysis: 0 - 1, Symptoms Score: 0 - 10",Pseudotumor Cerebri
+"Nerve Conduction Velocity: 0 - 1, Severity of Symptoms: 0 - 10",Polyneuropathy
+"Air Under Diaphragm: 0 - 1, Symptoms Score: 0 - 10",Pneumoperitoneum
+"Presence of C. difficile: 0 - 1, Severity of Symptoms: 0 - 10",Pseudomembranous Colitis
+"Fluid Level: 0 - 1, Symptoms Score: 0 - 10",Pleural Effusion
+"Infection Severity: 0 - 10, Imaging Findings: 0 - 1",Pelvic Inflammatory Disease (PID)
+"Blood Lead Levels: 0 - 1, Symptoms Score: 0 - 10",Pica
+"Thyroid Levels: 0 - 1, Symptoms Score: 0 - 10",Parasitic Infections
+"Ulcer Size: 0 - 5, Symptoms Score: 0 - 10",Papillary Thyroid Carcinoma
+"Imaging Findings: 0 - 1, Symptoms Score: 0 - 10",Perforated Ulcer
+"Severity of Joint Pain: 0 - 10, Imaging Findings: 0 - 1",Psoriatic Arthritis
+"Imaging Findings: 0 - 1, Symptoms Score: 0 - 10",Pleural Plaques
+"Neurological Examination Findings: 0 - 1, Symptoms Score: 0 - 10",Progressive Supranuclear Palsy
+"Head Circumference: 0 - 1, Symptoms Score: 0 - 10",Pachycephaly
+"Heart Rate Variability: 0 - 1, Symptoms Score: 0 - 10",Palpitations
+"Imaging Findings: 0 - 1, Symptoms Score: 0 - 10",Phlebitis
+"Assessment Findings: 0 - 1, Symptoms Score: 0 - 10",Pelvic Floor Dysfunction
+"Serum Calcium: 0 - 1, PTH Level: 0 - 1",Primary Hyperparathyroidism
+"Platelet Count: 0 - 1, Symptoms Score: 0 - 10",Platelet Disorder
+"CSF White Cell Count: 0 - 1, Symptoms Score: 0 - 10",Progressive Multifocal Leukoencephalopathy (PML)
+"Urine Porphyrin Levels: 0 - 1, Symptoms Score: 0 - 10",Porphyria
+"Hormone Levels: 0 - 1, Symptoms Score: 0 - 10",Premenstrual Dysphoric Disorder (PMDD)
+"Hormonal Testing Results: 0 - 1, Symptoms Score: 0 - 10",Pseudopregnancy
+"Imaging Findings: 0 - 1, Symptoms Score: 0 - 10",Peritoneal Mesothelioma
+"Inflammatory Markers: 0 - 1, Symptoms Score: 0 - 10",Pneumonitis
+"Muscle Strength Assessment: 0 - 1, Symptoms Score: 0 - 10",Paralysis
+"Vitreous Detachment Score: 0 - 1, Symptoms Score: 0 - 10",Posterior Vitreous Detachment
+"D-Dimer Levels: 0 - 1, Symptoms Score: 0 - 10",Pulmonary Embolism
+"Tumor Size: 0 - 5, Symptoms Score: 0 - 10",Papilloma
+"Stool Tests Results: 0 - 1, Symptoms Score: 0 - 10",Proctitis
+"Fracture Assessment: 0 - 1, Symptoms Score: 0 - 10",Pathological Fractures
+"Fluid Levels: 0 - 1, Symptoms Score: 0 - 10",Pulmonary Edema
+"Granuloma Size: 0 - 5, Symptoms Score: 0 - 10",Pyogenic Granuloma
+"Postural Assessment Score: 0 - 1, Symptoms Score: 0 - 10",Postural Deficiencies
+"Hemoglobin Levels: 0 - 1, Symptoms Score: 0 - 10",Paroxysmal Nocturnal Hemoglobinuria
+"Pregnancy Test Results: 0 - 1, Symptoms Score: 0 - 10",Pseudocyesis
+"Pain Severity: 0 - 10, Symptoms Score: 0 - 10",Painful Bladder Syndrome
+"Insomnia Assessment: 0 - 1, Symptoms Score: 0 - 10",Primary Insomnia
+"Papilledema Score: 0 - 1, Symptoms Score: 0 - 10",Papillitis
+"Symptoms Assessment Score: 0 - 10, Symptoms Score: 0 - 10",Polymyalgia Rheumatica
+"Abscess Size: 0 - 5, Symptoms Score: 0 - 10",Persistent Depressive Disorder (Dysthymia)
+"BMI: 0 - 50, Blood Pressure: 50 - 200, Heart Rate: 40 - 200",Peritonsillar Abscess
+"Tumor Markers: 0 - 1, Symptoms Score: 0 - 10",Paraneoplastic Syndromes
+"Mood Assessments: 0 - 1, Symptoms Score: 0 - 10",Panic Disorder
+"Liver Enzymes: 0 - 1, Symptoms Score: 0 - 10",Primary Sclerosing Cholangitis
+"Ultrasound Findings: 0 - 1, Symptoms Score: 0 - 10",Placental Abruption
+"Skin Scraping Results: 0 - 1, Symptoms Score: 0 - 10",Parasitic Skin Infections
+"Pelvic Assessment Results: 0 - 1, Symptoms Score: 0 - 10",Pelvic Congestion Syndrome
+"Phenylalanine Levels: 0 - 1, Symptoms Score: 0 - 10",Phenylketonuria (PKU)
+"Stool Examination Results: 0 - 1, Symptoms Score: 0 - 10",Proctocolitis
+"PSA Levels: 0 - 1, Symptoms Score: 0 - 10",Prostate Enlargement (Benign Prostatic Hyperplasia)
+"Echocardiogram Findings: 0 - 1, Symptoms Score: 0 - 10",Papillary Muscular Dysfunction
+"Cardiac Assessments: 0 - 1, Symptoms Score: 0 - 10",Pulmonary Atresia
+"Complication Assessment Score: 0 - 1, Symptoms Score: 0 - 10",Post-Operative Complications
+"Psoriasis Assessment: 0 - 1, Symptoms Score: 0 - 10",Pustular Psoriasis
+"Eye Examination Results: 0 - 1, Symptoms Score: 0 - 10",Pterygium
+"Endoscopy Results: 0 - 1, Symptoms Score: 0 - 10",Peptic Ulcer Hemorrhage
+"Throat Examination Results: 0 - 1, Symptoms Score: 0 - 10",Q Fever
+"Neurological Examination: 0 - 1, Symptoms Score: 0 - 10",Quinsey (Peritonsillar Abscess)
+"Travel History Results: 0 - 1, Symptoms Score: 0 - 10",Quadriplegia
+Quality of Life Score: 0 - 10,Quarantine Fever
+"Allergy Test Results: 0 - 1, Symptoms Score: 0 - 10",Quinidine-induced Thrombocytopenia
+"Pregnancy Test Results: 0 - 1, Symptoms Score: 0 - 10",Quality of Life Impairment
+"Rabies Assessment: 0 - 1, Symptoms Score: 0 - 10",Quercetin Allergy
+"Rheumatoid Factor: 0 - 1, Symptoms Score: 0 - 10",Quickening
+"Calcium Levels: 0 - 1, Symptoms Score: 0 - 10",Rabies
+"Viral Testing Results: 0 - 1, Symptoms Score: 0 - 10",Rheumatoid Arthritis
+"Skin Examination Results: 0 - 1, Symptoms Score: 0 - 10",Rickets
+"Rubella Immunity Levels: 0 - 1, Symptoms Score: 0 - 10",Respiratory Syncytial Virus (RSV)
+"BMI: 0 - 50, Blood Pressure: 50 - 200, Heart Rate: 40 - 200",Ringworm
+"Serology Results: 0 - 1, Symptoms Score: 0 - 10, PCR Results: 0 - 1, Imaging Score: 0 - 10",Rocky Mountain Spotted Fever
+"Immunity Levels: 0 - 1, Symptoms Score: 0 - 10, Viral Load: 0 - 1, Clinical Severity: 0 - 10",Rubella
+"Measles Immunity Levels: 0 - 1, Symptoms Score: 0 - 10, Antibody Levels: 0 - 10, Viral Load: 0 - 1",Rubeola (Measles)
+"Retinal Function: 0 - 1, Symptoms Score: 0 - 10, Visual Acuity: 0 - 1, Imaging Results: 0 - 1",Retinopathy
+"Muscle Enzymes: 0 - 1, Symptoms Score: 0 - 10, Creatinine Kinase Levels: 0 - 1, Urine Myoglobin Levels: 0 - 1",Rhabdomyolysis
+"Vascular Assessment Results: 0 - 1, Symptoms Score: 0 - 10, Blood Flow Measurement: 0 - 1, Temperature: 0 - 1",Raynaud's Disease
+"Joint Assessment Results: 0 - 1, Symptoms Score: 0 - 10, Synovial Fluid Analysis: 0 - 1, Imaging Score: 0 - 1",Reiter's Syndrome (Reactive Arthritis)
+"Blood Gas Levels: 0 - 1, Symptoms Score: 0 - 10, Oxygen Saturation: 0 - 1, CO2 Levels: 0 - 1",Respiratory Distress Syndrome (RDS)
+"PCR Results: 0 - 1, Symptoms Score: 0 - 10, Viral Load: 0 - 1, Antibody Response: 0 - 1",Rhinovirus Infection
+"Skin Examination Results: 0 - 1, Symptoms Score: 0 - 10, Biopsy Results: 0 - 1, Culture Results: 0 - 1",Rosacea
+"Viral Testing Results: 0 - 1, Symptoms Score: 0 - 10, Antigen Levels: 0 - 1, Culture Results: 0 - 1",Rhabdovirus Infection
+"Renal Function Tests: 0 - 1, Symptoms Score: 0 - 10, Creatinine Levels: 0 - 1, Urine Output: 0 - 1",Renal Failure
+"Radon Exposure Symptoms: 0 - 1, Symptoms Score: 0 - 10, Air Quality Score: 0 - 1, Health Impact Score: 0 - 1",Radon Exposure Symptoms
+"Restless Legs Score: 0 - 10, Symptoms Score: 0 - 10, Sleep Quality Score: 0 - 10, Movement Score: 0 - 1",Restless Legs Syndrome (RLS)
+"Retinal Function Tests: 0 - 1, Symptoms Score: 0 - 10, Genetic Testing Results: 0 - 1, Imaging Results: 0 - 1",Retinitis Pigmentosa
+"Neurological Examination: 0 - 1, Symptoms Score: 0 - 10, Cognitive Score: 0 - 10, Imaging Score: 0 - 1",Ramsay Hunt Syndrome
+"Genetic Testing Results: 0 - 1, Symptoms Score: 0 - 10, Family History Risk: 0 - 1, Mutation Score: 0 - 1",Rett Syndrome
+"Rickettsial Testing: 0 - 1, Symptoms Score: 0 - 10, Antibody Response: 0 - 1, Clinical Score: 0 - 10",Rickettsial Infections
+"Blood Smear Results: 0 - 1, Symptoms Score: 0 - 10, Bone Marrow Results: 0 - 1, Anemia Score: 0 - 1",Relapsing Fever
+"Clinical Evaluation Score: 0 - 1, Symptoms Score: 0 - 10, Quality of Life Score: 0 - 10, Functional Score: 0 - 10",Rosai-Dorfman Disease
+"Allergy Testing Results: 0 - 1, Symptoms Score: 0 - 10, IgE Levels: 0 - 1, Skin Prick Test Results: 0 - 1",Rheumatic Fever
+"Anemia Levels: 0 - 1, Symptoms Score: 0 - 10, Hemoglobin Levels: 0 - 1, Reticulocyte Count: 0 - 1",Respiratory Allergies
+"Stool Culture Results: 0 - 1, Symptoms Score: 0 - 10, Pathogen Identification: 0 - 1, Inflammation Score: 0 - 1",Refractory Anemia
+"PCR Testing Results: 0 - 1, Symptoms Score: 0 - 10, Viral Load: 0 - 1, Antibody Response: 0 - 1",Salmonellosis
+"Skin Scraping Results: 0 - 1, Symptoms Score: 0 - 10, Culture Results: 0 - 1, Histopathology Results: 0 - 1",SARS (Severe Acute Respiratory Syndrome)
+"BMI: 0 - 50, Blood Pressure: 50 - 200, Heart Rate: 40 - 200, Temperature: 30 - 45",Scabies
+"Autoantibody Levels: 0 - 1, Symptoms Score: 0 - 10, Imaging Results: 0 - 1",Schistosomiasis
+"Light Exposure Score: 0 - 1, Symptoms Score: 0 - 10, Mood Score: 0 - 10",Scleroderma
+"Blood Culture Results: 0 - 1, Symptoms Score: 0 - 10, Severity Score: 0 - 10",Seasonal Affective Disorder (SAD)
+"PCR Results: 0 - 1, Symptoms Score: 0 - 10, Antibody Levels: 0 - 1",Sepsis
+"Hemoglobin Levels: 0 - 1, Symptoms Score: 0 - 10, Genetic Testing Results: 0 - 1",Shingles (Herpes Zoster)
+"Nasal Swab Results: 0 - 1, Symptoms Score: 0 - 10, Imaging Score: 0 - 1",Sickle Cell Disease
+"Biopsy Results: 0 - 1, Symptoms Score: 0 - 10, Autoantibody Levels: 0 - 1",Sinusitis
+"Serological Testing Results: 0 - 1, Symptoms Score: 0 - 10, Vaccination Status: 0 - 1",Sjögren's Syndrome
+"Sleep Quality Score: 0 - 10, Apnea-Hypopnea Index: 0 - 1, Symptoms Score: 0 - 10",Smallpox
+"Cough Severity Score: 0 - 10, Symptoms Score: 0 - 10, Imaging Results: 0 - 1",Sleep Apnea
+"Snake Bite Severity Score: 0 - 10, Symptoms Score: 0 - 10, Antivenom Response: 0 - 1",Smokers' Cough
+"Throat Culture Results: 0 - 1, Symptoms Score: 0 - 10, Treatment Response: 0 - 1",Snake Bite
+"Spinal Imaging Results: 0 - 1, Symptoms Score: 0 - 10, Mobility Score: 0 - 10",Sore Throat
+"Blood Flow Assessment: 0 - 1, Symptoms Score: 0 - 10, Imaging Results: 0 - 1",Spinal Stenosis
+"Gastroenteritis Severity Score: 0 - 10, Symptoms Score: 0 - 10, Stool Culture Results: 0 - 1",Splenic Infarct
+"Throat Infection Score: 0 - 1, Symptoms Score: 0 - 10, Treatment Response: 0 - 1",Spondylitis
+"Serological Testing Results: 0 - 1, Symptoms Score: 0 - 10, Autoantibody Levels: 0 - 1",Stomach Flu (Gastroenteritis)
+"Salivary Gland Assessment: 0 - 1, Symptoms Score: 0 - 10, Imaging Results: 0 - 1",Strep Throat
+"RPR: 0-1, VDRL: 0-1, Darkfield Microscopy: 0-1",Syphilis
+"WBC Count: 4 - 11, ANA: 0-1, Anti-dsDNA: 0-1, Complement Levels: 0 - 100",Systemic Lupus Erythematosus (SLE)
+"Salivary Gland Size: 0 - 10, WBC Count: 4 - 11, Salivary Gland Function: 0 - 100",Sialadenitis
+"Imaging Results: 0 - 1, Genetic Test Results: 0-1",Situs Inversus
+"Fasting Glucose: 70 - 100, LDL: 0 - 100, Blood Pressure: 90 - 120",Syndrome X (Metabolic Syndrome)
+"MRI Findings: 0 - 1, WBC Count: 4 - 11, Neurological Exam: 0 - 1",Spina Bifida
+"Skin Biopsy: 0 - 1, WBC Count: 4 - 11, Blood Test Results: 0 - 1",Stevens-Johnson Syndrome
+"Vitamin C Level: 0 - 0.2, Dietary Assessment: 0 - 10",Scurvy
+"PCR: 0-1, Chest X-ray Findings: 0 - 1",Severe Acute Respiratory Infection (SARI)
+"Anxiety Score: 0 - 10, Questionnaire Score: 0 - 10",Social Anxiety Disorder
+"Wound Culture: 0-1, Imaging Results: 0 - 1",Sternal Wound Infection
+"ERCP Results: 0 - 1, Imaging Results: 0 - 1",Sphincter of Oddi Dysfunction
+"Throat Culture: 0-1, Symptoms: 0 - 10",Scarlet Fever
+"Biopsy Results: 0 - 1, Imaging Results: 0 - 1",Stomach Cancer
+"MRI Findings: 0 - 1, Genetic Test Results: 0-1",Situs Inversus Totalis
+"Stiffness Scale: 0 - 10, WBC Count: 4 - 11, Imaging Results: 0 - 1",Stiff Person Syndrome
+"Bone Density: 0 - 1, Serum Calcium: 8 - 10, Vitamin D Level: 0 - 50",Steroid-Induced Osteoporosis
+"Blood Pressure: 90 - 120, Heart Rate: 60 - 100, Symptoms: 0 - 10",Syncope (Fainting)
+"Blood Cultures: 0-1, Imaging Results: 0 - 1",Subacute Bacterial Endocarditis
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Joint Swelling: 0 - 10",Sialolithiasis
+"Imaging Results: 0 - 1, Symptoms: 0 - 10",Syndrome of Inappropriate Antidiuretic Hormone (SIADH)
+"MRI Findings: 0 - 1, WBC Count: 4 - 11",Secondary Hyperparathyroidism
+"Imaging Results: 0 - 1, Symptoms: 0 - 10",Syndrome of Malabsorption
+"MRI Findings: 0 - 1, WBC Count: 4 - 11",Septic Arthritis
+"WBC Count: 4 - 11, Doppler Study: 0 - 1, D-Dimer: 0 - 500",Superficial Thrombophlebitis
+"MRI Findings: 0 - 1, Neurotransmitter Levels: 0 - 100, Imaging Results: 0 - 1",Shy-Drager Syndrome
+"Grip Strength: 0 - 5, Range of Motion: 0 - 180, X-ray Findings: 0 - 1",Stenosing Tenosynovitis (Trigger Finger)
+"Inflammatory Markers: 0 - 10, WBC Count: 4 - 11, Imaging Results: 0 - 1",Spondyloarthritis
+"Hemoglobin: 10 - 15, Reticulocyte Count: 0 - 2, Bilirubin: 0.1 - 1.2",Sickle Cell Crisis
+"Tumor Markers: 0 - 10, Biopsy Results: 0 - 1, Imaging Results: 0 - 1",Skin Cancer (Melanoma)
+"Serum IgE Levels: 0 - 100, Skin Test Results: 0 - 1, Patch Test: 0 - 1",Skin Allergies
+"Serum Angiotensin-Converting Enzyme: 0 - 60, WBC Count: 4 - 11, Chest X-ray: 0 - 1",Sarcoidosis
+"Drug Levels: 0 - 10, Blood Tests: 0 - 1, Clinical Assessment: 0 - 1",Sustained Release Drug Toxicity
+"Heart Rate: 60 - 100, Imaging Results: 0 - 1, Physical Exam: 0 - 1",Situs Inversus with Dextrocardia
+"Autoantibody Panel: 0 - 10, Imaging Studies: 0 - 1, WBC Count: 4 - 11",Systemic Sclerosis
+"CPK Levels: 0 - 300, Muscle Strength: 0 - 5, Clinical Assessment: 0 - 1",Steroid Myopathy
+"Tetanus Antibody Levels: 0 - 1, Wound Examination: 0 - 1, Immunization History: 0 - 1",Tetanus
+"AFB Smear: 0 - 1, Culture Results: 0 - 1, WBC Count: 4 - 11",Tuberculosis (TB)
+"Blood Cultures: 0 - 1, Antibody Titers: 0 - 10, Culture Results: 0 - 1",Typhoid Fever
+"KOH Preparation: 0 - 1, Fungal Culture: 0 - 1, Physical Examination: 0 - 1",Tinea (Ringworm)
+"TSH: 0 - 5, T3: 0.8 - 2.0, T4: 5 - 12",Thyroid Disorders (Hypothyroidism)
+"TSH: 0 - 5, T3: 0.8 - 2.0, T4: 5 - 12",Thyroid Disorders (Hyperthyroidism)
+"Vaginal pH: 0 - 14, Swab Culture: 0 - 1, PCR Results: 0 - 1",Trichomoniasis
+"WBC Count: 4 - 11, Blood Pressure: 90 - 140, Platelet Count: 150 - 450",Toxic Shock Syndrome
+"WBC Count: 4 - 11, Throat Culture: 0 - 1, C-reactive Protein: 0 - 10",Tonsillitis
+"Hemoglobin: 12 - 16, MCV: 80 - 100, Ferritin: 30 - 300",Thalassemia
+"Imaging Results: 0 - 1, Genetic Marker: 0-1, MRI Findings: 0 - 1",Tuberous Sclerosis
+"Synovial Fluid Analysis: 0 - 1, Imaging Results: 0 - 1, Pain Scale: 0 - 10",Tenosynovitis
+"WBC Count: 4 - 11, Serological Test: 0-1, Blood Cultures: 0 - 1",Trench Fever
+"Stool Test Results: 0 - 1, CBC: 0 - 10, Serum Folate: 0 - 20",Tropical Sprue
+"Serological Tests: 0 - 1, Culture Results: 0 - 1, PCR Results: 0 - 1",Tularemia
+"Echocardiogram Results: 0 - 1, WBC Count: 4 - 11, O2 Saturation: 90 - 100",Tetralogy of Fallot
+"Platelet Count: 150 - 450, WBC Count: 4 - 11, Bone Marrow Findings: 0 - 1",Thrombocytopenia
+"D-Dimer: 0 - 0.5, Imaging Results: 0 - 1, Blood Tests: 0 - 1",Thromboembolism
+"MRI Findings: 0 - 1, Neurological Exam: 0 - 1, Blood Tests: 0 - 1",Trauma (Various Types)
+"ESR: 0 - 20, Imaging Results: 0 - 1, Temporal Artery Biopsy: 0-1",Transverse Myelitis
+"Toxoplasma IgG: 0 - 1, CT Scan Results: 0 - 1, Blood Tests: 0 - 1",Temporal Arteritis (Giant Cell Arteritis)
+"Audiogram Results: 0 - 1, Otoacoustic Emissions: 0 - 1, Pure Tone Average: 0 - 25",Toxoplasmosis
+"Pain Scale: 0 - 10, Imaging Results: 0 - 1, Duration: 0 - 30",Tinnitus
+"Stool Examination: 0 - 1, Imaging Results: 0 - 1, Serological Tests: 0 - 1",Tension Headache
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Hormonal Levels: 0 - 1",Tenia Solium (Pork Tapeworm Infection)
+"HCG Levels: 0 - 500, Ultrasound Findings: 0 - 1, Pain Scale: 0 - 10",Testicular Cancer
+"Serological Testing: 0 - 1, Imaging Results: 0 - 1, PCR Testing: 0 - 1",Tubal Ligation Syndrome
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Bronchial Secretions: 0 - 1",Toxocariasis
+"TSH: 0.4 - 4.0, Thyroid Hormones: 0 - 1, Imaging Results: 0 - 1",Tracheitis
+"Clinical Evaluation: 0 - 1, Pain Level: 0 - 10, Radiographic Findings: 0 - 1",Thyroiditis
+"EEG Results: 0 - 1, MRI Findings: 0 - 1, Seizure Activity: 0 - 1",Teething
+"WBC Count: 4 - 11, EEG Results: 0 - 1, MRI Findings: 0 - 1",Temporal Lobe Epilepsy
+"Platelet Count: 150 - 450, LDH: 0 - 250, ADAMTS13: 0 - 50",Thrombotic Thrombocytopenic Purpura (TTP)
+"WBC Count: 4 - 11, Oral Examination: 0 - 1, X-ray Results: 0 - 1",Tooth Abscess
+"Blood Pressure: 90 - 140, Proteinuria: 0 - 300, Liver Function: 0 - 1",Toxemic Pre-eclampsia
+"Plasma Tyrosine: 0 - 500, Genetic Markers: 0-1, Liver Function: 0 - 1",Tyrosinemia
+"Imaging Results: 0 - 1, Tumor Markers: 0 - 1, Biopsy Results: 0 - 1",Tumors (Various Types)
+"Serological Tests: 0 - 1, PCR Results: 0 - 1, Visual Acuity: 0 - 20",Trachoma
+"TSH: 0.4 - 4.0, Free T4: 0.8 - 2.0, Total T3: 0.8 - 2.0",Thyrotoxicosis
+"Skin Biopsy Results: 0 - 1, Histopathological Findings: 0 - 1, Blood Tests: 0 - 1",Toxic Epidermal Necrolysis (TEN)
+"Tonsil Size: 0 - 4, WBC Count: 4 - 11, Culture Results: 0 - 1",Tonsillar Hypertrophy
+"Pain Scale: 0 - 10, WBC Count: 4 - 11, Imaging Results: 0 - 1",Tibial Stress Syndrome
+"Genetic Testing Results: 0-1, Blood Tests: 0 - 1, Imaging Results: 0 - 1",Trisomy 21 (Down Syndrome)
+"Serological Tests: 0 - 1, Imaging Results: 0 - 1, CSF Analysis: 0 - 1",Thromboangiitis Obliterans (Buerger's Disease)
+"Treponema Test: 0-1, RPR: 0 - 1, FTA: 0-1",Tertiary Syphilis
+"Imaging Results: 0 - 1, MRI Findings: 0 - 1, Blood Tests: 0 - 1",Tumefactive Multiple Sclerosis
+"Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1, Blood Tests: 0 - 1",Tracheobronchitis
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Biopsy Results: 0 - 1",Tubular Adenoma
+"Audiometric Testing: 0 - 1, Otoscopic Findings: 0 - 1, Tympanometry: 0 - 1",Tympanic Membrane Perforation
+"Imaging Results: 0 - 1, Tumor Markers: 0 - 1, Biopsy Results: 0 - 1",Teratoma
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1",Toxic Shock Syndrome
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Stool Tests: 0 - 1",Toxic Granulocytosis
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Fungal Culture Results: 0 - 1",Tonic-Clonic Seizures
+"WBC Count: 4 - 11, Pain Scale: 0 - 10, Range of Motion: 0 - 180",Tenosynovitis
+"Stool Frequency: 0 - 10, Bowel Movement Consistency: 0 - 3, Pain Scale: 0 - 10",Toilet Bowel Syndrome
+"WBC Count: 4 - 11, Tumor Marker Levels: 0 - 100, Imaging Results: 0 - 1",Temporal Lobe Tumors
+"KOH Test Results: 0 - 1, Fungal Culture: Negative/Positive, Pain Scale: 0 - 10",Tenia Capitis (Scalp Ringworm)
+"Waist Circumference: 0 - 102, BMI: 18 - 40, Blood Glucose: 70 - 140",Truncal Obesity
+"MRI Findings: 0 - 1, WBC Count: 4 - 11, ESR: 0 - 20",Tuberculosis of the Spine (Pott's Disease)
+"Platelet Count: 150 - 450, INR: 0.8 - 1.2, Genetic Marker: 0-1",Thrombophilia
+"Lead Level: 0 - 5, Mercury Level: 0 - 10, Blood Tests: 0 - 1",Toxic Metal Poisoning
+"Chromosome Count: 0 - 47, Genetic Marker: 0-1, Imaging Results: 0 - 1",Trisomy 13 (Patau Syndrome)
+"Tricuspid Regurgitation: 0 - 1, Imaging Findings: 0 - 1, WBC Count: 4 - 11",Tricuspid Valve Disease
+"Serum Electrolytes: 0 - 1, Urinalysis Results: 0 - 1, Imaging Results: 0 - 1",Tubular Secretion Disorders
+"Blood Pressure: 90 - 140, Heart Rate: 60 - 100, Imaging Findings: 0 - 1",Toxic Shock-like Syndrome
+"Pain Scale: 0 - 10, Imaging Results: 0 - 1, Tumor Marker Levels: 0 - 100",Transverse Myelitis
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Swab Test: Negative/Positive",Throat Cancer
+"TPN Infusion Rate: 0 - 100, Blood Glucose: 70 - 140, Electrolytes: 0 - 1",Total Parenteral Nutrition (TPN) Complications
+"Skin Reaction: 0 - 1, Clinical Evaluation: 0 - 1, Pain Scale: 0 - 10",Toxicodendron dermatitis (Poison Ivy)
+"Heart Rate: 60 - 100, ECG Results: 0 - 1, Blood Tests: 0 - 1",Tachycardia
+"TSH: 0.4 - 4.0, Imaging Findings: 0 - 1, Thyroid Hormones: 0 - 1",Thyroid Cancer
+"Tourette Severity: 0 - 10, Clinical Evaluation: 0 - 1, Comorbidity Assessment: 0 - 1",Tourette Syndrome
+"Imaging Results: 0 - 1, WBC Count: 4 - 11, Urinalysis Results: 0 - 1",Tuberous Sclerosis Complex
+"Pain Scale: 0 - 10, Imaging Studies: 0 - 1, Response to Treatment: 0 - 1",Transitional Cell Carcinoma
+"Pain Scale: 0 - 10, Imaging Studies: 0 - 1, Symptom Severity: 0 - 10",Thromboembolic Disease
+"WBC Count: 4 - 11, Pain Scale: 0 - 10, MRI Findings: 0 - 1",Trigeminal Neuralgia
+"Hair Pull Test: 0 - 1, Clinical Evaluation: 0 - 10, Anxiety Scale: 0 - 10",Trichotillomania
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Culture Results: Negative/Positive",Tuberculous Lymphadenitis
+"Tyrosine Level: 0 - 4, Blood Tests: 0 - 1, Imaging Results: 0 - 1",Tyrosinemia
+"Chromosome Count: 0 - 47, FSH: 0 - 20, Clinical Evaluation: 0 - 1",Turner Syndrome
+"Abdominal Distension: 0 - 10, Imaging Results: 0 - 1, WBC Count: 4 - 11",Toxic Megacolon
+"pH Level: 1 - 5, Biopsy Results: 0 - 1, H. pylori: Negative/Positive",Ulcer
+"Histamine Levels: 0 - 10, Skin Reaction: 0 - 1, Clinical Evaluation: 0 - 1",Urticaria (Hives)
+"WBC Count: 4 - 11, Urine Culture: 0 - 1, Nitrites: 0-1",Urinary Tract Infection (UTI)
+"Cell Counts: 0 - 100, Imaging Results: 0 - 1, WBC Count: 4 - 11",Uveitis
+"Fever: 0 - 1, Blood Culture: Negative/Positive, Imaging Studies: 0 - 1",Undulant Fever
+"BUN: 7 - 20, Creatinine: 0.5 - 1.2, Electrolytes: 0 - 1",Uremia
+"Bladder Capacity: 0 - 500, Urinary Flow Rate: 0 - 50, Urinalysis: 0 - 1",Urinary Incontinence
+"Colonoscopy Findings: 0 - 1, Inflammatory Markers: 0 - 10, Blood Tests: 0 - 1",Ulcerative Colitis
+"Hearing Tests: 0 - 1, Genetic Marker: 0-1, Clinical Evaluation: 0 - 1",Urinary Retention
+"Urinalysis Results: 0 - 1, Imaging Studies: 0 - 1, Pain Scale: 0 - 10",Usher Syndrome
+"Nerve Conduction Velocity: 0 - 60, Symptoms: 0 - 10, Pain Scale: 0 - 10",Urethritis
+"Urethral Imaging: 0 - 1, Urethral Pressure: 0 - 20, Clinical Evaluation: 0 - 1",Ulnar Nerve Entrapment
+"Genetic Testing: 0-1, Hearing Tests: 0 - 1, Clinical Evaluation: 0 - 1",Urethral Stricture
+"Blood Tests: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Usher's Syndrome
+"Symptoms Severity: 0 - 10, Imaging Findings: 0 - 1, Respiratory Rate: 12 - 20",Uptake Disorders
+"WBC Count: 4 - 11, Nasal Swab: Negative/Positive, Chest X-ray: 0 - 1",Upper Respiratory Tract Infection (URTI)
+"WBC Count: 4 - 11, Urinary Cytology: 0 - 1, Imaging Results: 0 - 1",Urothelial Carcinoma
+"Tumor Markers: 0 - 100, Imaging Findings: 0 - 1, Biopsy Results: 0 - 1",Ulcerated Carcinoma
+"HbA1c: 4 - 6.5, Fasting Glucose: 70 - 130, Urinalysis: 0 - 1",Uncontrolled Diabetes
+"Physical Exam Findings: 0 - 1, MRI Results: 0 - 1, Pain Scale: 0 - 10",Ulnar Collateral Ligament Injury
+"Fibroid Size: 0 - 10, Imaging Findings: 0 - 1, Blood Tests: 0 - 1",Uterine Fibroids
+"Clinical Findings: 0 - 1, Imaging Results: 0 - 1, WBC Count: 4 - 11",Urethral Caruncle
+"Imaging Results: 0 - 1, Urinary Cytology: 0 - 1, Biopsy Results: 0 - 1",Urinary Bladder Cancer
+"Viral Antibody Levels: 0 - 10, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Uveoparotid Fever (Mumps)
+"Depression Scale: 0 - 30, Clinical Evaluation: 0 - 1, Blood Tests: 0 - 1",Unipolar Depression
+"Urinary Frequency: 0 - 20, Incontinence Severity: 0 - 10, Urinalysis: 0 - 1",Urge Incontinence
+"Blood Tests: 0 - 1, Imaging Findings: 0 - 1, Clinical Evaluation: 0 - 1",Undifferentiated Connective Tissue Disease
+"Cardiac Enzymes: 0 - 1, Pain Scale: 0 - 10, Imaging Studies: 0 - 1",Unstable Angina
+"Imaging Findings: 0 - 1, Clinical Evaluation: 0 - 1, Urinary Flow Rate: 0 - 50",Urethral Diverticulum
+"Skin Biopsy Results: 0 - 1, Clinical Evaluation: 0 - 1, WBC Count: 4 - 11",Urticaria Pigmentosa
+"Uterine Examination: 0 - 1, Imaging Results: 0 - 1, Clinical Findings: 0 - 1",Uterine Prolapse
+"Eye Pressure: 0 - 25, Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1",Ulcerative Keratitis
+"Nerve Conduction Velocity: 0 - 60, Clinical Evaluation: 0 - 1, Pain Scale: 0 - 10",Ulnar Neuropathy
+"Pain Score: 0 - 10, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Upper Limb Pain
+"Urinalysis Results: 0 - 1, Smell Assessment: 0 - 10, Clinical Evaluation: 0 - 1","Uveitis (Anterior, Intermediate, Posterior)"
+"Imaging Findings: 0 - 1, Urinalysis: 0 - 1, Blood Tests: 0 - 1",Urine Smell Disorders
+"Biopsy Results: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Urinary Tract Stones
+"Urine Culture: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Ulcerative Lesions
+"Urinary Flow Rate: 0 - 50, Urethroscopy: 0 - 1, Clinical Evaluation: 0 - 1",Ureaplasma Infection
+"WBC Count: 4 - 11, Urease Test: 0-1, Blood Cultures: 0 - 1",Urease Producing Bacteria Infections
+"WBC Count: 4 - 11, Urinary Flow Rate: 0 - 50, Imaging Studies: 0 - 1",Urethral Hyperplasia
+"Genetic Markers: 0 - 1, Imaging Studies: 0 - 1, Clinical Evaluation: 0 - 1",Urofacial Syndrome
+"BUN: 7 - 20, Creatinine: 0.6 - 1.3, Imaging Studies: 0 - 1",Uremic Encephalopathy
+"Imaging Findings: 0 - 1, Physical Examination: 0 - 1, WBC Count: 4 - 11",Urethral Varices
+"Nerve Conduction Velocity: 0 - 60, Clinical Evaluation: 0 - 1, Pain Scale: 0 - 10",Ulnar Nerve Dysfunction
+"Imaging Studies: 0 - 1, Clinical Evaluation: 0 - 1, Urine Output: 0 - 200",Urinary Bladder Exstrophy
+"Biopsy Results: 0 - 1, Imaging Studies: 0 - 1, WBC Count: 4 - 11",Urethral Tumors
+"IgG Levels: 0 - 100, Serology Results: 0 - 1, Clinical Evaluation: 0 - 1",Varicella (Chickenpox)
+"ALT: 7 - 56, AST: 10 - 40, Bilirubin: 0.1 - 1.2",Viral Hepatitis
+"Viral Load: 0 - 1, Liver Enzymes: 0 - 1, Imaging Studies: 0 - 1",Viral Infections (General)
+"Inflammatory Markers: 0 - 1, Imaging Studies: 0 - 1, Clinical Evaluation: 0 - 1",Vasculitis
+"D-dimer: 0 - 0.5, Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1",Venous Thrombosis
+"Imaging Findings: 0 - 1, Clinical Evaluation: 0 - 1, WBC Count: 4 - 11",Ventricular Septal Defect
+"Vesicular Fluid Analysis: 0 - 1, Clinical Evaluation: 0 - 1, Serology Results: 0 - 1",Vesicular Stomatitis
+"WBC Count: 4 - 11, Blood Tests: 0 - 1, Imaging Studies: 0 - 1","Vibrio Infection (e.g., Vibrio cholerae)"
+"Blood Tests: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Vitamin B12 Deficiency
+"Blood Tests: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Studies: 0 - 1",Vitamin D Deficiency
+"Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1, WBC Count: 4 - 11",Viral Meningitis
+"WBC Count: 4 - 11, Pap Smear: 0 - 1, Biopsy Results: 0 - 1",Vulvar Cancer
+"STD Testing: 0 - 1, Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1",Vertebral Osteomyelitis
+"Clinical Evaluation: 0 - 1, WBC Count: 4 - 11, Imaging Studies: 0 - 1",Valvular Heart Disease
+"WBC Count: 4 - 11, Biopsy Results: 0 - 1, Clinical Evaluation: 0 - 1",Ventricular Fibrillation
+"pH: 4.0 - 5.0, WBC Count: 4 - 11, Culture Results: 0-1",Vulvovaginal Candidiasis (Yeast Infection)
+"HPV Status: 0-1, WBC Count: 4 - 11, Clinical Findings: 0 - 1",Venereal Warts
+"WBC Count: 4 - 11, MRI Findings: 0 - 1, Cognitive Function: 0 - 30",Vascular Dementia
+"Biopsy Results: 0 - 1, WBC Count: 4 - 11, Pain Scale: 0 - 10",Vulvar Lichen Planus
+"Serological Tests: 0 - 1, Culture Results: 0 - 1, Imaging Results: 0 - 1",Valley Fever (Coccidioidomycosis)
+"Genetic Marker: 0-1, Imaging Results: 0 - 1, Family History: 0 - 1",Vascular Ehlers-Danlos Syndrome
+"PCR Results: 0 - 1, WBC Count: 4 - 11, Clinical Findings: 0 - 1",Vesiculopustular Diseases
+"Immunization Status: Up to Date/Not Up to Date, Blood Tests: 0 - 1, Serological Tests: 0 - 1",Vaccine-Preventable Diseases
+"Serum Vitamin C: 0 - 0.6, WBC Count: 4 - 11, Clinical Findings: 0 - 1",Vitamin C Deficiency (Scurvy)
+"Blood Pressure: 90 - 140, Heart Rate: 60 - 100, Tilt Table Results: 0 - 1",Vasovagal Syncope
+"Visual Acuity: 20/20 - 20/200, MRI Results: 0 - 1, Clinical Evaluation: 0 - 1",Visual Snow Syndrome
+"Trauma History: 0 - 1, Clinical Findings: 0 - 1, Psychological Assessment: 0 - 1",Vicarious Trauma
+"Venomous Bite Assessment: 0 - 1, Blood Tests: 0 - 1, Imaging Results: 0 - 1",Venomous Snake Bites
+"Estrogen Levels: 0 - 200, Vaginal pH: 0 - 1, Clinical Findings: 0 - 1",Vaginal Atrophy
+"Ventricular Rate: 60 - 100, ECG Findings: 0 - 1, Clinical Findings: 0 - 1",Ventricular Arrhythmias
+"Biopsy Results: 0 - 1, WBC Count: 4 - 11, Clinical Evaluation: 0 - 1",Vulvitis
+"Voice Quality: 0 - 10, Laryngeal Examination: 0 - 1, Clinical Evaluation: 0 - 1",Vascular Malformations
+"PCR Results: 0 - 1, Clinical Evaluation: 0 - 1, Serological Tests: 0 - 1",Vocal Cord Dysfunction
+"PT: 12 - 15, INR: 0.8 - 1.2, Vitamin K Levels: 0 - 1",Vesicular Exanthema
+"Imaging Results: 0 - 1, Biopsy Results: 0 - 1, Genetic Testing: 0 - 1",Vitamin K Deficiency
+"Conjunctival Swab Results: 0 - 1, WBC Count: 4 - 11, Clinical Evaluation: 0 - 1",Villous Adenoma
+"Imaging Results: 0 - 1, Platelet Count: 150 - 450, Clinical Evaluation: 0 - 1",Viral Conjunctivitis
+"WBC Count: 4 - 11, Platelet Count: 150 - 450, INR: 0.8 - 1.1",Viral Hemorrhagic Fevers
+"Fundus Exam: 0 - 1, Visual Acuity: 20 - 40, OCT Results: 0 - 1",Vitreous Hemorrhage
+"WBC Count: 4 - 11, C-reactive Protein: 0 - 10, Chest X-ray Findings: 0 - 1",Viral Pneumonia
+"Audiogram Results: 0 - 1, Neurological Exam: 0 - 1, MRI Results: 0 - 1",Vestibular Neuritis
+"Nasal Examination: 0 - 1, WBC Count: 4 - 11, Allergen Specific IgE: 0 - 1",Vasomotor Rhinitis
+"Culture Results: 0 - 1, pH Level: 0 - 7, Histological Findings: 0 - 1",Vulvar vestibulitis
+"Ultrasound Results: 0 - 1, Blood Flow: 0 - 1, Complication Rate: 0 - 1",Vascular Access Complications
+"Heart Rate: 60 - 100, QT Interval: 0 - 440, PVC Count: 0 - 10",Ventricular Tachycardia
+"Blood Pressure: 90 - 140, Lipid Panel: 0 - 200, Ankle-Brachial Index: 0 - 1",Vascular Disease
+"Imaging Results: 0 - 1, Fracture Findings: 0 - 1, Pain Level: 0 - 10",Vertebral Fractures
+"Culture Results: 0 - 1, Imaging Results: 0 - 1, Pressure Measurement: 0 - 1",Vesicovaginal Fistula
+"Imaging Results: 0 - 1, Pain Scale: 0 - 10, Bowel Sounds: 0 - 1",Volvulus
+"Infection Markers: 0 - 1, Culture Results: 0 - 1, Fever: 0 - 1",Ventricular Assist Device Infection
+"Clinical Symptoms: 0 - 1, Allergy Testing: 0 - 1, Erythema: 0 - 1",Vaccine Reactions
+"Culture Results: 0 - 1, pH Level: 0 - 7, Microscopy Findings: 0 - 1",Vesicant Injury
+"Valvular Assessment: 0 - 1, Blood Pressure: 90 - 140, Echo Findings: 0 - 1",Vaginal Candidiasis
+"Venous Flow: 0 - 1, Venous Pressure: 0 - 1, Clinical Symptoms: 0 - 1",Valvular Insufficiency
+"Pain Scale: 0 - 10, Clinical Findings: 0 - 1, Response to Treatment: 0 - 1",Venous Insufficiency
+"Chest Pain Score: 0 - 10, ECG Results: 0 - 1, Angina Symptoms: 0 - 1",Vulvar Pain Syndromes
+"Clinical Findings: 0 - 1, WBC Count: 4 - 11, Imaging Results: 0 - 1",Vasospastic Angina
+"Serology: 0 - 1, Imaging Results: 0 - 1, Disease Markers: 0 - 1",Ventricular Remodeling
+"Imaging Results: 0 - 1, Blood Tests: 0 - 1, Fungal Culture: 0 - 1",Varicose Veins
+"Imaging Findings: 0 - 1, DEXA Scan: 0 - 1, Bone Density: 0 - 1",Vaginal Infections
+"Imaging Results: 0 - 1, Clinical Examination: 0 - 1, Dermatitis Findings: 0 - 1",Visceral Leishmaniasis
+"Bone Density: 0 - 1, Fracture Risk Assessment: 0 - 1, Calcium Level: 8 - 10",Vertebral Osteoporosis
+"Imaging Findings: 0 - 1, Aortic Arch Imaging: 0 - 1, Clinical Findings: 0 - 1",Vascular Ring
+"Culture Results: 0 - 1, Histopathology: 0 - 1, Eosinophil Count: 0 - 1",Vesicular Pustular Dermatitis
+"Pain Scale: 0 - 10, Frequency: 0 - 10, Duration: 0 - 10","Vascular Headaches (e.g., Migraines)"
+"Culture Results: 0 - 1, Blood Tests: 0 - 1, WBC Count: 4 - 11",Vibrio Vulnificus Infection
+"Audiometry Results: 0 - 1, Imaging Results: 0 - 1, Hearing Loss Assessment: 0 - 1",Vestibular Schwannoma (Acoustic Neuroma)
+"Clinical Findings: 0 - 1, Culture Results: 0 - 1, HPV Testing: 0 - 1",Warts (Viral)
+"Culture Results: 0 - 1, Microscopy: 0 - 1, Serological Results: 0 - 1",Waterborne Diseases
+"WBC Count: 4 - 11, PCR Results: 0 - 1, Immunization History: 0 - 1",Whooping Cough (Pertussis)
+"Thiamine Levels: 0 - 1, Neurological Findings: 0 - 1, Clinical Symptoms: 0 - 1",Wernicke-Korsakoff Syndrome
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Viral Load: 0 - 1",West Nile Virus Infection
+"Platelet Count: 150 - 450, Genetic Markers: 0-1, Clinical Findings: 0 - 1",Wiskott-Aldrich Syndrome
+"QT Interval: 0 - 440, Heart Rate: 60 - 100, Clinical Findings: 0 - 1",Wolff-Parkinson-White Syndrome
+"Imaging Results: 0 - 1, Nutritional Assessment: 0 - 1, Clinical Findings: 0 - 1",Whipple’s Disease
+"Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1, Biopsy Results: 0 - 1",Wegener’s Granulomatosis (Granulomatosis with Polyangiitis)
+"Muscle Strength: 0 - 1, Clinical Evaluation: 0 - 1, Reflexes: 0 - 1",Wry Neck (Torticollis)
+"Electrolyte Levels: 135 - 145, Serum Osmolality: 285 - 295, Clinical Findings: 0 - 1",Wildfire Smoke Exposure
+"Culture Results: 0 - 1, WBC Count: 4 - 11, Clinical Findings: 0 - 1",Wilson’s Disease
+"WBC Count: 4 - 11, Imaging Results: 0 - 1, Platelet Count: 150 - 450",Wernicke’s Encephalopathy
+"Genetic Markers: 0 - 1, Clinical Evaluation: 0 - 1, Skin Findings: 0 - 1",Water Intoxication (Hyponatremia)
+"Imaging Results: 0 - 1, Fracture Findings: 0 - 1, Pain Scale: 0 - 10",Wound Infections
+"Language Assessment: 0 - 1, Imaging Results: 0 - 1, Clinical Findings: 0 - 1",Wasting Syndrome (Cachexia)
+"Tear Break-Up Time: 0 - 1, Clinical Findings: 0 - 1, Intraocular Pressure: 0 - 1",White Blood Cell Disorders
+"Hair Density: 0 - 1, Genetic Markers: 0-1, Clinical Symptoms: 0 - 1",Woolly Hair Syndrome
+"Bone Density: 0 - 1, Fracture Risk Assessment: 0 - 1, Pain Scale: 0 - 10",Wrist Fractures
+"Language Assessment: 0 - 1, Imaging Results: 0 - 1, Clinical Findings: 0 - 1",Wernicke’s Aphasia
+"Tear Break-Up Time: 0 - 1, Clinical Findings: 0 - 1, Intraocular Pressure: 0 - 1",Watering Eyes (Epiphora)
+"Pain Scale: 0 - 10, Range of Motion: 0 - 1, Clinical Evaluation: 0 - 1",Whiplash
+"Pain Scale: 0 - 10, Clinical Evaluation: 0 - 1, Imaging Results: 0 - 1",Wrist Tendonitis (De Quervain's)
+"Culture Results: 0 - 1, Imaging Results: 0 - 1, Clinical Findings: 0 - 1",White Plague (Tuberculosis)
+"Imaging Results: 0 - 1, Endometrial Thickness: 0 - 1, Clinical Findings: 0 - 1",Womb Cancer (Endometrial Cancer)
+"Weight Loss: 0 - 1, Nutritional Assessment: 0 - 1, Clinical Findings: 0 - 1",Wasting Disease (Chronic Wasting Disease)
+"Clinical Findings: 0 - 1, Imaging Results: 0 - 1, Culture Results: 0 - 1",Wooden Breast Syndrome
+"Wheeze Frequency: 0 - 10, Clinical Findings: 0 - 1, Spirometry Results: 0 - 1",Wheeze
+"Pain Scale: 0 - 10, Clinical Evaluation: 0 - 1, Imaging Results: 0 - 1",Whiplash Associated Disorders
+"Blood Tests: 0 - 1, Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1",Waldenström Macroglobulinemia
+"Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1, Nutritional Assessment: 0 - 1",Wernicke's Encephalopathy
+"Skin Examination: 0 - 1, Clinical Evaluation: 0 - 1, Biopsy Results: 0 - 1",Xeroderma Pigmentosum
+"Genetic Markers: 0-1, Clinical Findings: 0 - 1, Immunological Assessment: 0 - 1",X-linked Agammaglobulinemia
+"Phosphate Levels: 0 - 1, Clinical Findings: 0 - 1, Imaging Results: 0 - 1",X-linked Hypophosphatemia
+"Lipid Profile: 0 - 1, Clinical Findings: 0 - 1, Biopsy Results: 0 - 1",Xanthoma
+"Salivary Gland Function: 0 - 1, Clinical Findings: 0 - 1, Imaging Results: 0 - 1",Xanthelasma
+"Immunoglobulin Levels: 0 - 1, Clinical Evaluation: 0 - 1, Blood Tests: 0 - 1",Xerostomia (Dry Mouth)
+"Serological Testing: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Results: 0 - 1",X-linked Severe Combined Immunodeficiency (X-SCID)
+"Culture Results: 0 - 1, Clinical Findings: 0 - 1, Imaging Results: 0 - 1",Xenotropic Murine Leukemia Virus-Related Virus (XMRV)
+"Culture Results: 0 - 1, Clinical Evaluation: 0 - 1, Imaging Results: 0 - 1",Yellow Fever
+"Imaging Results: 0 - 1, Clinical Evaluation: 0 - 1, Culture Results: 0 - 1",Yersiniosis
+"Imaging Results: 0 - 1, Pain Scale: 0 - 10, Clinical Evaluation: 0 - 1",Yaws
+"Clinical Findings: 0 - 1, Blood Tests: 0 - 1, Imaging Results: 0 - 1",Yellow Nail Syndrome
+"Imaging Results: 0 - 1, Pain Scale: 0 - 10, Clinical Findings: 0 - 1",Yokohama Disease
+"Sperm Count: 0 - 15, Testosterone: 0 - 1, FSH: 0 - 10",Y chromosome infertility
+"Zika Antibody: 0-1, Viral Load: 0 - 1, Clinical Symptoms: 0 - 1",Zika Virus
+"Serum Gastrin: 0 - 200, Secretin Level: 0 - 1, Clinical Symptoms: 0 - 1",Zollinger-Ellison Syndrome
+"Fungal Load: 0 - 1, Imaging Results: 0 - 1, Clinical Symptoms: 0 - 1",Zygomycosis (Mucormycosis)
+"Endoscopic Findings: 0 - 1, Biopsy Results: 0 - 1, Clinical Symptoms: 0 - 1",Zenker's Diverticulum
+"Antibody Testing: 0 - 1, PCR Results: 0 - 1, Clinical Symptoms: 0 - 1",Zoster (Shingles)
+"Serum Gastrin: 0 - 200, Secretin Level: 0 - 1, Clinical Symptoms: 0 - 1",Zollinger-Ellison syndrome

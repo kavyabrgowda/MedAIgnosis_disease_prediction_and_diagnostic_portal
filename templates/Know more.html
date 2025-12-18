@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know More</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font links -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+
+</head>
+
+<body class="bg-gradient-to-r bg-purple-100 via-cyan-50 flex items-center justify-center min-h-screen font-sans">
+    <!-- Main Content Container -->
+    <div class="container mx-auto max-w-5xl bg-white rounded-lg shadow-xl p-8">
+
+        <!-- How Our App Works Section -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-serif font-semibold text-amber-700 text-center mb-6 underline">
+                A Smarter Way to Manage Your Health
+            </h2>
+        </section>
+
+        <!-- How Our App Works Detailed Section -->
+        <section class="mb-10">
+            <h1 class="text-4xl font-serif font-bold text-teal-600 text-center mb-8">
+                How Our App Works:
+            </h1>
+
+            <!-- Main Image -->
+            <img src="/static/img/main.jpg" alt="MEDAIGNONIS" class="block mx-auto rounded-[40px] shadow-md w-1/2 mb-8">
+
+            <div class="space-y-4">
+                <div class="bg-emerald-50 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700">✨ Our app provides a seamless and secure platform for both doctors and patients to connect and manage healthcare needs efficiently.</p>
+                </div>
+                <div class="bg-emerald-50 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700">✨ Doctors can easily <strong>verify their licenses</strong> and register, enabling them to connect with patients needing medical assistance.</p>
+                </div>
+                <div class="bg-emerald-50 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700">✨ Patients can <strong>upload their medical reports</strong> and are matched with a doctor based on their condition, ensuring expert care.</p>
+                </div>
+                <div class="bg-emerald-50 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700">✨ The app provides a <strong>one-on-one chat</strong> for direct communication between patients and doctors, improving response time and care.</p>
+                </div>
+                <div class="bg-emerald-50 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-700">✨ The platform promotes efficient, transparent, and effective healthcare management.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Getting Started Guide Section -->
+        <section class="mb-10">
+            <h1 class="text-3xl font-semibold font-serif text-sky-600 text-center mb-8">
+                Getting Started: Step-by-Step Guide
+            </h1>
+
+            <div class="space-y-4">
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/register.jpg" alt="Register" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 1:</strong> Register by creating an account as a doctor or patient. Doctor verification is done through license certificate before registration.
+                    </div>
+                </div>
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/verify.jpg" alt="Verification" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 2:</strong> Patient and doctor login using the correct username and password.
+                    </div>
+                </div>
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/profile.jpg" alt="Profile Setup" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 3:</strong> Complete your profile for a personalized experience.
+                    </div>
+                </div>
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/form.jpg" alt="doc" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 4:</strong> Patients can fill the report form to get the thorough information about your health to the doctor.
+                    </div>
+                </div>
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/doc.jpg" alt="doc" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 5:</strong> Start connecting with doctors or patients and enjoy seamless healthcare management.
+                    </div>
+                </div>
+                <div class="flex items-center bg-sky-50 p-6 rounded-lg shadow-md">
+                    <img src="/static/img/chat.jpg" alt="chat" class="w-20 h-20 rounded-full mr-6">
+                    <div>
+                        <strong>Step 6:</strong> Start a chat with your assigned doctor for further consultation.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="text-center py-10 rounded-lg">
+            <h2 class="text-3xl font-bold font-serif text-fuchsia-800 mb-8">
+                Unlocking Health Potential for Patients and Doctors
+            </h2>
+
+            <!-- For Doctors Section -->
+            <div class="mb-8 bg-pink-50 p-8 rounded-lg shadow-md">
+                <p class="text-3xl font-semibold font-serif text-gray-900 py-6">For Doctors:</p>
+                <div class="flex items-center">
+                    <img src="/static/img/doctor.jpg" alt="Doctor Benefits" class="w-40 h-auto rounded-lg shadow-md mr-6">
+                    <ul class="text-left text-gray-600 space-y-2">
+                        <li><strong>Streamlined Registration and License Verification:</strong> Doctors can easily verify their professional licenses and register on the platform, ensuring a smooth onboarding process.</li>
+                        <li><strong>Efficient Patient Matching:</strong> The app automatically assigns patients to doctors based on their medical conditions, allowing for a more targeted and efficient approach to treatment.</li>
+                        <li><strong>Simplified Patient Interaction:</strong> Doctors can access patient reports, X-rays, and medical documents directly on the platform, streamlining the diagnostic process.</li>
+                        <li><strong>Secure Communication:</strong> The one-on-one chat feature ensures that doctors can communicate privately with patients, offering personalized advice and guidance when needed.</li>
+                        <li><strong>Enhanced Flexibility:</strong> Doctors can manage their practice remotely, saving time and providing care at their convenience while expanding their reach to a larger patient base.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- For Patients Section -->
+            <div class="bg-sky-50 p-8 rounded-lg shadow-md">
+                <p class="text-3xl font-semibold font-serif text-gray-900 py-6">For Patients:</p>
+                <div class="flex items-center">
+                    <img src="/static/img/patient.jpg" alt="Patient Benefits" class="w-40 h-auto rounded-lg shadow-md mr-6">
+                    <ul class="text-left text-gray-600 space-y-2">
+                        <li><strong>Quick and Easy Access to Doctors:</strong> Patients can easily register, upload their medical documents, and get matched with the appropriate doctor based on their specific medical needs.</li>
+                        <li><strong>Convenient Communication:</strong> The in-app one-on-one chat feature allows patients to have direct, secure conversations with their assigned doctor, offering timely advice without needing to visit in person.</li>
+                        <li><strong>Efficient Treatment:</strong> By uploading reports and X-rays, patients enable doctors to assess their condition promptly, leading to quicker diagnoses and treatment plans.</li>
+                        <li><strong>Seamless Experience:</strong> Patients benefit from a user-friendly interface that simplifies the process of connecting with healthcare professionals and managing their medical records in one place.</li>
+                        <li><strong>Enhanced Privacy and Security:</strong> All patient data, including medical reports and personal details, are handled with the highest standards of privacy and security.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="text-center mt-8 pd-6">
+            <a class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-200" href="{{ url_for('home') }}">Back to Home</a>
+        </div><br>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License Verification</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+    <style>
+        /* Tailwind-compatible autofill fix */
+        input:-webkit-autofill {
+            background-color: transparent !important; /* Forces transparent */
+            -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+            box-shadow: 0 0 0px 1000px transparent inset !important;
+            -webkit-text-fill-color: #1f2937 !important; /* Match the text color */
+        }
+    </style>        
+</head>
+
+<body class="bg-cover bg-center bg-fixed sm:bg-right md:bg-center lg:bg-top" style="background-image: url('/static/img/resized_license_verification3.jpg');">
+    <h1 class="text-5xl font-semibold text-center text-black text-semibold pt-1 mb-8">License Verification</h1>
+
+    <div class="max-w-2xl mx-auto bg-transparent p-8 rounded-lg shadow-md">
+        <!-- don't change link and input type-->
+        <form action="/analyze" method="POST" enctype="multipart/form-data">
+            <label for="first_name" class="block text-lg font-semibold text-black">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required
+                class="w-full p-3 mt-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 bg-transparent text-black text-semibold placeholder-gray-700 appearance-none">
+
+            <label for="last_name" class="block text-lg font-semibold text-black mt-4">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required
+                class="w-full p-3 mt-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 bg-transparent text-black text-semibold placeholder-gray-700 appearance-none">
+    
+            <label for="country" class="block text-lg font-semibold text-black mt-4">Country</label>
+            <input type="text" id="country" name="country" placeholder="Enter the country of the license" required
+                class="w-full p-3 mt-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 bg-transparent text-black text-semibold placeholder-gray-700 appearance-none">
+    
+            <label for="license_number" class="block text-lg font-semibold text-black mt-4">License Number</label>
+            <input type="text" id="license_number" name="license_number" placeholder="Enter the license number" required
+                class="w-full p-3 mt-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 bg-transparent text-black text-semibold placeholder-gray-700 appearance-none">
+    
+            <label for="certificate_image" class="block text-lg font-semibold text-black mt-4">Upload Certificate Image</label>
+            <input type="file" id="certificate_image" name="certificate_image" accept="image/*" required
+                class="w-full p-3 mt-2 border border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 bg-transparent text-black text-semibold placeholder-gray-700 appearance-none">
+    
+            <!-- Center the button using flex utilities -->
+            <div class="flex justify-center mt-6">
+                <input type="submit" value="Verify License"
+                    class="w-1/2 p-2 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 cursor-pointer text-xl">
+            </div>
+        </form>            
+    </div>
+</body>
+
+</html>

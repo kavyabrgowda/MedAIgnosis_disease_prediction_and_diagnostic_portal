@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Report</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="bg-blue-50 min-h-screen font-sans">
+    <!-- Back to Home Button -->
+    <div class="absolute top-4 right-20">
+        <a href="{{ url_for('landing') }}" class="flex justify-end">
+            <span class="flex btn text-blue-600 border-blue-600 md:border-2 hover:bg-blue-600 hover:text-white transition ease-out duration-500 text-2xl px-3 py-1 rounded-lg items-center">
+                Home  
+                <svg class="w-6 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+            </span>
+        </a>
+    </div><br><br>
+
+    <!-- Page Title -->
+    <div class="text-center mt-12">
+        <h1 class="text-5xl font-bold text-gray-800">Patient Health Report</h1>
+    </div>
+
+    <!-- Popup Trigger Button -->
+    <div class="flex justify-center mt-12">
+        <button id="popupBtn" 
+            class="text-2xl bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 focus:ring-4 focus:ring-green-300 transition duration-300">
+            View
+        </button>
+    </div>
+
+    <!-- Popup Form -->
+    <div id="popupForm" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white rounded-lg shadow-lg w-80 p-6 relative">
+            <!-- Close Button -->
+            <button class="close-btn absolute top-3 right-3 text-gray-500 hover:text-black text-2xl font-bold">
+                &times;
+            </button>
+            <!-- Form Content -->
+            <h2 class="text-xl font-semibold text-gray-700 mb-4">Enter Patient Details</h2>
+            <form id="patientForm" class="space-y-4">
+                <!-- First Name -->
+                <div>
+                    <label for="firstName" class="block text-sm font-medium text-gray-700">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                </div>
+                <!-- Last Name -->
+                <div>
+                    <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required
+                        class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500">
+                </div>
+                <!-- Submit Button -->
+                <div class="flex justify-center">
+                    <button type="button" id="submitBtn" 
+                        class="w-1/2 bg-green-500 text-white font-semibold py-2 rounded-lg hover:bg-green-600 focus:ring-4 focus:ring-green-300 transition duration-300">
+                        OK
+                    </button>
+                </div>                
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript to Control the Popup -->
+    <script>
+        const popup = document.getElementById("popupForm");
+        const btn = document.getElementById("popupBtn");
+        const closeBtn = document.getElementsByClassName("close-btn")[0];
+        const submitBtn = document.getElementById("submitBtn");
+
+        // Show the popup when the button is clicked
+        btn.onclick = function () {
+            popup.classList.remove("hidden");
+        }
+
+        // Close the popup when the "x" is clicked
+        closeBtn.onclick = function () {
+            popup.classList.add("hidden");
+        }
+
+        // Redirect when the OK button is clicked
+        submitBtn.onclick = function () {
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+
+            if (firstName && lastName) {
+                window.location.href = `/report_final?firstName=${firstName}&lastName=${lastName}`;
+            } else {
+                alert("Please enter both first and last name.");
+            }
+        }
+    </script>
+</body>
+
+</html>

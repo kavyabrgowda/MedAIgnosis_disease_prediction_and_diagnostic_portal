@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-gray-0">
+
+    <!-- Header -->
+    <div class="w-full h-64 bg-cover bg-center bg-gradient-to-t from-black/50 to-black/50" style="background-image: url('/static/img/header.jpg');">
+        <div class="flex flex-col justify-center h-full text-black">
+            <h1 class="text-6xl font-bold px-48 py-10">MedAIgnosis</h1>
+        </div>
+    </div>
+
+
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-200 border-b border-gray-300 flex justify-center items-center py-2 text-lg">
+        <ul class="flex space-x-6">
+            <li><a class="text-gray-700 hover:text-gray-900 pr-2" href="{{ url_for('landing') }}">Home</a></li>
+            <li><a class="text-gray-700 hover:text-gray-900 pr-2" href="{{ url_for('balance') }}">Balanced Diet</a></li>
+            <li class="relative group">
+                <a class="text-gray-700 hover:text-gray-900 cursor-pointer pr-2">Symptom Checker</a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-md border border-gray-200 rounded">
+                    <li><a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="{{ url_for('symptom_input') }}">Symptom Analysis</a></li>
+                </ul>
+            </li>
+            <li class="relative group">
+                <a class="text-gray-700 hover:text-gray-900 cursor-pointer pr-2">My Health Records</a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-md border border-gray-200 rounded">
+                    <li><a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="{{ url_for('index') }}">Upload Test Results</a></li>
+                    <li><a class="block px-4 py-2 text-gray-700 hover:bg-gray-100" href="{{ url_for('form') }}">Fill Out Report Form</a></li>
+                </ul>
+            </li>
+            <li class="relative group">
+                <a class="text-gray-700 hover:text-gray-900 cursor-pointer pr-2">Patient Profile</a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-md border border-gray-200 rounded">
+                    <li><a class="dropdown-item px-4 py-2 text-gray-700 hover:bg-gray-100" href="javascript:void(0);" data-toggle="modal" data-target="#viewPatientDetailsModal">View Patient Details</a></li>
+                    <li><a class="dropdown-item px-4 py-2 text-gray-700 hover:bg-gray-100" href="{{ url_for('health') }}">View Patient Report</a></li>
+                </ul>
+            </li>
+            <li class="relative group">
+                <a class="text-gray-700 hover:text-gray-900 cursor-pointer pr-2">User Profile</a>
+                <ul class="absolute hidden group-hover:block bg-white shadow-md border border-gray-200 rounded">
+                    <li><a class="dropdown-item px-4 py-2 text-gray-700 hover:bg-gray-100" href="javascript:void(0);" id="detailsButton" data-toggle="modal" data-target="#detailsModal">View Registration Details</a></li>
+                    <li><a class="dropdown-item px-4 py-2 text-gray-700 hover:bg-gray-100" href="javascript:void(0);" id="notificationButton" onclick="toggleNotifications()">Notifications <span id="notificationCount" class="inline-flex items-center justify-center w-5 h-5 text-xs font-semibold text-white bg-red-500 rounded-full">0</span></a></li>
+                </ul>
+            </li>
+            <li><a class="text-gray-700 hover:text-gray-900" href="{{ url_for('connect') }}">CareConnect</a></li>
+        </ul>
+    </nav>
+
+    <div id="notifications" class="hidden fixed top-16 right-5 w-72 bg-gray-100 border border-gray-300 pl-4 py-2 shadow-lg z-50">
+        <h5 class="text-lg font-semibold text-gray-700 mb-3">Notifications</h5>
+        <div id="notificationList"></div>
+    </div>
+
+    <!-- Modal for entering doctor details and displaying patient information -->
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden" id="viewPatientDetailsModal">
+        <div class="bg-white rounded-lg shadow-lg w-96">
+            <div class="p-4 border-b">
+                <h5 class="text-lg font-bold">Doctor Details</h5>
+            </div>
+            <div class="p-4 space-y-4">
+                <div id="doctorForm">
+                    <label for="username" class="block text-gray-700">Username:</label>
+                    <input type="text" id="username" class="block w-full p-2 border border-gray-300 rounded" placeholder="Enter username">
+                    <label for="password" class="block text-gray-700">Password:</label>
+                    <input type="password" id="password" class="block w-full p-2 border border-gray-300 rounded" placeholder="Enter password">
+                    <label for="firstName" class="block text-gray-700">First Name:</label>
+                    <input type="text" id="firstName" class="block w-full p-2 border border-gray-300 rounded" placeholder="Enter First name">
+                    <label for="lastName" class="block text-gray-700">Last Name:</label>
+                    <input type="text" id="lastName" class="block w-full p-2 border border-gray-300 rounded" placeholder="Enter Last name">
+                    <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 mt-4" onclick="viewPatientDetails()">OK</button>
+                </div>
+                <div id="patientDetailsSection" class="hidden"></div>
+            </div>
+            <div class="p-4 border-t flex justify-end">
+                <button class="bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-700" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for showing user details -->
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden" id="detailsModal">
+        <div class="bg-white rounded-lg shadow-lg w-96">
+            <div class="p-4 border-b">
+                <h5 class="text-lg font-bold">Registration Details</h5>
+            </div>
+            <div class="p-4">
+                <div id="registrationDetails" class="text-gray-700">Loading...</div>
+            </div>
+            <div class="p-4 border-t flex justify-end space-x-2">
+                <button class="bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-700">Close</button>
+                <button id="logoutButton" class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700">Logout</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--<script>
+        // JavaScript remains unchanged
+    </script>-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#detailsButton').click(function() {
+                // Fetch registration details via AJAX
+                $.ajax({
+                    url: '/get_registration_details',
+                    method: 'GET',
+                    success: function(data) {
+                        // Display the details in a structured format
+                        let detailsHtml = '';
+                        if (typeof data === 'object') {
+                            for (const [key, value] of Object.entries(data)) {
+                                detailsHtml += `<strong>${key}:</strong> ${value}<br>`;
+                            }
+                        } else {
+                            detailsHtml = data; // If data is a string (like error message)
+                        }
+                        $('#registrationDetails').html(detailsHtml);
+                    },
+                    error: function() {
+                        $('#registrationDetails').text('Error fetching details.');
+                    }
+                });
+            });
+
+            $('#logoutButton').click(function() {
+                // Redirect to logout route
+                window.location.href = '/logout';
+            });
+        });
+
+        function toggleNotifications() {
+            const notificationsDiv = document.getElementById('notifications');
+            notificationsDiv.style.display = notificationsDiv.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function checkForNotifications() {
+            fetch('/get_notifications') // Modified to call '/get_notifications'
+                .then(response => response.json())
+                .then(data => {
+                    const notifications = data.notifications;
+                    document.getElementById('notificationCount').textContent = notifications.length;
+
+                    const notificationsDiv = document.getElementById('notifications');
+                    notificationsDiv.innerHTML = '';
+                    notifications.forEach(note => {
+                        if (note.message) {
+                            // Handle notifications that contain a message
+                            notificationsDiv.innerHTML += `<div class="notification-item">${note.message}</div>`;
+                        } else {
+                            // Handle notifications with more detailed info (e.g., patient_name, disease, timestamp)
+                            notificationsDiv.innerHTML += `<div class="notification-item">${note.patient_name} regarding ${note.disease} on ${new Date(note.timestamp).toLocaleString()}</div>`;
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching notifications:', error));
+        }
+
+        // Check for notifications every 5 seconds
+        setInterval(checkForNotifications, 5000);
+
+        // Show the doctor form when the "View Patient Details" button is clicked
+        function showDoctorForm() {
+            document.getElementById('doctorLoginForm').style.display = 'block';
+        }
+
+        function viewPatientDetails() {
+            const firstName = document.getElementById('firstName').value;
+            const lastName = document.getElementById('lastName').value;
+            const patientDetailsSection = document.getElementById('patientDetailsSection');
+            const doctorForm = document.getElementById('doctorForm');
+
+            patientDetailsSection.innerHTML = "<p>Loading patient details...</p>";
+
+            fetch('/view_patient_details', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        firstName,
+                        lastName
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Hide doctor form and display patient details section
+                        doctorForm.style.display = "none";
+                        patientDetailsSection.style.display = "block";
+
+                        // Populate patient details with "More" button
+                        patientDetailsSection.innerHTML = `
+                        <p><strong>Patient Name:</strong> ${data.patientFirstName} ${data.patientLastName}</p>
+                        <p><strong>Disease:</strong> ${data.disease}</p>
+                        <button class="btn btn-info mt-3" onclick="viewCompletePatientDetails('${data.patientFirstName}', '${data.patientLastName}')">Complete Details</button>
+                    `;
+                    } else {
+                        patientDetailsSection.innerHTML = `<p>${data.message}</p>`;
+                    }
+                })
+                .catch(error => {
+                    patientDetailsSection.innerHTML = "<p>Error retrieving patient details.</p>";
+                    console.error('Error:', error);
+                });
+        }
+
+        function viewCompletePatientDetails(patientFirstName, patientLastName) {
+            const patientDetailsSection = document.getElementById('patientDetailsSection');
+            patientDetailsSection.innerHTML = "<p>Loading full patient details...</p>";
+
+            fetch('/get_complete_patient_details', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        patientFirstName,
+                        patientLastName
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        let detailsHtml = '';
+                        for (const [key, value] of Object.entries(data.details)) {
+                            detailsHtml += `<p><strong>${key}:</strong> ${value}</p>`;
+                        }
+                        patientDetailsSection.innerHTML = detailsHtml;
+                    } else {
+                        patientDetailsSection.innerHTML = `<p>${data.message}</p>`;
+                    }
+                })
+                .catch(error => {
+                    patientDetailsSection.innerHTML = "<p>Error loading full patient details.</p>";
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+
+    <div class="container mx-auto grid grid-cols-3 gap-4">
+        <!-- Sidebar with Table of Contents -->
+        <div class="col-span-1 bg-blue-50 p-8 border-r-2">
+            <ul class="space-y-4">
+                <li><a href="#Respiratory Infections" class="flex flex pb-10 text-lg font-bold hover:text-green-600 py-10">=> Respiratory Infections</a></li>
+                <li><a href="#Gastrointestinal Infections" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Gastrointestinal Infections</a></li>
+                <li><a href="#Vector-Borne Diseases" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Vector-Borne Diseases</a></li>
+                <li><a href="#Skin Infections and Diseases" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Skin Infections and Diseases</a></li>
+                <li><a href="#Sexually Transmitted Infections (STIs)" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Sexually Transmitted Infections (STIs)</a></li>
+                <li><a href="#Chronic Diseases" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Chronic Diseases</a></li>
+                <li><a href="#Neurological and Mental Health Disorders" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Neurological and Mental Health Disorders</a></li>
+                <li><a href="#Musculoskeletal Disorders" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Musculoskeletal Disorders</a></li>
+            </ul>
+        </div>
+
+        <!-- Content Area -->
+        <div class="col-span-2 pb-10">
+            <!-- Respiratory Infections Section -->
+            <div class="px-4">
+                <h1 id="Respiratory Infections" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Respiratory Infections</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Common Cold Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Common Cold</h5>
+                            <p class="text-gray-600 mb-2">A mild viral infection affecting the upper respiratory system.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Runny nose, sore throat, cough, mild fever, fatigue.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Wash hands often, cover mouth while coughing, avoid close contact with infected people.</p>
+                        </div>
+                    </div>
+                    <!-- Influenza Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Influenza (Flu)</h5>
+                            <p class="text-gray-600 mb-2">A contagious respiratory illness caused by influenza viruses, leading to fever, body aches, and fatigue.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, chills, body aches, sore throat, fatigue, coughing.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Get vaccinated, wash hands regularly, avoid close contact with infected individuals.</p>
+                        </div>
+                    </div>
+                    <!-- COVID-19 Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">COVID-19</h5>
+                            <p class="text-gray-600 mb-2">A highly contagious respiratory illness caused by the SARS-CoV-2 virus, spreading mainly through respiratory droplets.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, cough, shortness of breath, fatigue, loss of taste/smell, body aches.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Wear a mask, maintain social distance, wash hands frequently, and avoid crowded places.</p>
+                        </div>
+                    </div>
+                    <!-- Pneumonia Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Pneumonia</h5>
+                            <p class="text-gray-600 mb-2">An infection of the lungs caused by bacteria, viruses, or fungi, leading to inflammation and fluid accumulation in the air sacs.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Cough, fever, difficulty breathing, chest pain, fatigue.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Vaccinate against pneumonia-causing pathogens, avoid smoking, and practice good hygiene.</p>
+                        </div>
+                    </div>
+                    <!-- Tuberculosis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Tuberculosis (TB)</h5>
+                            <p class="text-gray-600 mb-2">A bacterial infection primarily affecting the lungs, caused by Mycobacterium tuberculosis, but can affect other parts of the body.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Persistent cough, night sweats, weight loss, fatigue, chest pain, blood in sputum.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Complete the TB treatment regimen, wear a mask to prevent spreading, maintain good nutrition.</p>
+                        </div>
+                    </div>
+                    <!-- Bronchitis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Bronchitis</h5>
+                            <p class="text-gray-600 mb-2">Inflammation of the bronchial tubes, often caused by viral infections, leading to coughing and difficulty breathing.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Coughing with mucus, wheezing, shortness of breath, chest tightness.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Avoid smoking, stay hydrated, use humidifiers, and wash hands regularly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gastrointestinal Infections Section -->
+            <div class="px-4 mt-12">
+                <h1 id="Gastrointestinal Infections" class="text-4xl text-center font-semibold font-sans text-gray-800 mt-12 mb-8">Gastrointestinal Infections</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Food Poisoning Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Food Poisoning</h5>
+                            <p class="text-gray-600 mb-2">A condition caused by consuming contaminated food, often due to bacteria or viruses.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Nausea, vomiting, diarrhea, abdominal cramps.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Wash hands regularly, cook food thoroughly, avoid raw or undercooked foods, store food properly.</p>
+                        </div>
+                    </div>
+                    <!-- Stomach Flu Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Stomach Flu (Norovirus)</h5>
+                            <p class="text-gray-600 mb-2">A viral infection causing inflammation of the stomach and intestines, commonly known as the stomach flu.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Vomiting, diarrhea, stomach cramps, fever, headache, fatigue.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Wash hands frequently, disinfect surfaces, avoid close contact with infected individuals.</p>
+                        </div>
+                    </div>
+                    <!-- Hepatitis A Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Hepatitis A</h5>
+                            <p class="text-gray-600 mb-2">A liver infection caused by the Hepatitis A virus, commonly transmitted through contaminated food and water.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Jaundice (yellowing of the skin and eyes), fatigue, abdominal pain, loss of appetite, nausea.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Get vaccinated, wash hands after using the restroom, avoid consuming contaminated water or food.</p>
+                        </div>
+                    </div>
+                    <!-- Cholera Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Cholera</h5>
+                            <p class="text-gray-600 mb-2">A bacterial infection causing severe diarrhea and dehydration, often caused by contaminated water.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Watery diarrhea, vomiting, dehydration, leg cramps.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Drink clean, safe water, practice good hygiene, avoid raw seafood or undercooked food.</p>
+                        </div>
+                    </div>
+                    <!-- Gastroenteritis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Gastroenteritis</h5>
+                            <p class="text-gray-600 mb-2">An infection of the stomach and intestines, often caused by viruses, bacteria, or parasites.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Diarrhea, vomiting, abdominal pain, fever, nausea.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Wash hands often, avoid unclean water or food, avoid close contact with infected individuals.</p>
+                        </div>
+                    </div>
+                    <!-- Celiac Disease Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Celiac Disease</h5>
+                            <p class="text-gray-600 mb-2">An autoimmune disorder where the ingestion of gluten damages the small intestine lining.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Abdominal pain, bloating, diarrhea, fatigue, weight loss.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Avoid foods containing gluten, read labels carefully, follow a strict gluten-free diet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vector-Borne Diseases Section -->
+            <div class="px-4">
+                <h1 id="Vector-Borne Diseases" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Vector-Borne Diseases</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Malaria Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Malaria</h5>
+                            <p class="text-gray-600 mb-2">A life-threatening disease caused by parasites transmitted through the bites of infected Anopheles mosquitoes.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, chills, sweating, headache, nausea, vomiting.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use insect repellent, sleep under mosquito nets, take anti-malarial medication when recommended.</p>
+                        </div>
+                    </div>
+                    <!-- Dengue Fever Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Dengue Fever</h5>
+                            <p class="text-gray-600 mb-2">A viral infection transmitted by Aedes mosquitoes, causing severe flu-like symptoms.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> High fever, severe headache, pain behind the eyes, joint and muscle pain, rash.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Eliminate mosquito breeding sites, use mosquito repellent, wear long sleeves and pants.</p>
+                        </div>
+                    </div>
+                    <!-- Zika Virus Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Zika Virus</h5>
+                            <p class="text-gray-600 mb-2">A viral infection spread primarily by Aedes mosquitoes, causing mild symptoms but posing risks during pregnancy.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, rash, joint pain, conjunctivitis (red eyes).</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use mosquito repellent, wear protective clothing, avoid traveling to areas with Zika outbreaks if pregnant.</p>
+                        </div>
+                    </div>
+                    <!-- Chikungunya Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Chikungunya</h5>
+                            <p class="text-gray-600 mb-2">A viral disease transmitted by Aedes mosquitoes, leading to severe joint pain and other flu-like symptoms.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> High fever, joint pain, rash, muscle pain, headache.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Avoid mosquito bites by using repellent and wearing protective clothing, eliminate mosquito breeding grounds.</p>
+                        </div>
+                    </div>
+                    <!-- Yellow Fever Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Yellow Fever</h5>
+                            <p class="text-gray-600 mb-2">A viral disease transmitted by Aedes and Haemagogus mosquitoes, leading to liver damage, jaundice, and bleeding.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, chills, headache, back pain, nausea, vomiting, jaundice.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Get vaccinated, use insect repellent, wear long sleeves and pants, avoid mosquito exposure.</p>
+                        </div>
+                    </div>
+                    <!-- Leishmaniasis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Leishmaniasis</h5>
+                            <p class="text-gray-600 mb-2">A parasitic disease transmitted by the bite of infected sandflies, causing skin lesions or affecting internal organs.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Skin sores, fever, weight loss, enlargement of liver or spleen.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use insect repellent, wear protective clothing, avoid outdoor exposure during dusk and dawn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skin Infections and Diseases Section -->
+            <div class="px-4">
+                <h1 id="Skin Infections and Diseases" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Skin Infections and Diseases</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Fungal Infections Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Fungal Infections</h5>
+                            <p class="text-gray-600 mb-2">Infections caused by fungi that affect the skin, hair, and nails, leading to symptoms like itching, redness, and scaling.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Itchy, red, or scaly skin, blisters, and peeling.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Keep skin clean and dry, avoid sharing personal items, use antifungal creams as prescribed.</p>
+                        </div>
+                    </div>
+                    <!-- Eczema Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Eczema</h5>
+                            <p class="text-gray-600 mb-2">A chronic inflammatory skin condition causing itching, redness, and inflammation, often triggered by environmental factors.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Itchy, dry, cracked skin, red or inflamed patches.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Moisturize regularly, avoid harsh soaps, manage stress, and avoid allergens.</p>
+                        </div>
+                    </div>
+                    <!-- Psoriasis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Psoriasis</h5>
+                            <p class="text-gray-600 mb-2">An autoimmune disease that causes the rapid growth of skin cells, leading to thick, scaly patches of skin.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Red, inflamed skin with silvery scales, dry or cracked skin that may bleed.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use prescribed topical treatments, avoid triggers like stress, and moisturize skin regularly.</p>
+                        </div>
+                    </div>
+                    <!-- Scabies Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Scabies</h5>
+                            <p class="text-gray-600 mb-2">A contagious skin condition caused by tiny mites that burrow into the skin, causing intense itching and rashes.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Intense itching, especially at night, red rash, sores from scratching.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Avoid close physical contact, use prescribed topical treatments, wash clothing and bedding regularly.</p>
+                        </div>
+                    </div>
+                    <!-- Acne Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Acne</h5>
+                            <p class="text-gray-600 mb-2">A skin condition characterized by the occurrence of pimples, blackheads, and cysts, often caused by hormonal changes and clogged pores.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Pimples, blackheads, cysts, or whiteheads on the face, chest, or back.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Keep skin clean, avoid squeezing pimples, use non-comedogenic skincare products, and consider topical treatments.</p>
+                        </div>
+                    </div>
+                    <!-- Impetigo Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Impetigo</h5>
+                            <p class="text-gray-600 mb-2">A highly contagious bacterial skin infection that causes sores and blisters, often around the mouth or nose.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Red sores that quickly burst and form a honey-colored crust, itching.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Keep wounds clean and covered, avoid touching infected areas, and wash hands frequently.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sexually Transmitted Infections (STIs) Section -->
+            <div class="px-4">
+                <h1 id="Sexually Transmitted Infections" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Sexually Transmitted Infections (STIs)</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- HIV/AIDS Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">HIV/AIDS</h5>
+                            <p class="text-gray-600 mb-2">A chronic condition caused by the human immunodeficiency virus (HIV), leading to immune system damage and increased susceptibility to infections.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fever, swollen lymph nodes, fatigue, weight loss, frequent infections.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use protection during sex, avoid sharing needles, get tested regularly, take pre-exposure prophylaxis (PrEP) if at risk.</p>
+                        </div>
+                    </div>
+                    <!-- Gonorrhea Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Gonorrhea</h5>
+                            <p class="text-gray-600 mb-2">A bacterial infection primarily affecting the genital tract but can also infect the throat, eyes, or rectum.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Painful urination, pus-like discharge from genitals, testicular or pelvic pain.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use protection during sex, avoid unprotected sexual contact, get regular STI screenings.</p>
+                        </div>
+                    </div>
+                    <!-- Syphilis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Syphilis</h5>
+                            <p class="text-gray-600 mb-2">A bacterial infection transmitted through sexual contact, progressing in stages with potentially severe health consequences if untreated.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Painless sore on genitals or mouth (early stage), rash, fever, swollen lymph nodes (later stages).</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Use protection during sex, avoid unprotected sexual contact, get regular STI screenings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chronic Diseases Section -->
+            <div class="px-4">
+                <h1 id="Chronic Diseases" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Chronic Diseases</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Diabetes Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Diabetes</h5>
+                            <p class="text-gray-600 mb-2">A chronic disease characterized by high levels of sugar (glucose) in the blood due to the body's inability to produce or effectively use insulin.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Frequent urination, excessive thirst, extreme fatigue, and slow healing of wounds.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Maintain a balanced diet, exercise regularly, monitor blood sugar levels, and take prescribed medications.</p>
+                        </div>
+                    </div>
+                    <!-- Hypertension Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Hypertension (High Blood Pressure)</h5>
+                            <p class="text-gray-600 mb-2">A condition where the blood pressure in the arteries is persistently elevated, increasing the risk of heart disease and stroke.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Often asymptomatic, but severe cases may cause headaches, shortness of breath, or nosebleeds.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Reduce salt intake, maintain a healthy weight, exercise regularly, and manage stress.</p>
+                        </div>
+                    </div>
+                    <!-- Heart Disease Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Heart Disease</h5>
+                            <p class="text-gray-600 mb-2">A range of conditions affecting the heart, including coronary artery disease, arrhythmias, and heart failure.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Chest pain, shortness of breath, fatigue, or irregular heartbeat.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Eat a heart-healthy diet, avoid smoking, manage blood pressure, and exercise regularly.</p>
+                        </div>
+                    </div>
+                    <!-- Asthma Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Asthma</h5>
+                            <p class="text-gray-600 mb-2">A chronic respiratory condition that causes inflammation and narrowing of the airways, leading to breathing difficulties.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Wheezing, coughing, shortness of breath, and chest tightness.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Avoid triggers like allergens, use prescribed inhalers, and follow a treatment plan from a healthcare provider.</p>
+                        </div>
+                    </div>
+                    <!-- Chronic Kidney Disease Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Chronic Kidney Disease</h5>
+                            <p class="text-gray-600 mb-2">A condition where the kidneys are damaged and cannot filter blood properly, leading to a build-up of waste and fluid in the body.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fatigue, swollen ankles, poor appetite, and difficulty concentrating.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Control blood pressure and diabetes, avoid excessive salt intake, and follow a kidney-friendly diet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Neurological and Mental Health Disorders Section -->
+            <div class="px-4">
+                <h1 id="Neurological and Mental Health Disorders" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Neurological and Mental Health Disorders</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Depression Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Depression</h5>
+                            <p class="text-gray-600 mb-2">A mood disorder characterized by persistent feelings of sadness, hopelessness, and a lack of interest in daily activities.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Feelings of worthlessness, fatigue, changes in appetite, and difficulty concentrating.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Regular exercise, therapy, medication (antidepressants), and maintaining a support system.</p>
+                        </div>
+                    </div>
+                    <!-- Anxiety Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Anxiety</h5>
+                            <p class="text-gray-600 mb-2">A mental health condition characterized by excessive worry, fear, and apprehension about everyday situations.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Restlessness, rapid heartbeat, difficulty concentrating, and trouble sleeping.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Practice relaxation techniques, engage in physical activity, therapy, and take prescribed medications.</p>
+                        </div>
+                    </div>
+                    <!-- Alzheimer’s Disease Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Alzheimer’s Disease</h5>
+                            <p class="text-gray-600 mb-2">A progressive neurodegenerative disorder that causes memory loss, confusion, and changes in behavior, typically affecting older adults.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Memory loss, difficulty recognizing familiar faces, confusion, and changes in mood.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Medication for cognitive support, a structured routine, and support from caregivers.</p>
+                        </div>
+                    </div>
+                    <!-- Parkinson’s Disease Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Parkinson’s Disease</h5>
+                            <p class="text-gray-600 mb-2">A progressive nervous system disorder that affects movement, causing tremors, stiffness, and balance problems.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Tremors, muscle rigidity, slow movements, and difficulty with balance and coordination.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Physical therapy, medications like levodopa, and lifestyle changes to improve mobility and quality of life.</p>
+                        </div>
+                    </div>
+                    <!-- Bipolar Disorder Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Bipolar Disorder</h5>
+                            <p class="text-gray-600 mb-2">A mental health disorder characterized by extreme mood swings, including episodes of mania and depression.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Elevated mood, excessive energy, irritability, and drastic shifts between manic and depressive states.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Regular therapy, mood-stabilizing medications, and maintaining a stable routine.</p>
+                        </div>
+                    </div>
+                    <!-- Schizophrenia Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Schizophrenia</h5>
+                            <p class="text-gray-600 mb-2">A severe mental disorder that affects thinking, emotions, and behavior, often causing delusions and hallucinations.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Hallucinations, delusions, disorganized thinking, and social withdrawal.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Antipsychotic medications, therapy, and strong family and social support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Musculoskeletal Disorders Section -->
+            <div class="px-4">
+                <h1 id="Musculoskeletal Disorders" class="text-4xl font-semibold text-center font-sans text-gray-800 mt-12 mb-8">Musculoskeletal Disorders</h1>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <!-- Arthritis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Arthritis</h5>
+                            <p class="text-gray-600 mb-2">A condition that causes inflammation in the joints, leading to pain, stiffness, and swelling, often affecting mobility.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Joint pain, swelling, stiffness, and decreased range of motion.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Regular exercise, joint protection, pain management, and medications like NSAIDs.</p>
+                        </div>
+                    </div>
+                    <!-- Osteoporosis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Osteoporosis</h5>
+                            <p class="text-gray-600 mb-2">A condition where bones become weak and brittle, making them more prone to fractures.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Fragile bones, frequent fractures, back pain, and loss of height.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Calcium and vitamin D supplementation, weight-bearing exercises, and medications to strengthen bones.</p>
+                        </div>
+                    </div>
+                    <!-- Rheumatoid Arthritis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Rheumatoid Arthritis</h5>
+                            <p class="text-gray-600 mb-2">An autoimmune disorder that causes inflammation and deformity in the joints, particularly affecting the hands and feet.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Joint pain, swelling, stiffness, and fatigue, often worse in the mornings.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Early treatment with disease-modifying antirheumatic drugs (DMARDs), physical therapy, and joint protection.</p>
+                        </div>
+                    </div>
+                    <!-- Osteoarthritis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Osteoarthritis</h5>
+                            <p class="text-gray-600 mb-2">A degenerative joint disease caused by the breakdown of cartilage, leading to pain, swelling, and decreased movement in the affected joints.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Joint pain, stiffness, swelling, and decreased flexibility, particularly in the knees, hips, and hands.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Weight management, regular exercise, physical therapy, and pain management strategies.</p>
+                        </div>
+                    </div>
+                    <!-- Gout Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Gout</h5>
+                            <p class="text-gray-600 mb-2">A form of arthritis caused by a buildup of uric acid crystals in the joints, leading to sudden and severe pain, often in the big toe.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Intense pain, redness, and swelling in the affected joint, typically in the lower extremities.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Limit alcohol and purine-rich foods, maintain a healthy weight, and take medications to lower uric acid levels.</p>
+                        </div>
+                    </div>
+                    <!-- Scoliosis Card -->
+                    <div class="bg-white rounded-lg shadow-lg w-80">
+                        <div class="p-6 text-center">
+                            <h5 class="text-xl font-semibold mb-2">Scoliosis</h5>
+                            <p class="text-gray-600 mb-2">A condition where the spine curves sideways, often during the growth spurt before puberty, leading to back pain and postural changes.</p>
+                            <p class="text-gray-600"><strong>Symptoms:</strong> Uneven shoulders, a visible curve in the spine, and back pain.</p>
+                            <p class="text-gray-600"><strong>Precautions:</strong> Regular spinal screenings, physical therapy, and in severe cases, surgery or bracing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-gray-800 text-white">
+        <div class="p-6 text-lg flex flex-col md:flex-row justify-between items-start">
+            <!-- Left-aligned paragraph -->
+            <p class="text-left pl-10">&copy; 2024 MedAIgnosis. All rights reserved.</p>
+
+            <!-- Right-aligned container for the other paragraphs with hover and cursor effects -->
+            <div class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                    <a href="https://www.instagram.com/medaignosis/profilecard/?igsh=ODloZ3l3dmh6cXp4">Instagram</a>
+                </p>
+                <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                    <a href="{{ url_for('about_us') }}">About Us</a></p>
+                <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                    <a href="{{ url_for('know_more') }}">Know More</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

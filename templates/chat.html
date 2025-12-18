@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Interface</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Styling for the body */
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        /* Styling for the chat button */
+        
+        #chatBtn {
+            display: block;
+            width: 150px;
+            margin: 50px auto;
+            padding: 15px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        #chatBtn:hover {
+            background-color: #45a049;
+        }
+        /* Styling for the chat popup */
+        
+        #chatPopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            /* Increased width */
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Styling for the role selection buttons */
+        
+        #chatPopup h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        #patientBtn,
+        #doctorBtn {
+            width: 80%;
+            padding: 12px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            /* Ensures the button is treated as a block-level element */
+            margin: 0 auto;
+        }
+        
+        #patientBtn:hover,
+        #doctorBtn:hover {
+            background-color: #0b7dda;
+        }
+        /* Styling for the login form */
+        
+        #loginForm input {
+            width: 80%;
+            padding: 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        #loginForm button {
+            width: 80%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            /* Ensures the button is treated as a block-level element */
+            margin: 0 auto;
+        }
+        
+        #loginForm button:hover {
+            background-color: #45a049;
+        }
+        /* Styling for the chat form */
+        
+        #chatForm input {
+            width: 80%;
+            padding: 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: block;
+            /* Ensures the button is treated as a block-level element */
+            margin: 0 auto;
+        }
+        
+        #chatForm button {
+            width: 80%;
+            padding: 12px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            /* Ensures the button is treated as a block-level element */
+            margin: 0 auto;
+        }
+        
+        #chatForm button:hover {
+            background-color: #0b7dda;
+        }
+        /* Styling for the chat window */
+        
+        #chatWindow {
+            display: none;
+        }
+        
+        #messages {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        #message {
+            width: 80%;
+            padding: 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        #chatWindow button {
+            width: 80%;
+            padding: 12px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            /* Ensures the button is treated as a block-level element */
+            margin: 0 auto;
+        }
+        
+        #chatWindow button:hover {
+            background-color: #da190b;
+        }
+        /* Close button styling */
+        
+        #chatWindow .close-btn {
+            background-color: #ff9800;
+        }
+        
+        #chatWindow .close-btn:hover {
+            background-color: #e68900;
+        }
+        
+        .float-right {
+            position: absolute;
+            right: 80px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="float-right">
+        <a href="{{ url_for('landing') }}" class="back-button">
+            <h3>Back to home</h3>
+        </a>
+    </div>
+    <center><br><br>
+        <h1>Private Consultation: Chat with Your Doctor</h1>
+    </center>
+    <button id="chatBtn">Chat</button>
+    <div id="chatPopup">
+        <h3>Choose Role</h3>
+        <button id="patientBtn" onclick="selectRole('patient')">Patient</button><br>
+        <button id="doctorBtn" onclick="selectRole('doctor')">Doctor</button>
+
+        <form id="loginForm" style="display:none;">
+            <center>
+                <h4>Login</h4>
+            </center>
+            <center><input type="text" id="username" placeholder="Username"><br></center>
+            <center><input type="password" id="password" placeholder="Password"><br></center>
+            <button type="button" onclick="login()">OK</button>
+        </form>
+
+        <form id="chatForm" style="display:none;">
+            <h4 id="formTitle"></h4>
+            <input type="text" id="firstName" placeholder="First Name" required><br>
+            <input type="text" id="lastName" placeholder="Last Name" required><br>
+            <div id="otherNameInputs">
+                <input type="text" id="otherFirstName" placeholder="Other's First Name" required><br>
+                <input type="text" id="otherLastName" placeholder="Other's Last Name" required><br>
+            </div>
+            <button type="button" onclick="openChat()">Start Chat</button>
+        </form>
+
+        <div id="chatWindow" style="display:none;">
+            <div id="messages" class="message-box"></div>
+            <textarea id="message" placeholder="Enter your message"></textarea><br>
+            <button type="button" onclick="submitChat()">Send</button><br>
+            <!-- Close Button -->
+            <button type="button" class="close-btn" onclick="closeChat()">Close</button>
+        </div>
+    </div>
+
+    <script>
+        let role = '';
+        let username = ''; // To hold username value
+        let password = ''; // To hold password value
+        let firstName = '';
+        let lastName = '';
+        let otherFirstName = '';
+        let otherLastName = '';
+
+        function selectRole(selectedRole) {
+            role = selectedRole;
+            // Hide the role selection section (both buttons and the heading)
+            $('#chatPopup h3').hide();
+            $('#patientBtn').hide();
+            $('#doctorBtn').hide();
+
+            // Show login form
+            $('#loginForm').show();
+            $('#chatForm').hide();
+            $('#formTitle').text(role === 'patient' ? 'Patient Login' : 'Doctor Login');
+        }
+
+        function login() {
+            // Get username and password (for demo purposes)
+            username = $('#username').val();
+            password = $('#password').val(); // Note: We won't use these values further
+
+            // After login, show the chat form based on role
+            $('#loginForm').hide();
+            $('#chatForm').show();
+
+            // Set the form title and fields accordingly
+            $('#formTitle').text(role === 'patient' ? 'Patient Chat' : 'Doctor Chat');
+        }
+
+        function openChat() {
+            firstName = $('#firstName').val();
+            lastName = $('#lastName').val();
+            otherFirstName = $('#otherFirstName').val();
+            otherLastName = $('#otherLastName').val();
+
+            // Show chat window after entering names
+            $('#chatForm').hide();
+            $('#chatWindow').show();
+
+            // Load existing messages if any
+            loadMessages();
+        }
+
+        function loadMessages() {
+            const data = {
+                role: role,
+                first_name: firstName,
+                last_name: lastName,
+                other_name: {
+                    first_name: otherFirstName,
+                    last_name: otherLastName
+                }
+            };
+
+            $.ajax({
+                url: '/chat',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(data),
+                success: function(response) {
+                    $('#messages').empty(); // Clear current messages
+                    response.forEach(msg => {
+                        $('#messages').append(`<p><strong>${msg.role}:</strong> ${msg.message}</p>`);
+                    });
+                }
+            });
+        }
+
+        function submitChat() {
+            const message = $('#message').val();
+
+            const data = {
+                role: role,
+                first_name: firstName,
+                last_name: lastName,
+                other_name: {
+                    first_name: otherFirstName,
+                    last_name: otherLastName
+                },
+                message: message
+            };
+
+            $.ajax({
+                url: '/chat',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(data),
+                success: function(response) {
+                    $('#message').val(''); // Clear the message input field
+                    loadMessages(); // Reload messages
+                }
+            });
+        }
+
+        function closeChat() {
+            $('#chatWindow').hide();
+            $('#chatPopup').hide();
+            $('#chatBtn').show();
+        }
+
+        $('#chatBtn').click(function() {
+            $('#chatBtn').hide();
+            $('#chatPopup').show();
+        });
+    </script>
+</body>
+
+</html>

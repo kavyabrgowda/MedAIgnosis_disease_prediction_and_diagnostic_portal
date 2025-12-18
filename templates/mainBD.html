@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Balanced Diet - Home</title>
+</head>
+
+<body class="font-serif bg-gray-100">
+    <!-- Header Section -->
+    <div class="w-full h-64 bg-cover bg-center relative" style="background-image: url('/static/img/diet.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white">
+            <h1 class="text-4xl font-bold">Your Balanced Diet Plan</h1>
+            <p class="text-xl mt-2">Follow a healthy and balanced diet, tailored for each day of the week</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto flex mt-8">
+        <!-- Sidebar with Table of Contents -->
+        <div class="w-1/4 bg-gray-200 p-6 border-r-2 pb-5">
+            <h3 class="text-3xl text-semibold text-center text-green-600 mb-4">Table of Contents</h3>
+            <ul class="space-y-3">
+                <li><a href="#why-nutrition" class="text-lg font-bold hover:text-green-600">-> Why Nutrition is Important</a></li>
+                <li><a href="#what-to-eat" class="text-lg font-bold hover:text-green-600">-> What to Eat for a Balanced Diet</a></li>
+                <li><a href="#meal-planning" class="text-lg font-bold hover:text-green-600">-> Meal Planning</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="w-3/4 p-6">
+            <h2 id="why-nutrition" class="text-3xl text-green-600 mb-4">Why Nutrition is Important for a Healthy and Balanced Diet</h2>
+            <p class="leading-relaxed mb-8">Proper nutrition is essential for overall health and well-being. It supports growth and development, especially in children and adolescents, ensuring that their bodies reach their full potential. A balanced diet enhances the immune system,
+                providing vitamins and minerals that help the body fend off infections. It also boosts energy levels, allowing individuals to perform daily activities effectively.<br> Maintaining a healthy weight is crucial, as a well-rounded diet can
+                prevent obesity and its associated health risks. Additionally, proper nutrition reduces the risk of chronic diseases, such as heart disease and diabetes, by promoting healthy blood pressure and cholesterol levels. Nutrition also impacts
+                mental health; diets rich in whole foods can improve mood and cognitive function. Digestive health benefits from high fiber intake, while essential nutrients like calcium and vitamin D support strong bones. For those engaged in physical
+                activities, a balanced diet enhances performance, recovery, and endurance. Moreover, nutrition regulates hormones, which are vital for metabolism and mood stability.<br> In conclusion, prioritizing nutrition fosters healthy eating habits
+                and is fundamental for a healthier, happier life. It's an investment in long-term health and well-being.A balanced diet is crucial for maintaining overall health and well-being. It provides the nutrients your body needs to function correctly.
+                Without proper nutrition, your body is more prone to disease, fatigue, and poor performance.</p>
+
+            <h2 id="what-to-eat" class="text-3xl text-green-600 mb-4">What to Eat for a Healthy Balanced Diet</h2>
+            <p class="leading-relaxed mb-8">Eating a balanced diet means consuming a variety of foods in the right proportions to provide all the essential nutrients.A healthy balanced diet includes a variety of foods that provide essential nutrients. The key components are:<br><br>                1. Fruits and Vegetables: Aim for at least five servings a day. They are rich in vitamins, minerals, and fiber, promoting overall health and reducing the risk of chronic diseases.<br> 2. Whole Grains: Choose whole grains like brown rice,
+                whole wheat bread, and quinoa over refined grains. They provide energy, fiber, and essential nutrients.<br> 3. Proteins: Incorporate lean proteins such as chicken, fish, beans, lentils, and nuts. These foods help build and repair tissues
+                and are essential for muscle health.<br> 4. Healthy Fats: Include sources of healthy fats, like avocados, olive oil, and fatty fish (e.g., salmon). These fats support heart health and help absorb fat-soluble vitamins.<br> 5. Dairy or Dairy
+                Alternatives: Opt for low-fat or fat-free options to obtain calcium and vitamin D, which are important for bone health.<br> 6. Hydration: Drink plenty of water throughout the day. Limit sugary drinks and excessive caffeine to maintain
+                hydration and overall health.<br> 7. Moderation: Enjoy treats in moderation. Limiting added sugars, sodium, and saturated fats is essential for maintaining a balanced diet.<br> By focusing on these food groups, individuals can create a
+                nutritious eating plan that supports health and well-being.</p>
+
+            <h2 id="meal-planning" class="text-3xl text-green-600 mb-4">Meal Planning</h2>
+            <p class="leading-relaxed mb-8">Effective meal planning is essential for maintaining a balanced diet daily. By organizing meals in advance, you can ensure a variety of foods that provide all necessary nutrients. Planning helps you incorporate fruits, vegetables, whole grains,
+                proteins, and healthy fats, making it easier to avoid unhealthy choices. Additionally, having a meal plan can save time and reduce food waste, as you'll know exactly what ingredients you need. This proactive approach not only supports
+                your health goals but also encourages mindful eating habits.</p>
+        </div>
+    </div>
+
+    <hr class="my-8">
+
+    <!-- Diet Plan for Each Day of the Week -->
+    <div class="text-center mb-8">
+        <h3 class="text-3xl font-semibold">Meal Plans for the Week</h3>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-7xl mx-auto px-4 justify-center items-center pb-10">
+
+        <a href="{{ url_for('monday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2 flex flex-col items-center justify-center">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/monday.jpg' alt="Monday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Monday</h5>
+                <p class="text-sm mt-2 text-center">Start your week with a balanced diet plan for energy and freshness.</p>
+            </div>
+        </a>
+
+        <a href="{{ url_for('tuesday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/tuesday.jpg' alt="Tuesday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Tuesday</h5>
+                <p class="text-sm mt-2 text-center">Keep up the momentum with nutritious choices.</p>
+            </div>
+        </a>
+
+        <a href="{{ url_for('wednesday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/wednesday.jpg' alt="Wednesday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Wednesday</h5>
+                <p class="text-sm mt-2 text-center">Midweek nutrition to keep you going strong.</p>
+            </div>
+        </a>
+        <a href="{{ url_for('thursday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/thursday.jpg' alt="Thursday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Thursday</h5>
+                <p class="text-sm mt-2 text-center">Stay focused with healthy meals packed with vitamins.</p>
+            </div>
+        </a>
+        <a href="{{ url_for('friday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/friday.jpg' alt="Friday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Friday</h5>
+                <p class="text-sm mt-2 text-center">End the week on a high note with balanced meals.</p>
+            </div>
+        </a>
+        <a href="{{ url_for('saturday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/saturday.jpg' alt="Saturday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Saturday</h5>
+                <p class="text-sm mt-2 text-center">Weekends are for delicious meals that are good for you!</p>
+            </div>
+        </a>
+        <a href="{{ url_for('sunday') }}">
+            <div class="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-transform transform hover:-translate-y-2">
+                <img class="w-full h-40 object-cover rounded-md" src='/static/img/sunday.jpg' alt="Sunday">
+                <h5 class="text-xl text-green-600 mt-3 text-center">Sunday</h5>
+                <p class="text-sm mt-2 text-center">Prepare for the week ahead with nourishing meals.</p>
+            </div>
+        </a>
+    </div>
+    <div class="flex justify-center items-center py-8 px-4">
+        <div class="max-w-4xl text-center">
+            <h2 class="text-3xl font-semibold text-green-600 mb-4" id="why-nutrition">For detailed information contact</h2>
+            <p class="text-lg text-gray-700 mb-4">
+                A balanced diet is essential for maintaining good health and well-being. It provides the body with the necessary nutrients to function optimally.
+            </p>
+            <p class="text-lg text-gray-700">
+                For more details and tips on creating a balanced diet, you can
+                <a href="https://www.webmd.com/diet/what-is-a-balanced-diet" class="text-blue-500 underline hover:text-blue-700">
+                    click here to visit our balanced diet guide.
+                </a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

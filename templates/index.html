@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .upload-section {
+            margin: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        li {
+            background-color: #f0f0f0;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        
+        .float-right {
+            position: absolute;
+            right: 80px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="float-right">
+        <a href="{{ url_for('landing') }}" class="back-button">
+            <h3>Back to home</h3>
+        </a>
+    </div>
+
+    <h1>Disease Prediction Portal</h1>
+
+    <!-- Upload Medical Reports Section -->
+    <div class="upload-section">
+        <h2>Upload Medical Report Images (0 or more):</h2>
+        <form action="{{ url_for('upload_report') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="report_files" accept=".jpeg, .jpg, .png, .webp" multiple>
+            <button type="submit">Upload Report Images</button>
+        </form>
+        <ul>
+            {% for report_file in report_filenames %}
+            <li>{{ report_file }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Prediction Button -->
+    <div class="upload-section">
+        <form action="{{ url_for('predict') }}" method="post">
+            <button type="submit">Submit for Prediction</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

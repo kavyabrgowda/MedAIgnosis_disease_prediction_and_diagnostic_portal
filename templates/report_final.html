@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="flex justify-center items-center min-h-screen bg-blue-50 py-5 font-sans">
+    <div class="w-[90vw] max-w-7xl bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg border border-gray-200">
+        <h1 class="text-2xl sm:text-3xl md:text-5xl font-semibold text-gray-800 text-center mb-6 sm:mb-8">Health Report</h1>
+
+        {% if patient %}
+        <div class="overflow-x-auto text-wrap">
+        <table class="w-full border-collapse border border-gray-300">
+            <tbody>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">First Name</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.first_name }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">First Name</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.first_name }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Last Name</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.last_name }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Age</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.age }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Blood Group</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.blood_group }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Gender</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.gender }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Symptoms</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">
+                        {% if patient.symptoms %}
+                        <ul class="list-disc list-inside">
+                            {% for symptom in patient.symptoms %}
+                            <li>{{ symptom }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="text-gray-500">No symptoms selected.</p>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Symptom Duration</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.symptom_duration }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Frequency of Symptoms</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.frequency_of_symptoms }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Pain/Discomfort Level</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.pain_level }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Prior Similar Symptoms</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.prior_symptoms }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Medications Taken</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.medications_for_symptoms }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Allergies</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.allergies }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Contact with Sick Individuals</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.contact_with_sick }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Recent Travel</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.recent_travel }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">History of Health Conditions</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.prior_health }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Mood Changes</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.mood_changes }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Chronic Health Conditions</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.existing_conditions }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Dietary Changes</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.diet_changes }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Tobacco Use</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.smoking_tobacco }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Pregnancy/Breastfeeding</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.pregnancy_breastfeeding }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Current Medications</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.current_medications }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Healthcare Provider</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.healthcare_provider }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Appetite/Weight Changes</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.appetite_weight_changes }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Recent Injuries</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.recent_injuries }}</td>
+                </tr>
+                <!-- Additional rows -->
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Alcohol Consumption</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.alcohol_consumption }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">High Stress Levels</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.high_stress }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Sleep Difficulties</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.sleep_difficulties }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Dietary Restrictions</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.dietary_restrictions }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Family Illness History</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.family_illness_history }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Specify Illnesses</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.specified_illnesses }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Recent Vaccinations</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.recent_vaccination }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Vision/Hearing Changes</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.vision_hearing_changes }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Supplements or Home Remedies</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.supplements_remedies }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Headache Frequency</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.headache_frequency }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Bowel/Urinary Changes</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.bowel_urinary_changes }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Environmental Exposure</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.environmental_exposure }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Safe Home Environment</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.safe_home }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Mobility Issues</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.mobility_issues }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Dental Checkup</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.dental_checkup }}</td>
+                </tr>
+                <tr class="border-b border-gray-300">
+                    <th class="py-2 px-4 bg-gray-100 text-left font-semibold text-gray-700">Quality of Life</th>
+                    <td class="py-2 px-4 break-words whitespace-normal">{{ patient.quality_of_life }}</td>
+                </tr>
+
+            </tbody>
+        </table>
+        </div>
+        {% else %}
+        <p class="text-center text-gray-500 mt-6">No report found for this patient.</p>
+        {% endif %}
+
+        <a href="{{ url_for('landing') }}" class="block mt-6 mx-auto w-40 py-2 bg-green-600 text-white text-center text-xl rounded-lg hover:bg-green-700 transition">Back to Home</a>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="bg-blue-50 text-center p-12 font-sans">
+    <h1 class="text-3xl font-bold mb-8">Login as</h1>
+    <div class="flex flex-col space-y-4 w-full max-w-md mx-auto">
+        <!-- don't change link-->
+        <a href="/patient_login" class="w-full mx-auto px-8 py-4 bg-green-500 text-white text-lg rounded-md hover:bg-green-600">Patient Login</a>
+        <a href="/doctor_login" class="w-full mx-auto px-8 py-4 bg-green-500 text-white text-lg rounded-md hover:bg-green-600">Doctor Login</a>
+    </div>
+</body>
+
+</html>

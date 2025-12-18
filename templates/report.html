@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Health Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<!--<body class="flex justify-center items-center min-h-screen bg-blue-50 py-5">
+    <div class="w-[90vw] max-w-7xl bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg border border-gray-200">
+        <h1 class="text-2xl sm:text-3xl md:text-5xl font-semibold text-gray-800 text-center mb-6 sm:mb-8">Health Report</h1>
+    -->
+    <body class="flex justify-center items-center min-h-screen bg-blue-50 py-5 font-sans">
+        <div class="w-[90vw] max-w-7xl bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-lg border border-gray-200">
+            <h1 class="text-2xl sm:text-3xl md:text-5xl font-semibold text-gray-800 text-center mb-6 sm:mb-8">Health Report</h1>
+    
+            <div class="overflow-x-auto">
+            <table class="w-full border-collapse border border-gray-300">
+        <!--<table class="w-[90vw] border border-gray-300">-->
+            <tbody>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">First Name:</th>
+                    <td class="px-4 py-2">{{ response.first_name }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Last Name:</th>
+                    <td class="px-4 py-2">{{ response.last_name }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Age:</th>
+                    <td class="px-4 py-2">{{ response.age }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Blood Group:</th>
+                    <td class="px-4 py-2">{{ response.blood_group }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Gender:</th>
+                    <td class="px-4 py-2">{{ response.gender }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Symptoms:</th>
+                    <td class="px-4 py-2">
+                        {% if symptoms %}
+                        <ul class="list-disc list-inside">
+                            {% for symptom in symptoms %}
+                            <li>{{ symptom }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="text-red-600 italic">No symptoms selected.</p>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Symptom Duration:</th>
+                    <td class="px-4 py-2">{{ response.symptom_duration }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Frequency of Symptoms:</th>
+                    <td class="px-4 py-2">{{ response.frequency_of_symptoms }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Pain/Discomfort Level:</th>
+                    <td class="px-4 py-2">{{ response.pain_level }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Prior Similar Symptoms:</th>
+                    <td class="px-4 py-2">{{ response.prior_symptoms }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Medications Taken:</th>
+                    <td class="px-4 py-2">{{ response.medications_for_symptoms }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Allergies:</th>
+                    <td class="px-4 py-2">{{ response.allergies }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Contact with Sick Individuals:</th>
+                    <td class="px-4 py-2">{{ response.contact_with_sick }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Recent Travel:</th>
+                    <td class="px-4 py-2">{{ response.recent_travel }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">History of Health Conditions:</th>
+                    <td class="px-4 py-2">{{ response.prior_health }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Mood Changes:</th>
+                    <td class="px-4 py-2">{{ response.mood_changes }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Chronic Health Conditions:</th>
+                    <td class="px-4 py-2">{{ response.existing_conditions }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Dietary Changes:</th>
+                    <td class="px-4 py-2">{{ response.diet_changes }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Tobacco Use:</th>
+                    <td class="px-4 py-2">{{ response.smoking_tobacco }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Pregnancy/Breastfeeding:</th>
+                    <td class="px-4 py-2">{{ response.pregnancy_breastfeeding }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Current Medications:</th>
+                    <td class="px-4 py-2">{{ response.current_medications }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Healthcare Provider:</th>
+                    <td class="px-4 py-2">{{ response.healthcare_provider }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Appetite/Weight Changes:</th>
+                    <td class="px-4 py-2">{{ response.appetite_weight_changes }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Recent Injuries:</th>
+                    <td class="px-4 py-2">{{ response.recent_injuries }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Regular Exercise:</th>
+                    <td class="px-4 py-2">{{ response.regular_exercise }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Alcohol Consumption:</th>
+                    <td class="px-4 py-2">{{ response.alcohol_consumption }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">High Stress Levels:</th>
+                    <td class="px-4 py-2">{{ response.high_stress }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Sleep Difficulties:</th>
+                    <td class="px-4 py-2">{{ response.sleep_difficulties }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Dietary Restrictions:</th>
+                    <td class="px-4 py-2">{{ response.dietary_restrictions }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Family Illness History:</th>
+                    <td class="px-4 py-2">{{ response.family_illness_history }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Specify Illnesses:</th>
+                    <td class="px-4 py-2">{{ response.specified_illnesses }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Recent Vaccinations:</th>
+                    <td class="px-4 py-2">{{ response.recent_vaccination }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Vision/Hearing Changes:</th>
+                    <td class="px-4 py-2">{{ response.vision_hearing_changes }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Supplements or Home Remedies:</th>
+                    <td class="px-4 py-2">{{ response.supplements_remedies }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Headache Frequency:</th>
+                    <td class="px-4 py-2">{{ response.headache_frequency }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Bowel/Urinary Changes:</th>
+                    <td class="px-4 py-2">{{ response.bowel_urinary_changes }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Environmental Exposure:</th>
+                    <td class="px-4 py-2">{{ response.environmental_exposure }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Safe Home Environment:</th>
+                    <td class="px-4 py-2">{{ response.safe_home }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Mobility Issues:</th>
+                    <td class="px-4 py-2">{{ response.mobility_issues }}</td>
+                </tr>
+                <tr class="border-b">
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Dental Checkup:</th>
+                    <td class="px-4 py-2">{{ response.dental_checkup }}</td>
+                </tr>
+                <tr>
+                    <th class="bg-gray-100 font-medium text-gray-700 px-4 py-2 text-left">Quality of Life:</th>
+                    <td class="px-4 py-2">{{ response.quality_of_life }}</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div>
+            <div class="flex justify-center space-x-4 mt-6">
+                <div>
+                    <a href="{{ url_for('form') }}" class="flex justify-end">
+                        <span class="flex btn text-blue-600 border-blue-600 md:border-2 hover:bg-blue-600 hover:text-white transition ease-out duration-500 text-xl px-3 py-1 rounded-lg items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>      
+                              Back to Form Page  
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="{{ url_for('landing') }}" class="flex justify-end">
+                        <span class="flex btn text-blue-600 border-blue-600 md:border-2 hover:bg-blue-600 hover:text-white transition ease-out duration-500 text-xl px-3 py-1 rounded-lg items-center">
+                            Back to Home  
+                            <svg class="w-6 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

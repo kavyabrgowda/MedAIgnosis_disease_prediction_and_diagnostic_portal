@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="bg-cover bg-center bg-fixed sm:bg-right md:bg-center lg:bg-top" style="background-image: url('/static/img/patient_form.jpg');">
+    <div class="container mx-auto max-w-3xl p-6 bg-transparent shadow-lg rounded-lg my-10">
+        <h2 class="text-2xl sm:text-4xl md:text-5xl font-semibold text-center mb-4 sm:mb-6 md:mb-8">Patient Registration Form</h2>
+                <form action="/submit_patient" method="POST" class="space-y-4">
+            <!-- Username -->
+            <div>
+                <label for="username" class="block font-semibold text-black">Username:</label>
+                <input type="text" id="username" name="username" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Password -->
+            <div>
+                <label for="password" class="block font-semibold text-black">Password:</label>
+                <input type="password" id="password" name="password" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- First Name -->
+            <div>
+                <label for="first_name" class="block text-lg font-medium ">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <label for="last_name" class="block text-lg font-medium ">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Age -->
+            <div>
+                <label for="age" class="block text-lg font-medium ">Age:</label>
+                <input type="number" id="age" name="age" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Gender -->
+            <div>
+                <label for="gender" class="block text-lg font-medium ">Gender:</label>
+                <input type="text" id="gender" name="gender" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Date of Birth -->
+            <div>
+                <label for="date_of_birth" class="block text-lg font-medium ">Date of Birth:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Contact Number -->
+            <div>
+                <label for="contact_number" class="block text-lg font-medium ">Contact Number:</label>
+                <input type="text" id="contact_number" name="contact_number" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email" class="block text-lg font-medium ">Email:</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Address -->
+            <div>
+                <label for="address" class="block text-lg font-medium ">Address:</label>
+                <textarea id="address" name="address" rows="4" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent"></textarea>
+            </div>
+
+            <!-- Medical History -->
+            <div>
+                <label for="medical_history" class="block text-lg font-medium ">Medical History:</label>
+                <textarea id="medical_history" name="medical_history" rows="4"
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent"></textarea>
+            </div>
+
+            <!-- Allergies -->
+            <div>
+                <label for="allergies" class="block text-lg font-medium ">Allergies:</label>
+                <input type="text" id="allergies" name="allergies"
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Emergency Contact Name -->
+            <div>
+                <label for="emergency_contact_name" class="block text-lg font-medium ">Emergency Contact Name:</label>
+                <input type="text" id="emergency_contact_name" name="emergency_contact_name" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Emergency Contact Number -->
+            <div>
+                <label for="emergency_contact_number" class="block text-lg font-medium ">Emergency Contact Number:</label>
+                <input type="text" id="emergency_contact_number" name="emergency_contact_number" required
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Insurance Provider -->
+            <div>
+                <label for="insurance_provider" class="block text-lg font-medium ">Insurance Provider:</label>
+                <input type="text" id="insurance_provider" name="insurance_provider"
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Policy Number -->
+            <div>
+                <label for="policy_number" class="block text-lg font-medium ">Policy Number:</label>
+                <input type="text" id="policy_number" name="policy_number"
+                    class="w-full px-4 py-2 border border-gray-400 rounded-md bg-transparent">
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <input type="submit" value="Register"
+                    class="w-full bg-blue-500 text-white font-semibold text-lg p-3 rounded-lg hover:bg-blue-600">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

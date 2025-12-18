@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: MedAIgnosis_disease_prediction_and_diagnostic_portal
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12

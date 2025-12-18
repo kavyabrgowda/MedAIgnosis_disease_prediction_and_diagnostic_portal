@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <div class="w-full h-64 bg-cover bg-center bg-gradient-to-t from-black/50 to-black/50" style="background-image: url('/static/img/header.jpg');">
+        <div class="flex flex-col justify-center h-full text-black">
+            <h1 class="text-6xl font-bold px-48 py-10">MedAIgnosis</h1>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="bg-blue-100 py-4 text-center ">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-semibold text-gray-800">Disease Prediction and Medical Diagnostic Portal</h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-blue-200 text-black p-3 text-2xl">
+        <ul class="flex justify-end space-x-10 pr-6">
+            <li class="btn hover:shadow-outer transform hover:scale-125 hover:bg-opacity-10 transition ease-out duration-200"><a href="/login">Sign in</a></li>
+            <li class="btn hover:shadow-outer transform hover:scale-125 hover:bg-opacity-10 transition ease-out duration-200"><a href="/register">Register</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mx-auto flex">
+        <!-- Sidebar with Table of Contents -->
+        <div class="w-1/4 bg-blue-50 p-8 border-r-2 pb-5">
+            <ul class="space-y-3">
+                <li><a href="#Mission" class="flex text-lg font-bold hover:text-green-600 py-10">=> Mission</a></li>
+                <li><a href="#what-to-eat" class="flex pb-10 text-lg font-bold hover:text-green-600">=> Vision</a></li>
+                <li><a href="#meal-planning" class="flex pb-10 text-lg font-bold hover:text-green-600">=> How We Connect Patients and Doctors!..</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="w-3/4 p-6">
+            <h2 id="Mission" class="text-3xl font-semibold text-green-600 mb-4">Mission</h2>
+            <p class="leading-relaxed mb-8">Our mission at MedAIgnosis is to revolutionize healthcare by integrating advanced technologies, such as machine learning and image processing, to provide accurate disease predictions and diagnoses. We strive to empower both patients and healthcare
+                providers with actionable insights that promote proactive health management and better decision-making, all while ensuring privacy, security, and accessibility.
+
+                <h2 id="what-to-eat" class="text-3xl font-semibold text-green-600 mb-4">Vision</h2>
+                <p class="leading-relaxed mb-8">
+                    Our vision is to create a seamless, user-friendly platform that bridges the gap between patients and healthcare professionals. We aim to foster an environment where advanced technology enhances patient care, improves healthcare outcomes, and ultimately
+                    contributes to a healthier, more informed global community.
+                </p>
+
+                <h2 id="meal-planning" class="text-3xl font-semibold text-green-600 mb-4">How We Connect Patients and Doctors!..</h2>
+                <p class="leading-relaxed mb-8">We connect patients to doctors based on the predicted disease and the doctor's specialization. Patient details are securely maintained, ensuring that only the assigned doctor can access them. A detailed report form is provided to help
+                    doctors gain a clear understanding of the patient's situation. Additionally, the CareConnect chat feature ensures secure communication between patients and doctors, protected by usernames and passwords. This secure and efficient connection
+                    enhances the healthcare experience, offering both privacy and peace of mind.</p>
+        </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white">
+        <div class="p-6 text-2xl flex flex-col md:flex-row justify-between items-start">
+            <!-- Left-aligned paragraph -->
+            <p class="text-left pl-10">&copy; 2024 MedAIgnosis. All rights reserved.</p>
+
+            <!-- Right-aligned container for the other paragraphs with hover and cursor effects -->
+            <div class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                    <a href="https://www.instagram.com/medaignosis/profilecard/?igsh=ODloZ3l3dmh6cXp4">Instagram</a>
+                </p>
+                <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                    <a href="{{ url_for('know_more') }}">Know More</a></p>
+            </div>
+        </div>
+
+        <div class="mt-4 md:mt-0 text-start bg-gray-900 py-10">
+            <h1 class="flex text-3xl pl-20 font-bold text-white pb-8">About Us</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto px-4">
+                <!-- Team Member 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-white">
+                    <h5 class="text-2xl font-bold mb-2 text-center">KAVYA B R</h5>
+                    <h4 class="text-lg text-center mb-2 font-semibold">Team Lead</h4>
+                    <h4 class="text-lg text-center mb-4 font-semibold">Back-End Lead Developer</h4>
+                    <p class="text-base text-center mb-4">Focused on Machine Learning model creation and integration. Responsible for server-side development, database management, and data analysis.</p>
+                    <div class="text-gray-300 mt-4 text-center text-sm">
+                        <span><strong>Contact:</strong> +91 8618066371</span><br>
+                        <span><strong>Email:</strong> kavyabrgowda.03@gmail.com</span><br>
+                        <span><strong>College:</strong> East West Institute of Technology</span><br>
+                        <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kavya-b-r-226730306/" class="text-blue-400 underline hover:text-blue-500">Kavya's LinkedIn</a></span><br>
+                        <span><strong>Skills:</strong> Python backend development, Machine learning, data analysis, HTML, CSS, JavaScript, Image Processing, Database Management, and ORM</span><br>
+                        <span><strong>Degree:</strong> B.E in Computer Science</span>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-white">
+                    <h5 class="text-2xl font-bold mb-2 text-center">AKHILA T</h5>
+                    <h4 class="text-lg text-center mb-4 font-semibold">Front-End Lead Developer</h4>
+                    <p class="text-base text-center mb-4">Designs and implements the user interface and styles for the web application. Responsible for client-side development and interaction.</p>
+                    <div class="text-gray-300 mt-4 text-center text-sm">
+                        <span><strong>Contact:</strong> +91 9481703009</span><br>
+                        <span><strong>Email:</strong> 2003akhilat@gmail.com</span><br>
+                        <span><strong>College:</strong> East West Institute of Technology</span><br>
+                        <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/akhila-t-3205372b0/" class="text-blue-400 underline hover:text-blue-500">Akhila's LinkedIn</a></span><br>
+                        <span><strong>Skills:</strong> Web-Application Development, HTML, Tailwind CSS, TypeScript, JavaScript, React JS, Image Data Handling</span><br>
+                        <span><strong>Degree:</strong> B.E in Computer Science</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Successful</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-blue-50 bg-[url('/static/img/blue_white.jpg')] bg-cover bg-center bg-fixed flex items-center justify-center min-h-screen">
+    <div class="bg-transparent p-8 rounded-lg shadow-lg max-w-md w-full text-center p-20">
+        <!-- don't change the content in {}-->
+        <h1 class="text-3xl font-semibold text-gray-800 mb-4 py-10">Login Successful</h1>
+        <p class="text-lg text-gray-700 mb-6">Welcome, {{ username }}! You have successfully logged in as a {{ user_type }}.</p>
+        <div class="flex justify-center gap-4">
+            <div class="flex justify-center space-x-4 mt-6">
+                <div>
+                    <a href="{{ url_for('home') }}" class="flex justify-end">
+                        <span class="flex btn text-white bg-blue-600 border-blue-600 md:border-2 hover:bg-white hover:text-blue-600 transition ease-out duration-500 text-xl px-3 py-1 rounded-lg items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>      
+                            Go to Home  
+                        </span>
+                    </a>
+                </div>                
+                <div>
+                    <a href="{{ url_for('landing') }}" class="flex justify-end">
+                        <span class="flex btn text-white bg-blue-600 border-blue-600 md:border-2 hover:bg-white hover:text-blue-600 transition ease-out duration-500 text-xl px-3 py-1 rounded-lg items-center">
+                            Go to Main  
+                            <svg class="w-6 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

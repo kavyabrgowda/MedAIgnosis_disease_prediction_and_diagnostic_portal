@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - MedAIgnosis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Include Tailwind CSS CDN -->
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+</head>
+
+<body class="font-serif">
+    <!-- Header Section -->
+    <div class="w-full h-64 bg-cover bg-center bg-gradient-to-t from-black/50 to-black/50" style="background-image: url('/static/img/header.jpg');">
+        <div class="flex flex-col justify-center h-full text-black">
+            <h1 class="text-5xl font-semibold px-48 py-10">MedAIgnosis</h1>
+
+            <h1 class="flex px-60 text-4xl font-semibold ">About Us</h1>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-blue-100 text-black p-3">
+        <h1 class="flex justify-center items-center text-2xl">We are dedicated to providing accurate and quick medical diagnoses with AI and web technologies.
+        </h1>
+    </nav>
+
+    <div class="container mx-auto p-20 justify-center items-center">
+        <!-- Project Overview -->
+        <h1 class="text-center text-4xl pt-8 pb-4 font-bold">Our Project</h1><br><br>
+        <p class="text-lg pb-8 p-10px">
+            MedAIgnosis is an innovative health-tech project aimed at enhancing healthcare through advanced technology. Our platform leverages machine learning, data science, and image processing to predict and diagnose diseases by analyzing key medical data. With
+            a focus on user accessibility, MedAIgnosis simplifies complex medical information into actionable insights for both patients and healthcare providers. We connect patients to doctors based on the predicted disease and the doctor's specialization.
+            Patient details are securely maintained, ensuring that only the assigned doctor can access them. A detailed report form is provided to help doctors gain a clear understanding of the patient's situation. Additionally, the CareConnect chat feature
+            ensures secure communication between patients and doctors, protected by usernames and passwords. MedAIgnosis offers accurate predictions based on historical data, empowering users to take proactive steps in managing their health. Our core
+            goal is to create a reliable, user-friendly tool that improves decision-making in healthcare and enhances the quality of life for individuals.
+        </p>
+
+        <!-- Team Members Section -->
+        <h1 class="text-center text-4xl pt-8 pb-4 font-bold">Our Team</h1><br><br>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-10">
+            <!-- Team Member 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg transform transition-opacity opacity-0 translate-y-8 hover:shadow-2xl group team-member">
+                <img src="/static/img/Kavya.jpg" alt="Kavya" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                <h5 class="text-xl font-fantasy mb-2 text-center">KAVYA B R</h5>
+                <h4 class="text-lg text-center mb-4 font-bold">Team Lead</h4>
+                <h4 class="text-lg text-center mb-4 font-bold">Back-End Lead Developer</h4>
+                <p class="text-base text-center">Focused on Machine learning model creation and integration. Responsible for Server-side Development, Database Management and Data Analysis.</p>
+                <div class="text-gray-600 mt-4 text-center">
+                    <span><strong>Contact:</strong> +91 8618066371</span><br>
+                    <span><strong>Email:</strong> kavyabrgowda.03@gmail.com</span><br>
+                    <span><strong>College:</strong> East West Institute of Technology</span><br>
+                    <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kavya-b-r-226730306/" class="text-blue-600 underline hover:text-blue-700">Kavya's LinkedIn</a></span><br>
+                    <span><strong>Skills: </strong>Python backend development, Machine learning, data analysis, HTML, CSS, JavaScript, Image Processing, Optical Character Recognition, Python Libraries, Database Management and ORM, Web Framework</span><br>
+                    <span><strong>Degree:</strong> B.E in Computer Science</span>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg transform transition-opacity opacity-0 translate-y-8 hover:shadow-2xl group team-member">
+                <img src="/static/img/Akhila.jpg" alt="Akhila" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                <h5 class="text-xl font-fantasy mb-2 text-center">AKHILA T</h5>
+                <h4 class="text-lg text-center mb-4 font-bold">Front-End Lead Developer</h4>
+                <p class="text-base text-center">Designs and Implements the user interface and Styles for the Web Application. Responsible for Client-side Development and Interaction.</p>
+                <div class="text-gray-600 mt-4 text-center">
+                    <span><strong>Contact:</strong> +91 9481703009</span><br>
+                    <span><strong>Email:</strong> 2003akhilat@gmail.com</span><br>
+                    <span><strong>College:</strong> East West Institute of Technology</span><br>
+                    <span><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/akhila-t-3205372b0/" class="text-blue-600 underline hover:text-blue-700">Akhila's LinkedIn</a></span><br>
+                    <span><strong>Skills:</strong> Web-Application Development, HTML, Tailwind CSS, TypeScript, JavaScript, React JS, Image Data Handling</span><br>
+                    <span><strong>Degree:</strong> B.E in Computer Science</span>
+                </div>
+            </div>
+
+
+
+            <script>
+                const teamCards = document.querySelectorAll('.team-member');
+                const observer = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('opacity-100', 'translate-y-0');
+                            observer.unobserve
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.3
+                });
+
+                teamCards.forEach(card => {
+                    observer.observe(card);
+                });
+            </script>
+            <footer class="bg-gray-800 text-white">
+                <div class="p-6 text-l flex flex-col md:flex-row justify-between items-start">
+                    <!-- Left-aligned paragraph -->
+                    <p class="text-left pl-10">&copy; 2024 MedAIgnosis. All rights reserved.</p>
+
+                    <!-- Right-aligned container for the other paragraphs with hover and cursor effects -->
+                    <div class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                        <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                            <a href="https://www.instagram.com/medaignosis/profilecard/?igsh=ODloZ3l3dmh6cXp4">Instagram</a>
+                        </p>
+                        <p class="hover:shadow-outer transform hover:scale-110 cursor-pointer transition ease-out duration-200 pr-10">
+                            <a href="{{ url_for('know_more') }}">Know More</a></p>
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>

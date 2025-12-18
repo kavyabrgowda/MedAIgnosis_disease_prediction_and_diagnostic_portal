@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/globals.css') }}" rel="stylesheet">
+    <title>Balanced Diet - Day 2</title>
+    <style>
+        * {
+            font-family: "PT Serif", serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header Section -->
+    <div class="w-full h-[250px] bg-gradient-to-t from-black via-black to-transparent bg-cover bg-center text-white flex flex-col items-center justify-center" style="background-image: url('https://global-uploads.webflow.com/5ca5fe687e34be0992df1fbe/611bdef355c6b7d4f6e9b659_balanced-diet-concept-VX8E3ZW-min.jpg');">
+        <h1 class="text-4xl font-bold">Balanced Diet for Day 2</h1>
+        <p class="text-lg mt-2">Your guide to a nutritious and delicious meal plan.</p>
+    </div>
+
+    <div class="container mx-auto px-4">
+
+        <!-- Overview Section -->
+        <div class="text-center mt-8">
+            <h2 class="text-3xl font-semibold">Overview</h2>
+            <p class="text-lg mt-2">This meal plan provides a balanced diet with a variety of nutrients to keep you energized and satisfied throughout the day.</p>
+
+            <h2 class="text-3xl font-semibold mt-8">Meals for the Day</h2>
+        </div>
+
+        <!-- Breakfast Section -->
+        <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 mt-6 text-center">
+            <h3 class="text-2xl font-semibold text-green-600">Breakfast</h3>
+            <img src='/static/img/tb.jpg' alt="Breakfast" class="w-full h-64 object-cover rounded-lg mt-4">
+            <p class="text-left mt-4 text-center">
+                Start your day with a high-protein breakfast of:
+                <ul>
+                    <li class="font-semibold text-lg underline pt-2">Vegetarian</li>
+                    <li>Oats and Besan Cheela</li>
+                    <li>Sprinkle of flax seeds</li>
+                    <li class="font-semibold text-lg underline pt-2">Non Vegetarian</li>
+                    <li>Smoothie with banana, spinach, almond milk, and protein powder</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Lunch Section -->
+        <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 mt-6 text-center">
+            <h3 class="text-2xl font-semibold text-green-600">Lunch</h3>
+            <img src='/static/img/tl.jpg' alt="Lunch" class="w-full h-64 object-cover rounded-lg mt-4">
+            <p class="text-left mt-4 text-center">
+                Enjoy a nutritious lunch of:
+                <ul>
+                    <li class="font-semibold text-lg underline pt-2">Vegetarian</li>
+                    <li>Bhindi Masala</li>
+                    <li>Panchmel Dal</li>
+                    <li>Quinoa bowl with black beans, roasted sweet potatoes, avocado, and a lime dressing</li>
+                    <li class="font-semibold text-lg underline pt-2">Non Vegetarian</li>
+                    <li>Turkey and vegetable wrap with hummus, bell peppers, and baby spinach</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Dinner Section -->
+        <div class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6 mt-6 text-center">
+            <h3 class="text-2xl font-semibold text-green-600">Dinner</h3>
+            <img src='/static/img/td.jpg' alt="Dinner" class="w-full h-64 object-cover rounded-lg mt-4">
+            <p class="text-left mt-4 text-center">
+                End your day with a light yet nutritious dinner of:
+                <ul>
+                    <li class="font-semibold text-lg underline pt-2">Vegetarian</li>
+                    <li>Kerala Olan</li>
+                    <li>Fluffy Quinoa</li>
+                    <li>Paneer curry with mixed vegetables (carrots, peas, and cauliflower)</li>
+                    <li>Side of whole-grain roti</li>
+                    <li class="font-semibold text-lg underline pt-2">Non Vegetarian</li>
+                    <li>Chicken stir-fry with broccoli, bell peppers, and brown rice</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Back to Home Button -->
+        <div class="text-center mt-8 pb-10">
+            <a class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-all duration-200" href="{{ url_for('balance') }}">Back to Home</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
